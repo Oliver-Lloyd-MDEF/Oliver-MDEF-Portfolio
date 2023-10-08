@@ -10,6 +10,6 @@ git clone git@github.com:fablabbcn/mdef-template.git
 ```
 
 You can visit the template demo here: https://fablabbcn.github.io/mdef-template/
-I edited this 3
+I edited this 4 - Connection test 08/10/2023 20:10
 !!Portfolio Website Link!!: 
 Visit the website: https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/
