@@ -1,5 +1,7 @@
 ## Welcome
 
-![](../images/perezoso.jpg)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![contained olive branch logo of Oliver Lloyd Design]["C:\Users\Oliver's Surface\Desktop\MDEF\Oliver-MDEF-Portfolio\images\Oliver Lloyd Design olive branch logo.png"]
+Hi! I'm Oliver, I enjoy working on and designing solutions centered around sustainability and the circular economy, all while fitting the needs of the user. My passion for design spans across both physical and digital, finding the right tool for the right job.
+I am currently studying on the Master's in Design for Emergent Futures (MDEF) course in Barcelona at the Institute of Advanced Architecture of Catalonia (IAAC) and Elisava Design School.
+This is a web portfolio and documentation of everything I am going to be working over the course of the MDEF course here in Barcelona. 
+I hope you enjoy it!
