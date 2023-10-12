@@ -45,12 +45,7 @@ theme:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: custom
     accent: custom
-   
-
-
-
-  
-
+    
   font:
     # See available fonts at https://fonts.google.com/
     text: Be Vietnam
@@ -60,15 +55,15 @@ theme:
   favicon: images/favicon.svg
   features:
     - navigation.tabs
-    - instant
-    - navigation.expand
-    - navigation.indexes
-    - navigation.instant
-    # - navigation.prune
-    # - navigation.sections
-    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
+    #- instant
+    #- navigation.expand
+    #- navigation.indexes
+    #- navigation.instant
+    #- navigation.prune
+    #- navigation.sections
+    #- navigation.tabs.sticky
+    #- navigation.top
+    #- navigation.tracking
 
 plugins:
   - search
