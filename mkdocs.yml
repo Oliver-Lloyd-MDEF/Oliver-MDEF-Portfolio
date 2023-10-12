@@ -42,11 +42,24 @@ extra:
 theme:
   name: material
   palette:
+    scheme: Oliver Lloyd Design
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: custom
-    accent: custom
+    # primary: custom
+    # accent: custom
   extra_css:
     - stylesheets/extra.css
+
+  # Light mode
+  toggle:
+    name: Switch to Dark Mode
+    icon: material/brightness-7
+  primary: Oliver Lloyd Design
+
+  # Dark mode
+  toggle:
+    name: Switch to Light Mode
+    icon: material/brightness-4
+  scheme: slate
 
 
   font:
