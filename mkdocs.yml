@@ -54,16 +54,18 @@ theme:
     logo: material/memory
   favicon: images/favicon.svg
   features:
+    - instant
+    - header.autohide
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.expand
     - navigation.tabs
-    #- instant
-    #- navigation.expand
-    #- navigation.indexes
-    #- navigation.instant
-    #- navigation.prune
-    #- navigation.sections
-    #- navigation.tabs.sticky
-    #- navigation.top
-    #- navigation.tracking
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
 
 plugins:
   - search
