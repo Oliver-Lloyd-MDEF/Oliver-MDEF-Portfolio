@@ -45,17 +45,7 @@ theme:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: blue
     accent: purple
-    # Palette toggle for light mode
-    scheme: default
-      toggle: material/brightness-7 + material/brightness-4
-      icon: material/brightness-7
-      name: Switch to dark mode
     
-    # Palette toggle for dark mode
-    scheme: slate
-      toggle: material/brightness-7 + material/brightness-4
-      icon: material/brightness-4
-      name: Switch to light mode
   font:
     # See available fonts at https://fonts.google.com/
     text: Be Vietnam
