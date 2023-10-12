@@ -5,8 +5,6 @@ hide:
 
 # Bootcamp - Landing Week
 
-# Journal Entry #1 - Landing Week
-
 Published: October 3, 2023
 
 **03/10/23 - First day and intro lecture:** 
