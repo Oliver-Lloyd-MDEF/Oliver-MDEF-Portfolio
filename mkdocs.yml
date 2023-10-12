@@ -45,7 +45,10 @@ theme:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: custom
     accent: custom
-    
+  extra_css:
+    - stylesheets/extra.css
+
+
   font:
     # See available fonts at https://fonts.google.com/
     text: Be Vietnam
