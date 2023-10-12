@@ -68,3 +68,8 @@
     font-weight: 300;
     font-size: 14px;
 }
+body.home {
+  background-image: url('images/background images/Solarpunk cityscape.png'); /* Adjust the path to your image */
+  background-size: cover; /* This will make sure the image covers the entire background */
+  background-repeat: no-repeat; /* This will prevent the image from repeating */
+}
