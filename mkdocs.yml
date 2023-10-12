@@ -43,8 +43,13 @@ theme:
   name: material
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: blue
-    accent: purple
+    primary: custom
+    accent: custom
+   
+
+
+
+  
 
   font:
     # See available fonts at https://fonts.google.com/
@@ -54,13 +59,13 @@ theme:
     logo: material/memory
   favicon: images/favicon.svg
   features:
+    - navigation.tabs
     - instant
     - navigation.expand
     - navigation.indexes
     - navigation.instant
     # - navigation.prune
     # - navigation.sections
-    - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking

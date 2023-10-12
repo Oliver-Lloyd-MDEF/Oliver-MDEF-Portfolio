@@ -1,15 +1,40 @@
 :root>* {
 
-    --md-footer-bg-color: white;
-    --md-footer-fg-color: rgb(32, 32, 32);
-    --md-footer-bg-color--dark: white;
-    --md-footer-fg-color--lighter:  rgb(32, 32, 32);
-    --md-footer-fg-color--light:  rgb(32, 32, 32);
+    --md-footer-bg-color: rgba(49, 64, 28, 1); /*this changes the colour of the navigation footer, where the navigation arrows sit*/
+    --md-footer-fg-color: rgba(242, 242, 242, 1); /*this changes the colour of the text in bottom footer, e.g navigation arrows and text*/
+    --md-footer-bg-color--dark: white; /*this changes the colour of the bottom footer, where the copyright and icons sit*/
+    --md-footer-fg-color--lighter:  rgb(31, 31, 31); /*this changes the colour of the text in the most bottom footer, - specifically "Made with" - where the copyright and icons sit*/
+    --md-footer-fg-color--light:  rgb(31, 31, 31); /*this changes the colour of the text  in the most bottom footer,  the copyright */
     --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
     --mdc-typography-font-family: 'Be Vietnam', sans-serif;
-    --md-typeset-a-color: rgb(12, 240, 190);
+    --md-typeset-a-color: rgb(12, 240, 190); /*this changes the colour of the bottom footer, where the copyright and icons sit*/
 
 }
+:root {
+  --md-primary-fg-color:        #283617; /* this changes the top header colour*/
+  --md-primary-fg-color--light: #F2F2F2; /* not sure what this changes yet, best leave it a neutral colour till then*/
+  --md-primary-fg-color--dark:  #0D0D0D; /* not sure what thsi changes yet either, best to leave neutral colour till then*/
+}
+/* Color Theme Swatches in Hex */
+.Oliver-Portfolio-Colour-Palette-1-hex { color: #283617; } forest green
+.Oliver-Portfolio-Colour-Palette-2-hex { color: #A8A6A1; } dark gray
+.Oliver-Portfolio-Colour-Palette-3-hex { color: #F2F2F2; } light gray
+.Oliver-Portfolio-Detailed-Palette-5-hex { color: #0D0D0D; } off black
+
+/* Color Theme Swatches in RGBA */
+.Oliver-Portfolio-Detailed-Palette-1-rgba { color: rgba(49, 64, 28, 1); }
+.Oliver-Portfolio-Detailed-Palette-2-rgba { color: rgba(238, 242, 233, 1); }
+.Oliver-Portfolio-Detailed-Palette-3-rgba { color: rgba(166, 164, 161, 1); }
+.Oliver-Portfolio-Detailed-Palette-4-rgba { color: rgba(242, 242, 242, 1); }
+.Oliver-Portfolio-Detailed-Palette-5-rgba { color: rgba(13, 13, 13, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Oliver-Portfolio-Detailed-Palette-1-hsla { color: hsla(84, 39, 18, 1); }
+.Oliver-Portfolio-Detailed-Palette-2-hsla { color: hsla(86, 25, 93, 1); }
+.Oliver-Portfolio-Detailed-Palette-3-hsla { color: hsla(36, 2, 64, 1); }
+.Oliver-Portfolio-Detailed-Palette-4-hsla { color: hsla(0, 0, 94, 1); }
+.Oliver-Portfolio-Detailed-Palette-5-hsla { color: hsla(0, 0, 5, 1); }
+
 
 
 .hide-scroll-bar {
