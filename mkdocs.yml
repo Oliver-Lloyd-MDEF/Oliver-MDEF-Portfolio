@@ -4,8 +4,8 @@ site_description: Master in Design for Emergent Futures
 site_author: Oliver Lloyd
 copyright: Copyleft 2023 "Oliver Lloyd" - GNU Free Documentation License
 repo_name: 'Oliver-MDEF-Portfolio : Github Repo'
-site_url: https://fablabbcn.github.io/mdef-template/
-repo_url: 'https://github.com/fablabbcn/mdef-template'
+site_url: https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/
+repo_url: https://github.com/Oliver-Lloyd-MDEF/Oliver-MDEF-Portfolio
 
 
 nav:
