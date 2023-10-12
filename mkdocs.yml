@@ -50,8 +50,8 @@ theme:
     # See available fonts at https://fonts.google.com/
     text: Be Vietnam
     code: Cutive Mono
-  icon:
-    logo: material/memory
+  
+  logo: docs/images/Logos/White Logo colour.png
   favicon: images/favicon.svg
   features:
     - instant
