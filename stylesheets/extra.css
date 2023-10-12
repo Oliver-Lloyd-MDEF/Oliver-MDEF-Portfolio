@@ -35,11 +35,11 @@
 .Oliver-Portfolio-Detailed-Palette-4-hsla { color: hsla(0, 0, 94, 1); }
 .Oliver-Portfolio-Detailed-Palette-5-hsla { color: hsla(0, 0, 5, 1); }
 
-[data-md-color-scheme="Oliver Lloyd Design"]
+[data-md-color-scheme="Oliver Lloyd Design"] {
 --md-primary-fg-color:        #283617; /* this changes the top header colour*/
   --md-primary-fg-color--light: #F2F2F2; /* not sure what this changes yet, best leave it a neutral colour till then*/
   --md-primary-fg-color--dark:  #0D0D0D; /* not sure what thsi changes yet either, best to leave neutral colour till then*/
-
+}
 .hide-scroll-bar {
     -ms-overflow-style: none;
     scrollbar-width: none;
