@@ -12,8 +12,6 @@ repo_url: https://github.com/Oliver-Lloyd-MDEF/Oliver-MDEF-Portfolio
 nav:
   - Home: index.md
   - About: about/me.md
-  - Master project:
-      - Initial ideas: project/project.md
   - Term 1:
       - Bootcamp: term1/01-Bootcamp.md
       - Roles of Prototyping: term1/02-Roles of Prototyping in First Person Person Perspectives.md
@@ -23,6 +21,8 @@ nav:
       - studio: Term 2/studio.md
   - End of Week Reflections:
       - Week 1 - A soft landing: End of week reflections/Week 1 - A soft landing.md
+  - Master project:
+      - Initial ideas: project/project.md
 
 
 
