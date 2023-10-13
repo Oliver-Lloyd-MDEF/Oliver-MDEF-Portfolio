@@ -20,6 +20,12 @@ Published: October 3, 2023
 - Faculty seem very keen on seeing us as equals and not students, and have even organised informal drinks for everyone to get to know each other.
 - Excited to see the rest of the week and what it has in store, and curious to see what the first assignment will be - apparently building a personal blog website?
 
+<figure markdown>
+![lecture](<../images/01. Landing Week/objects of meaning lecture.jpg>){: style="height:250px"} 
+![object of meaning exercise](<../images/01. Landing Week/objects of meaning exercise.jpg>){: style="height:250px"}
+  <figcaption>Objects of meaing lecture and exercise</figcaption>
+</figure>
+
 ---
 
 **04/10/23 - Faculty Research areas and Poblenou Tour**
@@ -57,6 +63,16 @@ Published: October 3, 2023
 - We used the fablab on theg round floor of the IAAC building to create furniture and workbenches that we were going to need to prototype various things in our classroom —basically turning it into a mini fablab of it’s own!
 - everyone worked together to achieve a common goal and it was a really great way to see how we were all going to work and interact with eachother which I really enjoyed!
 
+<figure markdown>
+![building fablab 1](<../images/01. Landing Week/building fablab 1.jpg>){: style="height:250px"}
+![building fablab 2](<../images/01. Landing Week/building fablab 2.jpg>){: style="height:250px"}
+</figure>
+
+<figure markdown>
+![building fablab 3](<../images/01. Landing Week/building fablab 4.jpg>){: style="height:250px"}
+![building fablab 4](<../images/01. Landing Week/building fablab 5.jpg>){: style="height:250px"}
+  <figcaption>building a mini fablab for the classroom</figcaption>
+</figure>
 ---
 
 **06/10/23 - Exploring Elisava Design School Campus and Faculty member Laura’s Research background**
@@ -67,3 +83,8 @@ Published: October 3, 2023
 - A lot of really cool topics from Biohacking, to trans and post humanism, transfeminism and many more that went completely over my head. I think I’m going to really enjoy what she has to teach us but it’ll definitely take me some time to get to understand it all and really grasp the depth of her research and knowledge.
     - seems like her lectures will be focused on asking ourselves who and what we are, what is our fight/purpose/why, why we create the way we do and how does that develop who we are as we create for these emerging futures.
     - A lot of introspection here I think, in the next few months of the course.
+
+<figure markdown>
+![Elisava Printroom](<../images/01. Landing Week/Elisava Printroom intro.jpg>){: style="height:400px"}
+  <figcaption>Intro lecture to the Elisava graphics room</figcaption>
+</figure>
