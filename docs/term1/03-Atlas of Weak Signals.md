@@ -5,7 +5,7 @@ hide:
 
 # Atlas of Weak Signals
 
-### Decoding the Atlas of Weak Signals
+### **Decoding the Atlas of Weak Signals**
 
 We started our journey into creating a design space with an introduction to the concept of Weak Signals. These are areas of potential research or work that have not been fully realized or defined yet. They act as indicators of emerging trends, allowing us to adapt and accommodate for potential futures. I found this concept fascinating as it enables us to identify trends before they become widely recognized and take appropriate action.
 
@@ -13,10 +13,10 @@ We explored how Weak Signals have been used in the past and how they can be used
 
 Later, we broke into smaller groups to focus on specific Weak Signal areas and brainstorm various pathways and solutions. This exercise was guided by random triggers, which helped narrow down our focus and stimulate our thinking. It was exciting to see the diverse ideas and perspectives that emerged from these group discussions.
 
-<figure markdown>
-![AoWS group work 1.jpg](<../images/03. Atlas of Weak Signals/AoWS group work 1.jpg>){: style="height:250px"}
-![AoWS group work 3.jpg](<../images/03. Atlas of Weak Signals/AoWS group work 3.jpg>){: style="height:250px"}
-![AoWS group work 2.jpg](<../images/03. Atlas of Weak Signals/AoWS group work 2.jpg>){: style="height:250px"}
+<figure markdown style="overflow: hidden;">
+![AoWS group work 1.jpg](<../images/03. Atlas of Weak Signals/AoWS group work 1.jpg>){: style="height: 200px; width: auto; border-radius: 5px;"}
+![AoWS group work 3.jpg](<../images/03. Atlas of Weak Signals/AoWS group work 3.jpg>){: style="height: 200px; width: auto; border-radius: 5px;"}
+![AoWS group work 2.jpg](<../images/03. Atlas of Weak Signals/AoWS group work 2.jpg>){: style="height: 200px; width: auto; border-radius: 5px;"}
 <figcaption>Getting familiar with the methodology in groups</figcaption>
 </figure>
 
@@ -28,19 +28,20 @@ We then set about creating our own Atlas of Weak Signals (AoWS) in our design sp
 
 > *My main area of interest lies in the concept of **solarpunk**, focusing on the combination of **local production** and **global connections**. building upon the weak signals of **long-termism** and **human-machine creative collaborations**.*
 > 
-<figure markdown>
-![Personal AoWS selection.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS selection.jpg>){: style="height:250px"}
-![Personal AoWS finalists.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg>){: style="height:250px"}
+<figure markdown style="overflow: hidden;">
+![Personal AoWS selection.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS selection.jpg>){: style="height: 250px; width: auto; border-radius: 5px; margin-right: 0px"}
+![Personal AoWS finalists.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg>){: style="height: 250px; width: auto; border-radius: 5px; margin-right: 0px"}
 <figcaption>Narrowing down the cards I wanted to focus on</figcaption>
 </figure>
 
 
-### Making our own design space with the atlas
 
 
-> A design space is used to define collections of ideas and concepts. It’s a mirror, a tool used to define reflection and visualise unconscious experience to awareness, to question values, attitudes and perspectives we unconsciously embody as designers and creatives. It’s a fluid and dynamic space that’s always changing, with new ideas constantly coming in to complement existing ones or replace old and outdated ones. Kept up to date it allows you to recalibrate your practice and process when you feel like you are moving off track.
->
+### **Making our own design space with the atlas**
 
+<div style="text-align: center;  background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
+A design space is used to define collections of ideas and concepts. It’s a mirror, a tool used to define reflection and visualise unconscious experience to awareness, to question values, attitudes and perspectives we unconsciously embody as designers and creatives. It’s a fluid and dynamic space that’s always changing, with new ideas constantly coming in to complement existing ones or replace old and outdated ones. Kept up to date it allows you to recalibrate your practice and process when you feel like you are moving off track.
+</div>
 
 My main area of interest lies in the concept of **solarpunk**, focusing on the combination of **local production** and **global connections**. building upon the weak signals of **long-termism** and **human-machine creative collaborations**. These signals emphasize the importance of considering the impact of our actions on future generations and leveraging the collaborative power of humans and machines. Within this framework, **I concentrated on three key areas of opportunity: digital fabrication, circular economy, and material development.** These areas, when harnessed effectively, have the potential to pave the way for a solarpunk future.
 
@@ -49,9 +50,10 @@ My main area of interest lies in the concept of **solarpunk**, focusing on the c
 
 By fostering cooperation between humans and machines, we can unlock innovative solutions in biomaterials, circular economies, and doughnut economic models. This collaboration ensures that the goals of long-termism are maintained, with a focus on creating products and policies that account for the well-being of future generations. Through localized digital fabrication hubs, we can harness the unique capabilities of both humans and machines, pushing the boundaries of innovation. This approach not only aligns with the solarpunk ethos but also contributes to the vision of a sustainable future framed by localized production, global connectivity, and a deep commitment to the well-being of all generations to come.
 
-![Atlas of Weak Signals Exercise Design Space - Frame 1.jpg](<../images/03. Atlas of Weak Signals/Design Space/Atlas of Weak Signals Exercise Design Space - Frame 1.jpg>)
-
-## 2 new weak signals for the Atlas:
+<figure markdown style="overflow: hidden;">
+![Atlas of Weak Signals Exercise Design Space - Frame 1.jpg](<../images/03. Atlas of Weak Signals/Design Space/Atlas of Weak Signals Exercise Design Space - Frame 1.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
+</figure>
+## **2 new weak signals for the Atlas:**
 
 Going further, we had to add 2 new suggestions for the card deck, I decided to focus on two new potential weak signal areas, and landed on **water conservation and** **climate adaptation** as areas that could be designed for.
 
@@ -62,9 +64,10 @@ Climate change-related events, such as extreme weather conditions and natural di
 ### 2. Water Conservation
 
 Emerging technologies for water conservation, such as advanced filtration systems and smart irrigation techniques, signal a growing focus on preserving water resources, especially in water-scarce regions.
-<figure markdown>
-![1.png](<../images/03. Atlas of Weak Signals/New Signals/1.png>){: style="height:400px"}
-![2.png](<../images/03. Atlas of Weak Signals/New Signals/2.png>){: style="height:400px"}
+
+<figure markdown style="overflow: hidden;">
+![1.png](<../images/03. Atlas of Weak Signals/New Signals/1.png>){: style="height: 400px; width: auto; border-radius: 5px; margin-right: 0px"}
+![2.png](<../images/03. Atlas of Weak Signals/New Signals/2.png>){: style="height: 400px; width: auto; border-radius: 5px; margin-right: 0px"}
 <figcaption>Two new weak signals for the deck</figcaption>
 </figure>
 
