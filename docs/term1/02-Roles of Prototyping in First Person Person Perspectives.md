@@ -5,6 +5,11 @@ hide:
 # Roles of Prototyping in First Person Person Perspective (1PP) Research through Design
 
 Created: October 9, 2023 10:23 AM
+<div style="text-align: center;  background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
+TL;DR:  
+ 
+This article delves into the First Person Perspective (1PP) in design, which emphasizes active engagement in research and development, critical assessment of problem-solving efforts, and involvement of stakeholders and the environment. It introduces different roles of prototyping, including prototypes as experimental components, means of inquiry, research archetypes, and processes for design research. We took part in activities involving group discussions and reframing past projects through various prototyping roles, leading to a deeper understanding of the design process and encouraging innovative thinking. It also emphasizes the importance of a personal toolkit for design, highlighting the continuous evolution of tools, methods, and resources in the creative process.
+</div>
 
 
 ## What does First Person Perspective mean when it comes to design?
