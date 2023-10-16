@@ -1,4 +1,7 @@
 
+<div style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
+TL;DR: In the Design Studio 01 lecture, we delved into first-person participation in prototyping, emphasizing active stakeholder engagement and considering the impact on both humans and non-human entities. Through redesigning a classmate's project, I grasped the significance of different prototyping roles. We explored Weak Signals, unexplored research areas, using the Atlas of Weak Signals toolkit, fostering collaborative thinking and self-reflection. Creating my own Atlas challenged me but encouraged unconventional thinking. Documenting design and navigating multiscalar design spaces were essential, leading to a deeper understanding of my role in shaping a sustainable future as a designer.
+</div>
 
 ## Perspectives and Prototyping
 
