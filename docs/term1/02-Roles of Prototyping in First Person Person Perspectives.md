@@ -103,3 +103,15 @@ The exercise made me think of how I developed my past projects in completely new
 ![Rough wireframe for the connected databased that would be used to identify the mammals in near real time.](<../images/02. Roles of Prototyping/prototype creation.jpg>){: style="height: auto; width: auto; border-radius: 5px; margin-right: 0px"}
   <figcaption> A rough wireframe for the connected databased that would be used to identify the mammals in near real time.</figcaption>
 </figure>
+
+## Personal Toolkit for Design
+
+As I've learned and developed as a designer, I've alwasy had various tools, methods, places, people and infrastructure I've had access to to help me explore and iterate on ideas. This is an always every changing toolkit that is constanty updated with new information or people, and moving to Barcelona is no different. As we begin to dive deeper into understanding creating design interventions that grow into eventual solutions this toolkit will always be present, just with some new additions in place. :D 
+
+<figure markdown>
+![Personal RtD Toolkit](<../images/02. Roles of Prototyping/Term 1 Design Space - RtD Toolkit - Oliver.jpg>){: style="height: auto; width: auto; border-radius: 5px; margin-right: 0px"}
+  <figcaption> A static snapshot of the beginning of my personal design toolkit, living here in Barcelona</figcaption>
+</figure>
+
+*Feel free to scroll through the live embed of the toolkit to get a closer look at the sections.*
+<iframe width="768" height="432" src="https://miro.com/app/embed/uXjVNcGhU5Y=/?pres=1&frameId=3458764566950516999&embedId=94292652423" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
