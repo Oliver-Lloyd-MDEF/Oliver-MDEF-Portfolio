@@ -953,6 +953,19 @@
     Hyperlinking
   </a>
   
+    <nav class="md-nav" aria-label="Hyperlinking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#centre-embedded-content" class="md-nav__link">
+    Centre embedded content
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1124,6 +1137,19 @@
   <a href="#hyperlinking" class="md-nav__link">
     Hyperlinking
   </a>
+  
+    <nav class="md-nav" aria-label="Hyperlinking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#centre-embedded-content" class="md-nav__link">
+    Centre embedded content
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1319,6 +1345,32 @@ This text is center-aligned inside a callout box using HTML and inline CSS.
 <a href="https://www.youtube.com">Visit Youtube&rsquo;s Website</a></p>
 <p>In this example, the sentence &ldquo;Visit youtube’s Website&rdquo; will appear as a hyperlink, and clicking on it will take you to youtube.</p>
 <p>Remember to replace <code>https://www.youtube.com</code> with the actual URL you want to link to.</p>
+<h3 id="centre-embedded-content">Centre embedded content<a class="headerlink" href="#centre-embedded-content" title="Permanent link">&para;</a></h3>
+<p>To center an embedded video in your Markdown file for your MKDocs website using the Material for MkDocs theme, you can use HTML to style the video container. Here&rsquo;s how you can embed and center a video using HTML and Markdown:</p>
+<ol>
+<li>
+<p><strong>Centering the Video:</strong>
+To center the video, you can wrap the <code>&lt;iframe&gt;</code> inside a <code>&lt;div&gt;</code> element and apply CSS styles to center the <code>&lt;div&gt;</code>. You can achieve this with the following HTML code:</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;text-align:center;&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;560&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;315&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;&lt;https://www.youtube.com/embed/VIDEO_ID&gt;&quot;</span> <span class="na">frameborder</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">allowfullscreen</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>In this code, the <code>&lt;div&gt;</code> element is styled with <code>text-align: center;</code>, which horizontally centers its contents.</p>
+</li>
+<li>
+<p><strong>Markdown Integration:</strong>
+If you want to include this in your Markdown file, simply paste the HTML code into your Markdown file. MKDocs allows you to use HTML within Markdown files.</p>
+<div class="highlight"><pre><span></span><code>Some Markdown content...
+
+&lt;div style=&quot;text-align:center;&quot;&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;&lt;https://www.youtube.com/embed/VIDEO_ID&gt;&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+More Markdown content...
+</code></pre></div>
+</li>
+</ol>
+<p>Remember to replace <code>VIDEO_ID</code> with the actual ID of your YouTube video. This approach will center the embedded video on your MKDocs website.</p>
 <h2 id="colours">Colours<a class="headerlink" href="#colours" title="Permanent link">&para;</a></h2>
 <h2 id="errors">Errors<a class="headerlink" href="#errors" title="Permanent link">&para;</a></h2>
 
