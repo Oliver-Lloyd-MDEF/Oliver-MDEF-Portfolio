@@ -231,6 +231,39 @@ In this example, the sentence "Visit youtube’s Website" will appear as a hyper
 
 Remember to replace `https://www.youtube.com` with the actual URL you want to link to.
 
+### Centre embedded content
+
+To center an embedded video in your Markdown file for your MKDocs website using the Material for MkDocs theme, you can use HTML to style the video container. Here's how you can embed and center a video using HTML and Markdown:
+
+1. **Centering the Video:**
+To center the video, you can wrap the `<iframe>` inside a `<div>` element and apply CSS styles to center the `<div>`. You can achieve this with the following HTML code:
+    
+    ```html
+    <div style="text-align:center;">
+        <iframe width="560" height="315" src="<https://www.youtube.com/embed/VIDEO_ID>" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    ```
+    
+    In this code, the `<div>` element is styled with `text-align: center;`, which horizontally centers its contents.
+    
+2. **Markdown Integration:**
+If you want to include this in your Markdown file, simply paste the HTML code into your Markdown file. MKDocs allows you to use HTML within Markdown files.
+    
+    ```markdown
+    Some Markdown content...
+    
+    <div style="text-align:center;">
+        <iframe width="560" height="315" src="<https://www.youtube.com/embed/VIDEO_ID>" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    More Markdown content...
+    
+    ```
+    
+
+Remember to replace `VIDEO_ID` with the actual ID of your YouTube video. This approach will center the embedded video on your MKDocs website.
+
 ## Colours
 
 ## Errors
