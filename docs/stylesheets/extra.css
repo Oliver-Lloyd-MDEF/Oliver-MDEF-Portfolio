@@ -1,17 +1,17 @@
 :root>* {
 
-    --md-footer-bg-color: rgba(49, 64, 28, 1); /*this changes the colour of the navigation footer, where the navigation arrows sit*/
+    --md-footer-bg-color: rgb(95, 133, 42); /*this changes the colour of the navigation footer, where the navigation arrows sit*/
     --md-footer-fg-color: rgba(242, 242, 242, 1); /*this changes the colour of the text in bottom footer, e.g navigation arrows and text*/
     --md-footer-bg-color--dark: white; /*this changes the colour of the bottom footer, where the copyright and icons sit*/
     --md-footer-fg-color--lighter:  rgb(31, 31, 31); /*this changes the colour of the text in the most bottom footer, - specifically "Made with" - where the copyright and icons sit*/
     --md-footer-fg-color--light:  rgb(31, 31, 31); /*this changes the colour of the text  in the most bottom footer,  the copyright */
     --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
     --mdc-typography-font-family: 'Be Vietnam', sans-serif;
-    --md-typeset-a-color: rgb(12, 240, 190); /*this changes the colour of the bottom footer, where the copyright and icons sit*/
+    --md-typeset-a-color: rgb(204, 115, 7); /*this changes the colour of the selected link text*/
 
 }
 :root {
-  --md-primary-fg-color:        #283617; /* this changes the top header colour*/
+  --md-primary-fg-color:        #66ab12; /* this changes the top header colour*/
   --md-primary-fg-color--light: #F2F2F2; /* not sure what this changes yet, best leave it a neutral colour till then*/
   --md-primary-fg-color--dark:  #0D0D0D; /* not sure what thsi changes yet either, best to leave neutral colour till then*/
 }
