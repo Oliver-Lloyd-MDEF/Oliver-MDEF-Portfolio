@@ -1,4 +1,28 @@
-mkdocs
-mkdocs-material<5.5.12
-mkdocs-material-extensions
-mkdocs-git-revision-date-localized-plugin
+# Requirements for core
+jinja2~=3.0
+markdown~=3.2
+mkdocs~=1.5,>=1.5.3
+mkdocs-material>1.0.0
+mkdocs-material-extensions~=1.2
+mkdocs-glightbox>0.0.1
+pygments~=2.16
+pymdown-extensions~=10.2
+
+# Requirements for plugins
+babel~=2.10
+colorama~=0.4
+paginate~=0.5
+regex>=2022.4
+requests~=2.26
+
+# old:
+#mkdocs
+#mkdocs-material<5.5.12
+#mkdocs-material-extensions
+#mkdocs-git-revision-date-localized-plugin
+
+#old old:
+#mkdocs
+#mkdocs-material<5.5.12
+#mkdocs-material-extensions
+#mkdocs-git-revision-date-localized-plugin
