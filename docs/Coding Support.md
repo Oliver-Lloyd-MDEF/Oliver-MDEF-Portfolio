@@ -236,7 +236,7 @@ Remember to replace `https://www.youtube.com` with the actual URL you want to li
 To center an embedded video in your Markdown file for your MKDocs website using the Material for MkDocs theme, you can use HTML to style the video container. Here's how you can embed and center a video using HTML and Markdown:
 
 1. **Centering the Video:**
-To center the video, you can wrap the `<iframe>` inside a `<div>` element and apply CSS styles to center the `<div>`. You can achieve this with the following HTML code:
+To center the video (or any other embeded content), you can wrap the `<iframe>` inside a `<div>` element and apply CSS styles to center the `<div>`. You can achieve this with the following HTML code:
     
     ```html
     <div style="text-align:center;">
