@@ -48,8 +48,8 @@ theme:
   palette:
     scheme: Oliver Lloyd Design
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    # primary: custom
-    # accent: custom
+    primary: custom
+    accent: custom
   extra_css:
     - stylesheets/extra.css
 
@@ -85,7 +85,7 @@ theme:
     - instant
     - header.autohide
     - navigation.expand
-    - navigation.indexes
+    - #navigation.indexes
     - navigation.instant
     - navigation.instant.progress
     - navigation.prune
@@ -94,6 +94,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
+    - toc.integrate
 
 plugins:
    - search

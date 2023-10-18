@@ -28,3 +28,12 @@ This text will be centre aligned
 <div style="text-align: center;">
 **[1PP and Prototyping Roles](https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/term1/02-Roles%20of%20Prototyping%20in%20First%20Person%20Person%20Perspectives/)**
 </div>
+
+Emerging technologies for water conservation, such as advanced filtration systems and smart irrigation techniques, signal a growing focus on preserving water resources, especially in water-scarce regions.
+
+![1.png](<../images/03. Atlas of Weak Signals/New Signals/1.png>){: align=left; style="height: 400px; width: auto; border-radius: 5px; margin-right: 0px"}
+Emerging technologies for water conservation, such as advanced filtration systems and smart irrigation techniques, signal a growing focus on preserving water resources, especially in water-scarce regions.
+
+![blah blah](https://dummyimage.com/600x400/eee/aaa){ align=left }
+
+therehtew thwetwegh sjdkghasdjght jklhjsdkl fjsakltgjwel

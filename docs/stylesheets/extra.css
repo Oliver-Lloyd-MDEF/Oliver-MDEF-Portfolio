@@ -11,7 +11,7 @@
 
 }
 :root {
-  --md-primary-fg-color:        #66ab12; /* this changes the top header colour*/
+  --md-primary-fg-color:        #283617; /* this changes the top header colour*/
   --md-primary-fg-color--light: #F2F2F2; /* not sure what this changes yet, best leave it a neutral colour till then*/
   --md-primary-fg-color--dark:  #0D0D0D; /* not sure what thsi changes yet either, best to leave neutral colour till then*/
 }
@@ -39,6 +39,10 @@
 --md-primary-fg-color:        #283617; /* this changes the top header colour*/
   --md-primary-fg-color--light: #F2F2F2; /* not sure what this changes yet, best leave it a neutral colour till then*/
   --md-primary-fg-color--dark:  #0D0D0D; /* not sure what thsi changes yet either, best to leave neutral colour till then*/
+}
+
+body { 
+    background-color: #f2f2f2;
 }
 .hide-scroll-bar {
     -ms-overflow-style: none;
