@@ -212,25 +212,6 @@ In this example, the `<iframe>` tag is set to take up 100% of the width of its c
 
 Simply paste this code into your Markdown file where you want the embedded Miro board to appear. When users view your MkDocs documentation, they will see the embedded Miro board directly on the page.
 
-## Hyperlinking
-
-To turn a sentence into a hyperlink in Markdown, you can use the following syntax:
-
-```markdown
-[Your Sentence Here](URL)
-```
-
-Replace `Your Sentence Here` with the text you want to display as the hyperlink, and `URL` with the actual web address (URL) you want the sentence to link to. For example:
-
-```markdown
-[Visit Youtube's Website](https://www.youtube.com)
-```
-[Visit Youtube's Website](https://www.youtube.com)
-
-In this example, the sentence "Visit youtube’s Website" will appear as a hyperlink, and clicking on it will take you to youtube.
-
-Remember to replace `https://www.youtube.com` with the actual URL you want to link to.
-
 ### Centre embedded content
 
 To center an embedded video in your Markdown file for your MKDocs website using the Material for MkDocs theme, you can use HTML to style the video container. Here's how you can embed and center a video using HTML and Markdown:
@@ -263,6 +244,26 @@ If you want to include this in your Markdown file, simply paste the HTML code in
     
 
 Remember to replace `VIDEO_ID` with the actual ID of your YouTube video. This approach will center the embedded video on your MKDocs website.
+
+## Hyperlinking
+
+To turn a sentence into a hyperlink in Markdown, you can use the following syntax:
+
+```markdown
+[Your Sentence Here](URL)
+```
+
+Replace `Your Sentence Here` with the text you want to display as the hyperlink, and `URL` with the actual web address (URL) you want the sentence to link to. For example:
+
+```markdown
+[Visit Youtube's Website](https://www.youtube.com)
+```
+[Visit Youtube's Website](https://www.youtube.com)
+
+In this example, the sentence "Visit youtube’s Website" will appear as a hyperlink, and clicking on it will take you to youtube.
+
+Remember to replace `https://www.youtube.com` with the actual URL you want to link to.
+
 
 ## Colours
 
