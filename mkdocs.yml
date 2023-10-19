@@ -81,7 +81,7 @@ theme:
     code: Cutive Mono
   
   logo: images/Logos/circle_logo_white.png
-  favicon: images/favicon.svg
+  favicon: images/Logos/Circular Olive Branch logo.png
   features:
     - instant
     - header.autohide
