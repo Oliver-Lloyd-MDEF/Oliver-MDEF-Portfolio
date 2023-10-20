@@ -333,7 +333,16 @@
   
         
       
-  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <style>.md-header{position:initial}
+  .md-main__inner{margin:0}
+  .md-content{display:none}
+
+  @media screen and (min-width:60em)
+  {.md-sidebar--secondary{display:none}}
+
+  @media screen and (min-width:76.25em)
+  {.md-sidebar--primary{display:none}}
+  </style>
   <section class="mdx-container">
     <div class="md-typeset">
       <style>.mdx-hero {
@@ -367,7 +376,21 @@
             margin-left: 161.5px; /*adjusts the margin on the left hand side*/
             margin-right: auto; /*adjusts the margin on the right hand side*/
             top: 100px; /*adjusts the margin on the top of the content box*/
+            transform: translateX(-50%);
           } 
+          .mdx-hero__image img {
+            width: 100%; /* Ensure the image takes up 100% of the container width */
+            height: auto; /* Maintain aspect ratio */
+          }
+    
+    @media screen and (max-width: 767px) {
+      .mdx-hero__content {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50px; /* Adjust top margin for smaller screens */
+      }
+    }
         </style>
         
         
