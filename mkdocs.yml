@@ -26,6 +26,7 @@ nav:
   - Master project:
       - Initial ideas: project/project.md
   - Coding Support: Coding Support.md
+  - Test Index: test index.md
 
 
 
@@ -46,6 +47,7 @@ extra:
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     scheme: Oliver Lloyd Design
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
@@ -53,6 +55,7 @@ theme:
     accent: custom
   extra_css:
     - stylesheets/extra.css
+    - custom.css
 
   # Light mode
   toggle:
