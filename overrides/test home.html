@@ -1,0 +1,94 @@
+{#-
+    This file was automatically generated - do not edit
+-#}
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+  <style>
+    /* Global Styles */
+    .md-header { position: initial }
+    .md-main__inner { margin: 0 }
+    .md-content { display: none }
+
+    /* Responsive Sidebar */
+    @media screen and (min-width: 60em) {
+        .md-sidebar--secondary { display: none }
+    }
+
+    @media screen and (min-width: 76.25em) {
+        .md-sidebar--primary { display: none }
+    }
+  </style>
+
+  <section class="mdx-container">
+    <div class="md-typeset">
+      <style>
+        /* Hero Section Styles */
+        .mdx-hero {
+          margin-left: 0;
+          margin-right: 0;
+          max-width: auto;
+          position: relative;
+        }
+
+        /* Content Box Styles */
+        .mdx-hero__content {
+          position: absolute;
+          z-index: 2;
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 20px;
+          border-radius: 10px;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 100px;
+          width: 90%; /* Set content width to 90% of parent */
+          text-align: center; /* Center-align text */
+        }
+
+        /* Responsive Adjustment for Small Screens */
+        @media screen and (max-width: 767px) {
+          .mdx-hero__content {
+            top: 50px; /* Adjust top margin for smaller screens */
+          }
+        }
+
+        /* Hero Image Styles */
+        .mdx-hero__image {
+            width: 100%; /* Ensure the image takes up 100% of the container width */
+            height: 100vh; /* Set the height of the image to 100% of the viewport height */
+            background-size: cover; /* Ensure the background image covers the entire element */
+            background-position: center; /* Center the background image within the element */
+            position: relative;
+            overflow: hidden; /* Hide any overflowing content */
+        }
+        .mdx-hero__image img {
+          width: 100%; /* Ensure the image takes up 100% of the container width */
+          height: auto; /* Maintain aspect ratio */
+          display: block; /* Remove extra space below inline images */
+          object-fit: cover; /* Ensure the image covers the entire container, maintaining aspect ratio */
+        }
+      </style>
+
+      <!-- Hero Section -->
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="https://cdn.discordapp.com/attachments/1164987216041345146/1165021559719731260/Solarpunk_wallpaper_video_1.gif?ex=654555e0&is=6532e0e0&hm=0dbe19df75bb3d66a5d506f5472a6aec9b1d296eb59611a30b8f0da4960c9290&" alt="" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <h1>Welcome to my MDEF Portfolio!</h1>
+          <h2>Designing the future of tomorrow, today.</h2>
+          <p>I'm Oliver, and this is a web portfolio and documentation of everything I am going to be working over the course of the MDEF course here in Barcelona.</p>
+          <p>I hope you enjoy it!</p>
+          <p>👇 Find out more about what the MDEF program is about here 👇</p>
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nsv7OzujbLE?si=xnTnrx28pu5tcgAZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
