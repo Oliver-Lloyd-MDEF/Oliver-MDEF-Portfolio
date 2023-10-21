@@ -1,5 +1,5 @@
 ---
-template: home.html
+template: test home.html
 title: Material for MkDocs
 social:
   cards_layout_options:
