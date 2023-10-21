@@ -68,12 +68,28 @@
         display: block; /* Remove extra space below inline images */
         object-fit: cover; /* Ensure the image covers the entire container, maintaining aspect ratio */
       }
+      /* Default background image for desktop */
+      .mdx-hero__image {
+          background-image: url('https://cdn.discordapp.com/attachments/1164987216041345146/1165021559719731260/Solarpunk_wallpaper_video_1.gif?ex=654555e0&is=6532e0e0&hm=0dbe19df75bb3d66a5d506f5472a6aec9b1d296eb59611a30b8f0da4960c9290&');
+      }
+
+      /* Media query for mobile devices */
+      @media screen and (max-width: 767px) {
+          /* Mobile-only background image */
+          .mdx-hero__image {
+              background-image: url('https://media.discordapp.net/attachments/1157297307419693177/1161385564004700221/onlyrealoliveoil_a_vector_illustration_of_a_sunrise_over_Barcel_59412f69-67e5-4dc4-87ae-427470399dd5.png?ex=65381b97&is=6525a697&hm=27711fa9d269c50b4106b4f84a796f3fa700ea15c57bcd54be5eae473d309c3d&=&width=824&height=1238');
+              background-size: cover;
+              height: 100vh;
+              background-position: center;
+          }
+          
+          
+      }
     </style>
 
     <!-- Hero Section -->
     <div class="mdx-hero">
       <div class="mdx-hero__image">
-        <img src="https://cdn.discordapp.com/attachments/1164987216041345146/1165021559719731260/Solarpunk_wallpaper_video_1.gif?ex=654555e0&is=6532e0e0&hm=0dbe19df75bb3d66a5d506f5472a6aec9b1d296eb59611a30b8f0da4960c9290&" alt="" draggable="false">
       </div>
       <div class="mdx-hero__content">
         <h1>Welcome to my MDEF Portfolio!</h1>
