@@ -106,9 +106,15 @@ The project  clearly used roles 1 & 2 of prototyping in its creation and impleme
 Creating a rough mock-up for a connected database for these traps that would allow the data to be collected, analysed and categorised in near real time by not just scientists but also normal citizens interested in taking part in citizen science. Both as a way to create a prototype that streamlined the data collection process and sped it up, but also as a way to encourage to the general populace to start asking more questions about the nature around them and realising it’s importance. 
 
 <figure markdown>
-![Rough wireframe for the connected databased that would be used to identify the mammals in near real time.](<../images/02. Roles of Prototyping/prototype creation.jpg>){: style="height: auto; width: auto; border-radius: 5px; margin-right: 0px"}
+![Rough wireframe for the connected databased that would be used to identify the mammals in near real time.](<../images/02. Roles of Prototyping/prototype creation.jpg>){: style="height: 400px; width: auto; border-radius: 5px; margin-right: 0px"}
   <figcaption> A rough wireframe for the connected databased that would be used to identify the mammals in near real time.</figcaption>
 </figure>
+
+<figure markdown>
+![Rough wireframe for the connected databased that would be used to identify the mammals in near real time.](<../images/02. Roles of Prototyping/Albert's prototype redesign.png>){: style="height: auto; width: auto; border-radius: 5px; margin-right: 0px"}
+</figure>
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNT7vDQZ4W706I8W9qgr9Px%2FPrototyping-Roles%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D2-2%26viewport%3D474%252C204%252C0.3%26t%3Dxy7EI9oFWkDehDaj-1%26scaling%3Dmin-zoom%26starting-point-node-id%3D2%253A2%26mode%3Ddesign" allowfullscreen></iframe>
 
 This was a really interesting exercise which I struggled with in the beginning, I found understanding the difference between the different roles of prototyping and how you could reframe a project through them a little cahllenging, as I have only ever known prototyping as an umbrella term for doing whatever testing or making you needed to do to collect data that will prove your idea will work, so applying this framework to my own work, let alone someone else’s work was quite a thing to wrap my head around in the beginning.
 
