@@ -32,20 +32,6 @@
         position: relative;
       }
 
-      /* Content Box Styles */
-      .mdx-hero__content {
-        position: absolute;
-        z-index: 2;
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 20px;
-        border-radius: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 100px;
-        width: 90%; /* Set content width to 90% of parent */
-        text-align: center; /* Center-align text */
-      }
-
       /* Responsive Adjustment for Small Screens */
       @media screen and (max-width: 767px) {
         .mdx-hero__content {
@@ -70,43 +56,31 @@
       }
       /* Default background image for desktop */
       .mdx-hero__image {
-          background-image: url('https://cdn.discordapp.com/attachments/1164987216041345146/1165021559719731260/Solarpunk_wallpaper_video_1.gif?ex=654555e0&is=6532e0e0&hm=0dbe19df75bb3d66a5d506f5472a6aec9b1d296eb59611a30b8f0da4960c9290&');
+          background-image: url('https://cdn.discordapp.com/attachments/1156184738583806016/1166633959082426378/Solarpunk_future_backgrounds_Update_01_1.gif?ex=654b338a&is=6538be8a&hm=02ec2fedcdcfab31eae490629c13c18662ae316615675d227d5997d7490faf53&');
       }
 
       /* Media query for mobile devices */
       @media screen and (max-width: 767px) {
           /* Mobile-only background image */
           .mdx-hero__image {
-              background-image: url('https://media.discordapp.net/attachments/1164987216041345146/1165603663805427742/cows_in_wind_farm_field.gif?ex=65477401&is=6534ff01&hm=efa524bc2bdbbb8273c1409755f65bc9938023cde151c47fcc583a6e6b7f9981&=&width=696&height=1238');
+              background-image: url('https://cdn.discordapp.com/attachments/1156184738583806016/1166634013985886309/cows_in_wind_farm_field_update_01.gif?ex=654b3397&is=6538be97&hm=8690d6915198958004cc4ed11ffb57e08cdc07e7c1bbda665e49fd10e4a4a50a&');
               background-size: cover;
               height: 100vh;
               background-position: center;
           }
-        /* Responsive Adjustment for Small Screens */
+      /* Responsive Adjustment for Small Screens */
           .mdx-hero__content {
-        top: 10px; /* Adjust top margin for smaller screens */
-        }     
+      top: 10px; /* Adjust top margin for smaller screens */
+      }    
           
-      }
+  }
     </style>
 
     <!-- Hero Section -->
-    <div class="mdx-hero">
-      <div class="mdx-hero__image">
-      </div>
-      <div class="mdx-hero__content">
-        <h1>Welcome to my MDEF Portfolio!</h1>
-        <h2>Designing the future of tomorrow, today.</h2>
-        <p>I'm Oliver, and this is a web portfolio and documentation of everything I am going to be working over the course of the MDEF course here in Barcelona.</p>
-        <p>I hope you enjoy it!</p>
-        <p>👇 Find out more about what the MDEF program is about here 👇</p>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/nsv7OzujbLE?si=xnTnrx28pu5tcgAZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
+<div class="mdx-hero">
+  <div class="mdx-hero__image">
   </div>
-</section>
+</div>
 {% endblock %}
 
 {% block content %}{% endblock %}
