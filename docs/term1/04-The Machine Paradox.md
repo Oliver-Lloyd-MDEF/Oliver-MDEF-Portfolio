@@ -157,6 +157,8 @@ After some touch and go moments where suddenly different components weren’t wo
 
 We presented our final machine to the rest of the class and faculty on Friday, sharing with everyone what we had finally managed to put together over the past fast and messy two weeks. We even shot a whole video showing off the entire machine and it’s function in the style of Wes Anderson.  It was even better getting to see the machines that all the other groups had developed too! 
 
+## Final Thoughts
+
 This has been one of my favourite modules of the master’s course so far, not only because it was a really fun challenge to break something and make something new, but also having it as the chance to work together and truly collaborate with people with vastly different areas of expertise, to learn what so much from my team mates and be able to share what I knew as well. 
 
 You might think, well what’s the point in making an almost useful machine from an old already useful machine, isn’t that just pointless? But I think it’s just the opposite, yes the machine doesn’t really serve a useful function, but it starts to get us to ask the right questions. Not just, Why did it break? How did it break? and how can it be fixed, but truly asking how to understand the lifecycle of the machine and can we create value from something that others just see as waste? 
