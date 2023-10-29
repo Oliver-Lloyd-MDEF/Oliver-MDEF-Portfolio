@@ -80,8 +80,8 @@ theme:
 
   font:
     # See available fonts at https://fonts.google.com/
-    text: Be Vietnam
-    code: Cutive Mono
+    text: Space Grotesk
+    code: Space Mono
   
   logo: images/Logos/circle_logo_white.png
   favicon: images/Logos/Circular Olive Branch logo.png
