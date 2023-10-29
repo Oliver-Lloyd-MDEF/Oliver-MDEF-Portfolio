@@ -10,37 +10,37 @@ In groups, we had to get together and tear down a product, find out why it faile
 
 In our different groups we went and picked out a broken machine from the fablab deposit on the main floor of the IAAC building.  In our case we chose an old microwave — which was great fun as this is something that most people never think of tearing down as they are such long lasting products, which made it even more interesting to find out why it didn’t work. 
 
-![Selecting.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting.jpg>)
+![Selecting.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![Final choice.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg>)
+![Final choice.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![Dusting off.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Dusting off.jpg>)
+![Dusting off.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Dusting off.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 We started to tear down the microwave to get access to it’s insides and began our analysis of the individual parts. Inside we found as expected, a magnetron (the microwave emitter) , a transformer that powered the magnetron and provided it with the high amounts of power it needed, various switches that activated the different functions of the microwave, two motors and a lightbulb. What surprised us (which in hindsight probably shouldn’t have as it’s quite old) was just how simple the insides of the microwave actually was. with most of the connectors being removable clips it showed us that this analogue machine (by which I mean it didn’t have a digital computer acting as a brain behind it) was designed to have multiple components easily replaced as nothing was soldered directly to the board (except components making up the power supply). While it wasn’t exactly easy to access some of the components (like the switches) it was nice to see that this product was indeed designed to be replaced if needed. The only thing that wasn’t fully easily replaceable was the power cable, and only it was because it was directly soldered to the board. 
 
-![Casing Removal.GIF](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF>)
+![Casing Removal.GIF](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![Capacitor testing.JPG](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/Capacitor testing.JPG>)
+![Capacitor testing.JPG](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/Capacitor testing.JPG>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![PSU removal.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg>)
+![PSU removal.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 We started to combine our findings from the teardown into a “forensic report” where we began to detail exactly what we found out about our product, how the different pieces were manufactured, where they were made, how they fit together and just exactly what was wrong with it. 
 
 So far this has been a really great exercise in reframing the way we understand the products we interface with and how we can repurpose and change the technologies around us to truly attempt to give them a second life.
 
-![Machine Paradox - Exploded View.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Machine Paradox - Exploded View.jpg>)
+![Machine Paradox - Exploded View.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Machine Paradox - Exploded View.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 ## Day 2 (18/10/2023)  - Fault testing forensics
 
 Today we began testing each of the microwave components to see what was working and what wasn’t. Most of the microwave components rely on AC power instead of usual DC, with only a few small components requiring DC which made testing components easy and slightly dangerous at the same time as we tested the different AC components using a power cable connected to the mains, which would be soldered or attached with various crocodile clips to the components we were testing. 
 
 
-![motor testing](<../images/04. The Machine Paradox/Photos & Video/Day 2/Motor Testing.gif>)
+![motor testing](<../images/04. The Machine Paradox/Photos & Video/Day 2/Motor Testing.gif>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 Through our testing we discovered that the fault lay with the microwave emitter or the transformer, as every other component would function as intended or turn on when power was supplied — our shouts of joy as the microwave light turned on for the first time as we powered it on were enough to show how much we were enjoying ourselves. 
 
  
-![light bulb testing](<../images/04. The Machine Paradox/Photos & Video/Day 2/Lightbulb testing.gif>)
+![light bulb testing](<../images/04. The Machine Paradox/Photos & Video/Day 2/Lightbulb testing.gif>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 I was surprised to learn that the entire system of the microwave had been wired in series, which meant that if one component failed (even something as small as the light bulb) the entire system would shut down and stop working. I now know that this was probable done for safety, as you wouldn’t want a microwave magnetron to continue to perform it’s function if the door sensor was broken and couldn’t tell if it was open or closed, but still, this machine was clearly not designed for for easy repairability despite the abundance of spare parts available. 
 
@@ -52,9 +52,9 @@ As a final part of the day, we ended up jumping ahead and began to control our c
 
 Today we spent time hacking our way into the various electronic components of our microwave, soldering connectors onto the motors so that we could reconnect them to the original AC power supply the microwave used, and then writing what code we could that would allow us to control the various pieces and the circuit we’d created via an Arduino board. We were trying to give an analogue machine a digital brain. After some trial and error it worked! we are able to sideload some instructions onto our system that would allow the circuit to turn on and off on a 10 second timer. Connected via a relay, we are able to control exactly when and how the motors would turn on, the next task (which I assume is coming later in the week) is to figure out a way to separate both motors from each other, as right now, the induction motor we salvaged which was originally used to spin the cooling fan splits the high level of voltage coming from the AC power supply into a two separate streams, with the fan motor pulling the majority of the voltage and leaving 30V over to power the motor that originally span the plate inside the microwave. However, while this is really useful inside a microwave, it means that currently the plate motor can only spin when the fan motor is on. So in our quest to create an almost useful machine — in our case we’ve been thinking of turning the microwave into a spinning disco light — we have to deal with a motor that will only work if the other is powered on and running, which might or might not turn out to be useful. Who knows, maybe our disco light will provide cooling air conditioning at the same time…
 
-![Arduino Testing.jpg!](<../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino Testing.jpg>)
+![Arduino Testing.jpg!](<../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino Testing.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![Arduino motor controlling](<../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif>)
+![Arduino motor controlling](<../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 In any case, this was a really great exercise in getting to know the intricacies of debugging old analogue components, hacking them to work with the digital interfaces we work with now to create something new, debugging again and repeat until finally we can breathe new life into old tech that would otherwise have gone to waste. If anything can teach about how we can design products to better fit into the repairable and circular models of product design and product that we are moving towards it’s definitely this module! I’m excited to see how this project will turn out and what exactly we will create!
 
@@ -64,7 +64,7 @@ Finally we shared our forensic report we’d written about our microwave with th
 
 Today we spent the day detailing which of our components worked, what function they performed and what degree of control we could exert over them using an Arduino. Then we we got down to coming up with ideas for what kind of almost useful machine we wanted to create from the components we’d managed to salvage as well as parts we could salvage from some of the other groups (hence the need for the data sheets we’d created so all the groups can see and share them amongst each other to get the parts they needed). 
 
-![ideation wall](<../images/04. The Machine Paradox/Photos & Video/Day 4/2023-10-20 11_55_38.858.jpg>)
+![ideation wall](<../images/04. The Machine Paradox/Photos & Video/Day 4/2023-10-20 11_55_38.858.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 Originally we thought of creating some form of disco light where the entire body of the microwave would turn on the plate motor, we’d drill loads more holes in the body to let the light out and have the fan provide cooling from within the box like some form of really terrible air conditioning. We really leaned into the idea at first and as we began exploring into what we could make we decided to see what else we could come up with. A bunch of ideas were tossed around, from a party in a box that would spray glitter everywhere once you opened the microwave door to a multicoloured dome that would rotate around the light in the microwave for different moods. Eventually we settled on the idea of creating an “anti microwave” that would actively cool your food from above via the cooling fan as you attempted to eat it from the spinning plate below. The whole thing would be supported on a frame that you would have to reach around and make it difficult to eat. 
 
@@ -72,7 +72,7 @@ The idea behind it was to create a feeling frustration while eating, frustration
 
 We mocked up a quick idea of how it could work, tested out how we would attach some of our components to the whole system and then presented it to the class for feedback and evaluation from the group. After which we sat down and tried to make a quick plan for how next week is going to go down, when we are going to build everything, film everything (oh yeah, we also have to shoot a 1 minute film for the product to show how it works — that’s going to be great fun we have some cracking ideas for that) and how we are going to split our time within the group based on our strengths. 
 
-![initial rough mockup](<../images/04. The Machine Paradox/Photos & Video/Day 4/2023-10-20 12_26_24.738.jpg>)
+![initial rough mockup](<../images/04. The Machine Paradox/Photos & Video/Day 4/2023-10-20 12_26_24.738.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 I’m looking forward to it, we are going to have a great time. So far this has been one of my favourite modules so far and really made me look at and see the value in old technology, understanding how it can be repurposed for better or different uses after it’s served it’s original purpose — though I think that was the point anyway.
 
@@ -80,17 +80,17 @@ I’m looking forward to it, we are going to have a great time. So far this has 
 
 This week was all about taking our concept of a nearly useful machine and turning it into a reality. We split ourselves in our groups to focus on different tasks to get the machine built and assembled on time. From coding to laser cutting, soldering, rewiring and repurposing we all got involved to bring our idea to a reality. All of us had different skill sets, with some coming from more hands on, build stuff and break stuff design backgrounds (definitely me) and others having a more logistical and organisational background. We managed to collaborate and play off our skills to work together and build something really fun. 
 
-![Bottom Casing.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg>)
+![Bottom Casing.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![soldering 1.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg>)
+![soldering 1.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![soldering 02.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 02.jpg>)
+![soldering 02.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 02.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![soldering PSU.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering PSU.jpg>)
+![soldering PSU.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering PSU.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![soldering the wires to connect the motors to the PSU](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif>)
+![soldering the wires to connect the motors to the PSU](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![cutting out the base of the microwave](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif>)
+![cutting out the base of the microwave](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 When we first presented the concept for our idea, we wanted to create something that mimicked the struggle to eat, but as we developed the concept of a reverse microwave, we discovered that our concept wouldn’t allow us to get to exactly what we wanted, so we adapted. After discovering that we couldn’t give our AC components any more of a brain with Arduino than just turning it on or off for a period of time, we decided to run two separate circuits. The normal AC one that powered the cooling fan and the plate motor, and a separate DC circuit that would allow us to control a lighting and sound system, designed to illuminate the food with a cool blue light and play a really annoying high pitched sound that would only start when the food was placed down on the rotating plate. 
 
