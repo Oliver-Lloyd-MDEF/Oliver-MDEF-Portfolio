@@ -145,8 +145,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - attr_list
   - pymdownx.tabbed
+  - pymdownx.escapeall:
+        hardbreak: true
 
 extra_css:
   - stylesheets/extra.css
