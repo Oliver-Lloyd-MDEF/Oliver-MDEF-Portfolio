@@ -60,6 +60,8 @@ In any case, this was a really great exercise in getting to know the intricacies
 
 Finally we shared our forensic report we’d written about our microwave with the class, explaining how we’d torn down the machine to get into its inner workings, how we tested each component to find out what was wrong with it, how we’d found out what each component was made from and where it came from and what we’d learned from tearing it down and debugging it. This was a really great way for all of us to learn about our various objects and start to build and see connections between these machines and how they can be redesigned for a better more circular future (I think anyway). 
 
+[Read the forensic report here](https://hackmd.io/Rk07LQFESRy6b7F1LB457A?view){ .md-button .md-button--primary }
+
 ## Day 4 - Detailing and designing (20/10/23)
 
 Today we spent the day detailing which of our components worked, what function they performed and what degree of control we could exert over them using an Arduino. Then we we got down to coming up with ideas for what kind of almost useful machine we wanted to create from the components we’d managed to salvage as well as parts we could salvage from some of the other groups (hence the need for the data sheets we’d created so all the groups can see and share them amongst each other to get the parts they needed). 
@@ -122,4 +124,4 @@ You might think, well what’s the point in making an almost useful machine from
 
 That’s what I think this module is really designed to do, to shape the way we think about technology, and how when one machine gives up the ghost, it can be saved, repurposed and upcycled into something new that once again has value and meaning, not just another piece of junk to throw on the ever growing landfill. 
 
-![I am Magnetron.jpg](<../images/04. The Machine Paradox/Photos & Video/I am Magetron.jpg>)
+![I am Magnetron.jpg](<../images/04. The Machine Paradox/Photos & Video/I am Magetron.jpg>){: style="height: auto; width: auto; border-radius: 10px; "}
