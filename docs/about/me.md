@@ -9,5 +9,5 @@ Take a look at some of my previous product design experience here! **[Oliver Llo
 ![Profile Photo](../images/Profile%20Photos/BW_profile.png){: align=right; style="height: 400px; width: auto; border-radius: 200px; margin-right: 0px"} 
 
 
-![Vector illustration of Amsterdam](../images/Home%20Town/A3%20Amsterdam%20Poster.jpg){align=right }
+![Vector illustration of Amsterdam](../images/Home%20Town/A3%20Amsterdam%20Poster.jpg){: style="height: auto; width: auto; border-radius: 10px; margin-right: 0px"} 
 
