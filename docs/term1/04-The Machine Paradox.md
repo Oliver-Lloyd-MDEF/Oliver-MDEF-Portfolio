@@ -106,9 +106,11 @@ We scavenged some more parts from our original microwave chassis, specifically t
   <figcaption>adjusting the frame size</figcaption>
 </figure>
 
-## The Anxious Air cooling machine — a machine to cool your food when the microwave is just too hot! ##
+## The Anxious Air cooling machine — a machine to cool your food when the microwave is just too hot!
 
-<!-- ***(insert pictures and GIFs here of the final prototype)*** -->
+### Take a look at our final creation here! 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qi39LTtU9eE?si=EJcSZ3RE9IMnmukH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 After some touch and go moments where suddenly different components weren’t working properly or when we discovered that we’d stuck the fan in backwards by accident, we managed to put it together in a way that didn’t even look half bad! and it survived all the tests we put it through. 
 
