@@ -81,7 +81,7 @@ I’m looking forward to it, we are going to have a great time. So far this has 
 ## Week 2: The almost useful machine…
 
 This week was all about taking our concept of a nearly useful machine and turning it into a reality. We split ourselves in our groups to focus on different tasks to get the machine built and assembled on time. From coding to laser cutting, soldering, rewiring and repurposing we all got involved to bring our idea to a reality. All of us had different skill sets, with some coming from more hands on, build stuff and break stuff design backgrounds (definitely me) and others having a more logistical and organisational background. We managed to collaborate and play off our skills to work together and build something really fun. 
-
+<!--
 ![Bottom Casing.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 ![soldering 1.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
@@ -90,9 +90,34 @@ This week was all about taking our concept of a nearly useful machine and turnin
 
 ![soldering PSU.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering PSU.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![soldering the wires to connect the motors to the PSU](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
+![soldering the wires to connect the motors to the PSU](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif>){: style="height: 300px; width: auto; border-radius: 10px; margin-right: 10px"} ![cutting out the base of the microwave](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif>){: style="height: 300px; width: auto; border-radius: 10px; margin-right: 10px"}
 
 ![cutting out the base of the microwave](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
+-->
+
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f2f2f2; /* Set your desired background color */
+}  
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table img {
+    width: 100%; /* Set your desired width */
+    height: 100%; /* Set your desired height */
+    border-radius: 5px; /* Set the border radius for rounded corners */
+}
+</style>
+
+| ![Bottom Casing.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg>) | ![soldering 1.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg>) | ![soldering 02.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 02.jpg>) |
+|---|---|---|
+| ![soldering PSU.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering PSU.jpg>) | ![soldering the wires to connect the motors to the PSU](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif>) | ![cutting out the base of the microwave](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif>) |
+
+
 
 When we first presented the concept for our idea, we wanted to create something that mimicked the struggle to eat, but as we developed the concept of a reverse microwave, we discovered that our concept wouldn’t allow us to get to exactly what we wanted, so we adapted. After discovering that we couldn’t give our AC components any more of a brain with Arduino than just turning it on or off for a period of time, we decided to run two separate circuits. The normal AC one that powered the cooling fan and the plate motor, and a separate DC circuit that would allow us to control a lighting and sound system, designed to illuminate the food with a cool blue light and play a really annoying high pitched sound that would only start when the food was placed down on the rotating plate. 
 
@@ -107,6 +132,8 @@ We scavenged some more parts from our original microwave chassis, specifically t
   ![adjusting frame size](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
   <figcaption>adjusting the frame size</figcaption>
 </figure>
+
+
 
 ## The Anxious Air cooling machine — a machine to cool your food when the microwave is just too hot!
 
