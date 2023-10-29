@@ -100,26 +100,11 @@ We scavenged some more parts from our original microwave chassis, specifically t
 
 <figure markdown style >
 
-  ![Rough Frame assembly](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg>){: style="height: 600px; width: auto; border-radius: 10px; margin-right: 10px"}
+  ![Rough Frame assembly](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-  ![adjusting frame size](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg>){: style="height: 600px; width: auto; border-radius: 10px; margin-right: 10px"}
+  ![adjusting frame size](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
   <figcaption>adjusting the frame size</figcaption>
 </figure>
-
-<div style="display: flex; align-items: center;">
-
-  <figure markdown style="margin-right: 10px;">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg" alt="Rough Frame assembly" style="height: 600px; width: auto; border-radius: 10px;">
-    <figcaption>Rough Frame assembly</figcaption>
-  </figure>
-
-  <figure markdown style="margin-right: 10px;">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg" alt="adjusting frame size" style="height: 600px; width: auto; border-radius: 10px;">
-    <figcaption>adjusting the frame size</figcaption>
-  </figure>
-
-</div>
-
 
 ## The Anxious Air cooling machine — a machine to cool your food when the microwave is just too hot! ##
 
