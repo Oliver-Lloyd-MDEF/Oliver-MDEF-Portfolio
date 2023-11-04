@@ -12,7 +12,7 @@
 ### Round the corners of an image
 
 <figure markdown style="overflow: hidden;">
-![Personal AoWS selection.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS selection.jpg>){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
+![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
 <figcaption>Narrowing down the cards I wanted to focus on</figcaption>
 </figure>
 
@@ -20,7 +20,7 @@ To add rounded corners to images in your code, you can use CSS styles. Here's ho
 
 ```html
 <figure markdown style="overflow: hidden;">
-![Personal AoWS selection.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS selection.jpg>){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
+![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
 <figcaption>Narrowing down the cards I wanted to focus on</figcaption>
 </figure>
 ```
@@ -41,15 +41,15 @@ If you want to make sure multiple images placed next to eachother each have roun
 
 ```markdown
 <figure markdown style="overflow: hidden;">
-![Personal AoWS selection.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS selection.jpg>){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
-![Personal AoWS finalists.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg>){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
+![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
+![Personal AoWS finalists.jpg](images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
 <figcaption>Narrowing down the cards I wanted to focus on</figcaption>
 </figure>
 ```
 e.g 
 <figure markdown style="overflow: hidden;">
-![Personal AoWS selection.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS selection.jpg>){: style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px"}
-![Personal AoWS finalists.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg>){: style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px"}
+![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px"}
+![Personal AoWS finalists.jpg](images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg){: style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px"}
 <figcaption>Narrowing down the cards I wanted to focus on</figcaption>
 </figure>
 
