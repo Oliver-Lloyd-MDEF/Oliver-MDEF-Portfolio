@@ -268,3 +268,8 @@ Remember to replace `https://www.youtube.com` with the actual URL you want to li
 ## Colours
 
 ## Errors
+
+<div style="display:flex; justify-content:center; align-items:center; height:auto;">
+  <img src="../images/background images/cows in wind farm field.gif" alt="solarpunk background">
+</div>
+
