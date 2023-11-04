@@ -166,3 +166,4 @@ You might think, well what’s the point in making an almost useful machine from
 That’s what I think this module is really designed to do, to shape the way we think about technology, and how when one machine gives up the ghost, it can be saved, repurposed and upcycled into something new that once again has value and meaning, not just another piece of junk to throw on the ever growing landfill. 
 
 ![I am Magnetron.jpg](<../images/04. The Machine Paradox/Photos & Video/I am Magetron.jpg>){: style="height: auto; width: auto; border-radius: 10px; "}
+
