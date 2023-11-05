@@ -245,6 +245,26 @@ If you want to include this in your Markdown file, simply paste the HTML code in
 
 Remember to replace `VIDEO_ID` with the actual ID of your YouTube video. This approach will center the embedded video on your MKDocs website.
 
+3. **Rounding the corners of an embed**
+
+To round the corners of an embedded link include the following adjustment at the end of the embed link: 
+
+```
+allowfullscreen style="border-radius: 10px;"
+```
+the full embed code will then look like this: 
+
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jfKfPfyJRdk?si=0PktLmlkr21qPSie" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius 10px;"></iframe>
+
+```
+Which when done right, should then look like this: 
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Dbv4nmGdHDs?si=b40Knt8vFOFgAxG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+
+
+Replace the link with whatever it is that you are embedding and it should be just fine! :D
+
 ## Hyperlinking
 
 To turn a sentence into a hyperlink in Markdown, you can use the following syntax:
@@ -269,7 +289,8 @@ Remember to replace `https://www.youtube.com` with the actual URL you want to li
 
 ## Errors
 
+<!-->
 <div style="display:flex; justify-content:center; align-items:center; height:auto;">
   <img src="../images/background images/cows in wind farm field.gif" alt="solarpunk background">
-</div>
+</div> -->
 
