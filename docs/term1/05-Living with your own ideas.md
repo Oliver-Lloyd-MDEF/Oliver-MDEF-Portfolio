@@ -9,6 +9,39 @@ The first of our workshops, “*Making magic machines*” taught by Kristina And
 These machines were then going to become companions in our lives for the rest of the week, to see for ourselves how we would interact with them on a day to day basis, and whether or not they succeeded in making us feel the way we wanted them too.
 
 <!--*add images and gifs here of the build process* -->
+<!-- Markdown Content -->
+<div class="image-grid">
+  <img src="../images/05. Living with your own ideas/Magic Machines/list of human desires.jpg" class="grid-item" alt="list of human desires">
+  <img src="../images/05. Living with your own ideas/Magic Machines/Lo-Fi prototyping materials.jpg" class="grid-item" alt="Lo-Fi prototyping materials">
+  <img src="../images/05. Living with your own ideas/Magic Machines/building the scales.jpg" class="grid-item portrait-image" alt="building the scales">
+  <img src="../images/05. Living with your own ideas/Magic Machines/closeup of finished scales.jpg" class="grid-item" alt="closeup of finished scales">
+  <!-- Add more images as needed -->
+</div>
+
+<!-- CSS Styles -->
+<style>
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
+
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; /* Add rounded corners to images */
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+.portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
+</style>
 
 ***What did it end up being, and what materials did you use?***
 
@@ -27,6 +60,30 @@ when trying to come up with my machine, I ended up thinking about how much of wh
 Because It’s easy to slip into extremes when that’s all that you see around you, and having a visual indicator of the emotions surrounding you can be a reminder to go and do something that makes you genuinely happy and brings you some joy (whatever that may be) can help you bring some balance back to your life. At least, for the week it lived with me it definitely helped! :D
 
 <!--  *add images and gifs here of the final scales* -->
+<div class="image-container">
+    <img src="../images/05. Living with your own ideas/Magic Machines/Scales testing.gif" alt="testing the scales" class="rounded-image">
+    <img src="../images/05. Living with your own ideas/Magic Machines/closeup of scales in use.jpg" alt="the scales in use" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+
 
 ## 1PP research - Embodying your ideas
 
@@ -53,6 +110,32 @@ It turned out that on that particular day when I summed everything up (probably 
 
 This meant doing a quick bit of maths to try and see where I could get some energy reduction without it impacting my life in a way that would normally make me want to stop doing it or affect me being able to go about my day of classes. With a bit of tweaking to laptop charger usage times, coffee machine, television and public transport usage I was able to contain my consumption to under 1000 watts. 
 
+
+<div class="rounded-container">
+    <video width="320" height="240" controls>
+        <source src="../images/05. Living with your own ideas/1PP 2000 watt challenge/2000 watt challenge video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<style>
+    /* CSS Styles for the rounded image and video */
+    .rounded-container {
+        border-radius: 10px; /* Adjust the value to control the amount of rounding */
+        overflow: hidden; /* This ensures the content is clipped to fit the rounded container */
+        margin-bottom: 20px; /* Adds some space between images and videos */
+    }
+
+    .rounded-container img,
+    .rounded-container video {
+        width: 50%; /* Ensures the content takes up 100% of the container width */
+        height: auto; /* Maintains the aspect ratio of the content */
+        display: block; /* Removes extra space below inline elements */
+    }
+</style>
+
+
+
 ***Did anything change about your way of working?***
 
 I had to reduce the amount of public transport I took, which just encouraged more walking, and honestly, it really didn’t affect my life much at all, it was quite fun trying to get into the nitty gritty of working around these limits. 
@@ -76,3 +159,5 @@ First person perspective is definitely a useful tool in the designers toolkit, a
 ***After seeing the videos of your design space collective, how does it change your understanding of it, present new opportunities or inspire new possibilities for collaboration?***
 
 Finally, being able to see the work of my classmates, their explorations into different subject matters was an incredible experience and opportunity to get to know them on a much more creative level, with areas of research from maximising learning in VR to adapting to a world of surveillance capitalism, they all presented really cool opportunities for collaboration and I’m excited to work together with them in areas that I have no knowledge in whatsoever, and see what kind of cool shit we can come up.
+
+
