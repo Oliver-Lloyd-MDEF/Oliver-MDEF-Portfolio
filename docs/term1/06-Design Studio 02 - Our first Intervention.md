@@ -7,10 +7,38 @@ Our second design studio class was led by Jana and Roger. In this session, we de
 To start, each of us in the class brought small printouts of various topics, ideas, projects and materials that interested us. We stuck them all up on a big wall in the classroom (*similar to large post-it note walls you might find in creative offices*)and then various bits of string we drew connections between each of these interests and grouped some of them together based around different weak signal areas.
 
 This was a really useful exercise actually, as it finally gave us all a space to see everyone’s different ideas and interests in one place (*though I’m sure it wasn’t all of them, I know I definitely didn’t bring everything, it would’ve covered the entire wall!*). Seeing our interests and the similarities that some of them shared led to all sorts of exciting conversations between us. It was great because it helped us create little groups that wanted to focus on exploring a particular topic.
-
+<!--
 ![creating class design space](<../images/06. Design Studio 02/final class design space.jpg>)
-![fianl class design space](<../images/06. Design Studio 02/final class design space.jpg>)
+![final class design space](<../images/06. Design Studio 02/final class design space.jpg>)
 ![class design space close up](<../images/06. Design Studio 02/Group design space closeup .jpg>)
+-->
+
+<div class="image-container">
+    <img src="../images/06. Design Studio 02/final class design space.jpg" alt="final class design space" class="rounded-image">
+    <img src="../images/06. Design Studio 02/creating group design space.jpg" alt="the scales in use" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+
+<img src="../images/06. Design Studio 02/Group design space closeup .jpg" alt="group design space closeup" style="border-radius: 5px;">
+
 
 ## **Waste as a resource**
 
@@ -24,7 +52,8 @@ This was a valuable way for us to get all our ideas out on paper. It encouraged 
 
 Initially, we struggled to come up with an idea as to what kind of intervention we could make in the time that we had, as waste is such a colossal topic! But Roger reminded us that an intervention doesn’t have to be the “be all end all” solution; it doesn’t even have to be a solution; it can be a stepping stone in part of your design research that helps lead to deeper and more interesting questions that provide the insight you need to get the real solution at the end of the tunnel. After that, we settled on trying to aim for a more reflective approach, where we would create some form of activity that we could do with members of the public to get their perceptions around waste and how we could try and change their view on it.
 
-![group design space](<../images/06. Design Studio 02/WasteValue - Group Design Space.jpg>)
+<!--![group design space](<../images/06. Design Studio 02/WasteValue - Group Design Space.jpg>)-->
+<img src="../images/06. Design Studio 02/WasteValue - Group Design Space.jpg" alt="group design space" style="border-radius: 5px;">
 
 ## **Our first design intervention**
 
@@ -32,12 +61,37 @@ This intervention ended up completely different from what we had initially thoug
 
 Our first plan was to host a workshop where participants could make their own biomaterial from household organic waste products and turn it into something useful. And to do that, we had to test out if it was even possible to create any sort of useful material in your kitchen.
 
-![rough intervention plan](<../images/06. Design Studio 02/rough intervention plan.jpg>)
+<!--![rough intervention plan](<../images/06. Design Studio 02/rough intervention plan.jpg>)-->
+<img src="../images/06. Design Studio 02/rough intervention plan.jpg" alt="rough intervention plan" style="border-radius: 5px;">
 
 So we got together one crisp Saturday morning to do just that, meeting in the biolab in the IAAC building to cook up a variety of materials based on recipes we found from Materiom (*one of my favourite resources; learn more about them [here](https://materiom.org/))* along with a few other sources.
 
 During this exploration, while we were cooking and discussing, we realised that this topic was far too broad and not something that could easily be condensed into a 1-hour workshop and that this process was going to far too long and not create the kind of impact we were looking for.
 <!-- add images or gifs here of the cooking process-->
+<div class="image-container">
+    <img src="../images/06. Design Studio 02/timelapse of biolab.gif" alt="talking to the public" class="rounded-image">
+    <img src="../images/06. Design Studio 02/biomaterial making 1.jpeg" alt="biomaterial making" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+
 
 **So we pivoted.**
 
@@ -52,24 +106,99 @@ Asking these questions helped us to look for the deeper questions in the answers
 - What was holding them back from making a change?
 
 These questions would be answered with a sticker represneting one of two statements, so we were actually getting an answer to two questions in one!
-
+<!--
 ![main poster](<../images/06. Design Studio 02/main poster.jpg>)
 ![habit changes](<../images/06. Design Studio 02/habit change.jpg>)
-![what's holding you back](<../images/06. Design Studio 02/what's holding you back.jpg>)
+![what's holding you back](<../images/06. Design Studio 02/what's holding you back.jpg>) -->
+
+<div class="image-container">
+    <img src="../images/06. Design Studio 02/what&apos;s holding you back.jpg" alt="what's holding you back" class="rounded-image">
+    <img src="../images/06. Design Studio 02/habit change.jpg" alt="habit changes" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+
+<img src="../images/06. Design Studio 02/main poster.jpg" alt="rough intervention plan" style="border-radius: 5px;">
 
 With these questions in mind, we created our interactive posters, stuck them to some large pieces of cardboard we found (**very low-tech, I know**) and proceeded with our intervention. We hung a set of posters up in our own university building to see what the reactions and responses would be from people who we thought would be the most likely to be aware of and working towards solutions around these issues and the next, we took around Barcelona with us!
 
-![posters in the uni](<../images/06. Design Studio 02/posters set up in uni.jpg>)
-![taking the posters with us](<../images/06. Design Studio 02/2023-11-03 13_22_06.249.jpg>)
+<div class="image-container">
+    <img src="../images/06. Design Studio 02/what&apos;s holding you back.jpg" alt="what's holding you back" class="rounded-image">
+    <img src="../images/06. Design Studio 02/habit change.jpg" alt="habit changes" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
 
 We wandered around the neighbourhood of Gracia, inviting strangers to participate in our research and see what they had to say. While this was initially a little nerve-racking, we got over it, and soon, we were chatting with people left and right and getting some fantastic insights. I’m glad we took this approach; the answers we got and our conversations really painted an interesting picture that we wouldn’t have gotten otherwise if we’d done something else. Turns out most people are trying their hardest to repurpose the majority of their plastic waste into other useful things around their home and life, as well as turning as much food waste as they can into compost for their plants!
-
+<!--
 ![posters in use](<../images/06. Design Studio 02/Interactive posters in use.jpg>)
 ![talking to the public](<../images/06. Design Studio 02/talking to the public.jpg>)
-![talking to group of people](<../images/06. Design Studio 02/talking to group.gif>)
+![talking to group of people](<../images/06. Design Studio 02/talking to group.gif>) -->
+
+<div class="image-container">
+    <img src="../images/06. Design Studio 02/Interactive posters in use.jpg" alt="posters in use" class="rounded-image">
+    <img src="../images/06. Design Studio 02/talking to the public.jpg" alt="habit changes" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+
+<img src="../images/06. Design Studio 02/talking to the public.gif" alt="talking to the public" style="border-radius: 5px;">
 
 That was definitely different from what I was expecting.
 
 Overall, it was a fascinating data-gathering exercise. I’m happy now that I think I have a better understanding of what a design intervention is and how it can be used to begin to create the alternative presents we want to achieve. I’m looking forward to using some of this research in different projects moving forward!
 
 Take a look at the video below to learn a bit more about how we created this first intervention!
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Dbv4nmGdHDs?si=b40Knt8vFOFgAxG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
