@@ -60,10 +60,13 @@ These questions would be answered with a sticker represneting one of two stateme
 With these questions in mind, we created our interactive posters, stuck them to some large pieces of cardboard we found (**very low-tech, I know**) and proceeded with our intervention. We hung a set of posters up in our own university building to see what the reactions and responses would be from people who we thought would be the most likely to be aware of and working towards solutions around these issues and the next, we took around Barcelona with us!
 
 ![posters in the uni](<../images/06. Design Studio 02/posters set up in uni.jpg>)
+![taking the posters with us](<../images/06. Design Studio 02/2023-11-03 13_22_06.249.jpg>)
 
 We wandered around the neighbourhood of Gracia, inviting strangers to participate in our research and see what they had to say. While this was initially a little nerve-racking, we got over it, and soon, we were chatting with people left and right and getting some fantastic insights. I’m glad we took this approach; the answers we got and our conversations really painted an interesting picture that we wouldn’t have gotten otherwise if we’d done something else. Turns out most people are trying their hardest to repurpose the majority of their plastic waste into other useful things around their home and life, as well as turning as much food waste as they can into compost for their plants!
 
 ![posters in use](<../images/06. Design Studio 02/Interactive posters in use.jpg>)
+![talking to the public](<../images/06. Design Studio 02/talking to the public.jpg>)
+![talking to group of people](<../images/06. Design Studio 02/talking to group.gif>)
 
 That was definitely different from what I was expecting.
 
