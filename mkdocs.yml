@@ -154,4 +154,5 @@ extra_css:
   - stylesheets/extra.css
   - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
 
+use_directory_urls: false
 
