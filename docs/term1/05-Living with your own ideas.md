@@ -110,6 +110,32 @@ It turned out that on that particular day when I summed everything up (probably 
 
 This meant doing a quick bit of maths to try and see where I could get some energy reduction without it impacting my life in a way that would normally make me want to stop doing it or affect me being able to go about my day of classes. With a bit of tweaking to laptop charger usage times, coffee machine, television and public transport usage I was able to contain my consumption to under 1000 watts. 
 
+<!--  *add images and gifs here of the final scales* -->
+<div class="image-container">
+    <img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/24H 1PP research ideas.jpg" alt="24H 1PP research ideas" class="rounded-image">
+    <img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/2000W challenge planning.jpg" alt="2000W challenge planning" class="rounded-image">
+    <img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/1000W challenge & outcome.jpg" alt="1000W challenge & outcome" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+<br>
 
 <div class="rounded-container">
     <video width="320" height="240" controls>
