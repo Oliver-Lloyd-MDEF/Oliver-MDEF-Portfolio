@@ -14,10 +14,11 @@ nav:
   - About: about/me.md
   - Term 1:
       - Bootcamp: term1/01-Bootcamp.md
-      - Roles of Prototyping: term1/02-Roles of Prototyping in First Person Person Perspectives.md
+      - Design Studio 01 - Roles of prototyping: term1/02-Design Studio 01 - Roles of Prototyping in First Person Person Perspectives.md
       - Atlas of Weak Signals: term1/03-Atlas of Weak Signals.md
       - The Machine Paradox: term1/04-The Machine Paradox.md
       - Living with your own ideas: term1/05-Living with your own ideas.md
+      - Design Studio 02: term1/06-Design Studio 02 - Our first Intervention.md
   - Term 2:
       - digi: Term 2/digi.md
       - studio: Term 2/studio.md
