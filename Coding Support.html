@@ -1060,6 +1060,19 @@ More Markdown content...
 </li>
 </ol>
 <p>Remember to replace <code>VIDEO_ID</code> with the actual ID of your YouTube video. This approach will center the embedded video on your MKDocs website.</p>
+<ol>
+<li><strong>Rounding the corners of an embed</strong></li>
+</ol>
+<p>To round the corners of an embedded link include the following adjustment at the end of the embed link: </p>
+<p><div class="highlight"><pre><span></span><code>allowfullscreen style=&quot;border-radius: 10px;&quot;
+</code></pre></div>
+the full embed code will then look like this: </p>
+<p><div class="highlight"><pre><span></span><code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jfKfPfyJRdk?si=0PktLmlkr21qPSie&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen style=&quot;border-radius 10px;&quot;&gt;&lt;/iframe&gt;
+</code></pre></div>
+Which when done right, should then look like this: </p>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Dbv4nmGdHDs?si=b40Knt8vFOFgAxG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"></iframe>
+
+<p>Replace the link with whatever it is that you are embedding and it should be just fine! :D</p>
 <h2 id="hyperlinking">Hyperlinking<a class="headerlink" href="#hyperlinking" title="Permanent link">&para;</a></h2>
 <p>To turn a sentence into a hyperlink in Markdown, you can use the following syntax:</p>
 <div class="highlight"><pre><span></span><code>[<span class="nt">Your Sentence Here</span>](<span class="na">URL</span>)
@@ -1072,9 +1085,10 @@ More Markdown content...
 <p>Remember to replace <code>https://www.youtube.com</code> with the actual URL you want to link to.</p>
 <h2 id="colours">Colours<a class="headerlink" href="#colours" title="Permanent link">&para;</a></h2>
 <h2 id="errors">Errors<a class="headerlink" href="#errors" title="Permanent link">&para;</a></h2>
+<!-->
 <div style="display:flex; justify-content:center; align-items:center; height:auto;">
   <img src="../images/background images/cows in wind farm field.gif" alt="solarpunk background">
-</div>
+</div> -->
 
   <hr>
 <div class="md-source-file">
