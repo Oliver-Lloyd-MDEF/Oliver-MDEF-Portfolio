@@ -84,7 +84,6 @@ Because It’s easy to slip into extremes when that’s all that you see around 
 }
 </style>
 
-
 ## 1PP research - Embodying your ideas
 
 ***what were you interested in?*** 
