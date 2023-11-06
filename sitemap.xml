@@ -2,77 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/index.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/Coding%20Support.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/test%20index.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/End%20of%20week%20reflections/Week%201%20-%20A%20soft%20landing.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/End%20of%20week%20reflections/Week%202%20-%20Searching%20for%20Signals.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/Term%202/digi.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/Term%202/studio.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/about/me.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/project/project.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/term1/01-Bootcamp.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/term1/02-Design%20Studio%2001%20-%20Roles%20of%20Prototyping%20in%20First%20Person%20Person%20Perspectives.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/term1/03-Atlas%20of%20Weak%20Signals.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/term1/04-The%20Machine%20Paradox.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/term1/05-Living%20with%20your%20own%20ideas.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/term1/06-Design%20Studio%2002%20-%20Our%20first%20Intervention.html</loc>
-         <lastmod>2023-11-05</lastmod>
+         <lastmod>2023-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/term1/07-Documenting%20Design.html</loc>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
