@@ -9,26 +9,81 @@ As we create more and more complex machines, the interfaces change to become mor
 In groups, we had to get together and tear down a product, find out why it failed, how it failed, how it could be repaired, where it was made and create a forensics report to document this entire process. 
 
 In our different groups we went and picked out a broken machine from the fablab deposit on the main floor of the IAAC building.  In our case we chose an old microwave — which was great fun as this is something that most people never think of tearing down as they are such long lasting products, which made it even more interesting to find out why it didn’t work. 
-
+<!--
 ![Selecting.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 ![Final choice.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
-![Dusting off.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Dusting off.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
+![Dusting off.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Dusting off.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"} -->
+
+<div class="image-container">
+    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting 2.jpg" alt="selecting the microwave" class="rounded-image">
+    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg" alt="Water conservation" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+<figcaption>Selecting our machine and our final choice</figcaption>
+</figure>
+
 
 We started to tear down the microwave to get access to it’s insides and began our analysis of the individual parts. Inside we found as expected, a magnetron (the microwave emitter) , a transformer that powered the magnetron and provided it with the high amounts of power it needed, various switches that activated the different functions of the microwave, two motors and a lightbulb. What surprised us (which in hindsight probably shouldn’t have as it’s quite old) was just how simple the insides of the microwave actually was. with most of the connectors being removable clips it showed us that this analogue machine (by which I mean it didn’t have a digital computer acting as a brain behind it) was designed to have multiple components easily replaced as nothing was soldered directly to the board (except components making up the power supply). While it wasn’t exactly easy to access some of the components (like the switches) it was nice to see that this product was indeed designed to be replaced if needed. The only thing that wasn’t fully easily replaceable was the power cable, and only it was because it was directly soldered to the board. 
-
+<!--
 ![Casing Removal.GIF](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 ![Capacitor testing.JPG](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/Capacitor testing.JPG>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 
 ![PSU removal.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
+-->
+<div class="image-container">
+    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" alt="removing the casing" class="rounded-image">
+    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" alt="Water conservation" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+<img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/Capacitor testing.JPG" alt="capacitor testing" style="border-radius: 5px;">
+<figcaption>breaking down the microwave</figcaption>
+</figure>
+
 
 We started to combine our findings from the teardown into a “forensic report” where we began to detail exactly what we found out about our product, how the different pieces were manufactured, where they were made, how they fit together and just exactly what was wrong with it. 
 
 So far this has been a really great exercise in reframing the way we understand the products we interface with and how we can repurpose and change the technologies around us to truly attempt to give them a second life.
 
-![Machine Paradox - Exploded View.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Machine Paradox - Exploded View.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
+<img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Machine Paradox - Exploded View.jpg" alt="exploded view" style="border-radius: 5px;">
 
 ## Day 2 (18/10/2023)  - Fault testing forensics
 
@@ -51,10 +106,10 @@ As a final part of the day, we ended up jumping ahead and began to control our c
 ## Day 3 - Hacking and controlling (19/10/2023)
 
 Today we spent time hacking our way into the various electronic components of our microwave, soldering connectors onto the motors so that we could reconnect them to the original AC power supply the microwave used, and then writing what code we could that would allow us to control the various pieces and the circuit we’d created via an Arduino board. We were trying to give an analogue machine a digital brain. After some trial and error it worked! we are able to sideload some instructions onto our system that would allow the circuit to turn on and off on a 10 second timer. Connected via a relay, we are able to control exactly when and how the motors would turn on, the next task (which I assume is coming later in the week) is to figure out a way to separate both motors from each other, as right now, the induction motor we salvaged which was originally used to spin the cooling fan splits the high level of voltage coming from the AC power supply into a two separate streams, with the fan motor pulling the majority of the voltage and leaving 30V over to power the motor that originally span the plate inside the microwave. However, while this is really useful inside a microwave, it means that currently the plate motor can only spin when the fan motor is on. So in our quest to create an almost useful machine — in our case we’ve been thinking of turning the microwave into a spinning disco light — we have to deal with a motor that will only work if the other is powered on and running, which might or might not turn out to be useful. Who knows, maybe our disco light will provide cooling air conditioning at the same time…
+<!--
+![Arduino motor controlling](<../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"} -->
 
-![Arduino Testing.jpg!](<../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino Testing.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
-
-![Arduino motor controlling](<../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
+<img src="../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif" alt="arduino fan control testing" style="border-radius: 5px;">
 
 In any case, this was a really great exercise in getting to know the intricacies of debugging old analogue components, hacking them to work with the digital interfaces we work with now to create something new, debugging again and repeat until finally we can breathe new life into old tech that would otherwise have gone to waste. If anything can teach about how we can design products to better fit into the repairable and circular models of product design and product that we are moving towards it’s definitely this module! I’m excited to see how this project will turn out and what exactly we will create!
 
@@ -95,29 +150,41 @@ This week was all about taking our concept of a nearly useful machine and turnin
 ![cutting out the base of the microwave](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 -->
 
+<!-- Markdown Content -->
+<div class="image-grid">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg" class="grid-item" alt="bottom casing">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg" class="grid-item" alt="soldering 1">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 02.jpg" class="grid-item portrait-image" alt="soldering 02">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering PSU.jpg" class="grid-item" alt="soldering PSU">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif" class="grid-item" alt="soldering Timelapse">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif" class="grid-item" alt="cutting the base">
+  <!-- Add more images as needed -->
+</div>
+
+<!-- CSS Styles -->
 <style>
-table {
-    border-collapse: collapse;
-    width: 100%;
-    background-color: #f2f2f2; /* Set your desired background color */
-}  
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-table img {
-    width: 100%; /* Set your desired width */
-    height: 100%; /* Set your desired height */
-    border-radius: 5px; /* Set the border radius for rounded corners */
-}
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; /* Add rounded corners to images */
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+.portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
-
-| ![Bottom Casing.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg>) | ![soldering 1.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg>) | ![soldering 02.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 02.jpg>) |
-|---|---|---|
-| ![soldering PSU.jpg](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering PSU.jpg>) | ![soldering the wires to connect the motors to the PSU](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif>) | ![cutting out the base of the microwave](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif>) |
-
-
 
 When we first presented the concept for our idea, we wanted to create something that mimicked the struggle to eat, but as we developed the concept of a reverse microwave, we discovered that our concept wouldn’t allow us to get to exactly what we wanted, so we adapted. After discovering that we couldn’t give our AC components any more of a brain with Arduino than just turning it on or off for a period of time, we decided to run two separate circuits. The normal AC one that powered the cooling fan and the plate motor, and a separate DC circuit that would allow us to control a lighting and sound system, designed to illuminate the food with a cool blue light and play a really annoying high pitched sound that would only start when the food was placed down on the rotating plate. 
 
@@ -125,15 +192,31 @@ When we first presented the concept for our idea, we wanted to create something 
 
 We scavenged some more parts from our original microwave chassis, specifically the bottom panel of the casing that supported a rotating ring that allowed the plate to spin, so that we didn’t have to make a new one, as well as switch to activate the whole system when weight was added to the plate. These pieces, some laser cut pieces of plywood, a borrowed frame from the Fablab and some 3d printed parts came together to create our final contraption. 
 
-<figure markdown style >
+<div class="image-container">
+    <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg" alt="rough frame assembly" class="rounded-image">
+    <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg" alt="adjusting the frame size" class="rounded-image">
+</div>
 
-  ![Rough Frame assembly](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
 
-  ![adjusting frame size](<../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
   <figcaption>adjusting the frame size</figcaption>
 </figure>
-
-
 
 ## The Anxious Air cooling machine — a machine to cool your food when the microwave is just too hot!
 
