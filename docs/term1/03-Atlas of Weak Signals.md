@@ -12,11 +12,39 @@ We started our journey into creating a design space with an introduction to the 
 We explored how Weak Signals have been used in the past and how they can be used to develop various solutions as these areas become more developed. It was interesting to see the gamified version of the methodology, which involved using a system of cards to explore emergent Weak Signals. With the guidance of Jana and Roger, we delved into these signals and identified areas of opportunity within them that could lead to different solutions.
 
 Later, we broke into smaller groups to focus on specific Weak Signal areas and brainstorm various pathways and solutions. This exercise was guided by random triggers, which helped narrow down our focus and stimulate our thinking. It was exciting to see the diverse ideas and perspectives that emerged from these group discussions.
-
+<!--
 <figure markdown style="overflow: hidden;">
 ![AoWS group work 1.jpg](<../images/03. Atlas of Weak Signals/AoWS group work 1.jpg>){: style="height: 200px; width: auto; border-radius: 5px;"}
 ![AoWS group work 3.jpg](<../images/03. Atlas of Weak Signals/AoWS group work 3.jpg>){: style="height: 200px; width: auto; border-radius: 5px;"}
 ![AoWS group work 2.jpg](<../images/03. Atlas of Weak Signals/AoWS group work 2.jpg>){: style="height: 200px; width: auto; border-radius: 5px;"}
+<figcaption>Getting familiar with the methodology in groups</figcaption>
+</figure> */ -->
+
+<div class="image-container">
+    <img src="../images/03. Atlas of Weak Signals/AoWS group work 1.jpg" alt="AoWS group work 1" class="rounded-image">
+    <img src="../images/03. Atlas of Weak Signals/AoWS group work 2.jpg" alt="AoWS group work 2" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+
+<img src="../images/03. Atlas of Weak Signals/AoWS group work 3.jpg" alt="AoWS group work 3" style="border-radius: 5px;">
 <figcaption>Getting familiar with the methodology in groups</figcaption>
 </figure>
 
@@ -28,14 +56,38 @@ We then set about creating our own Atlas of Weak Signals (AoWS) in our design sp
 
 > *My main area of interest lies in the concept of **solarpunk**, focusing on the combination of **local production** and **global connections**. building upon the weak signals of **long-termism** and **human-machine creative collaborations**.*
 > 
+<!--
 <figure markdown style="overflow: hidden;">
 ![Personal AoWS selection.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS selection.jpg>){: style="height: 250px; width: auto; border-radius: 5px; margin-right: 0px"}
 ![Personal AoWS finalists.jpg](<../images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg>){: style="height: 250px; width: auto; border-radius: 5px; margin-right: 0px"}
 <figcaption>Narrowing down the cards I wanted to focus on</figcaption>
+</figure> -->
+
+<div class="image-container">
+    <img src="../images/03. Atlas of Weak Signals/Personal AoWS selection.jpg" alt="Personal AoWS selection" class="rounded-image">
+    <img src="../images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg" alt="Personal AoWS Finalists" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+<figcaption>Narrowing down the cards I wanted to focus on</figcaption>
 </figure>
-
-
-
 
 ### **Making our own design space with the atlas**
 
@@ -49,10 +101,13 @@ My main area of interest lies in the concept of **solarpunk**, focusing on the c
 > 
 
 By fostering cooperation between humans and machines, we can unlock innovative solutions in biomaterials, circular economies, and doughnut economic models. This collaboration ensures that the goals of long-termism are maintained, with a focus on creating products and policies that account for the well-being of future generations. Through localized digital fabrication hubs, we can harness the unique capabilities of both humans and machines, pushing the boundaries of innovation. This approach not only aligns with the solarpunk ethos but also contributes to the vision of a sustainable future framed by localized production, global connectivity, and a deep commitment to the well-being of all generations to come.
-
+<!-->
 <figure markdown style="overflow: hidden;">
 ![Atlas of Weak Signals Exercise Design Space - Frame 1.jpg](<../images/03. Atlas of Weak Signals/Design Space/Atlas of Weak Signals Exercise Design Space - Frame 1.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
-</figure>
+</figure> -->
+
+<img src="../images/03. Atlas of Weak Signals/Design Space/Atlas of Weak Signals Exercise Design Space - Frame 1.jpg" alt="AoWS group work 3" style="border-radius: 5px;">
+
 ## **2 new weak signals for the Atlas:**
 
 Going further, we had to add 2 new suggestions for the card deck, I decided to focus on two new potential weak signal areas, and landed on **water conservation and** **climate adaptation** as areas that could be designed for.
@@ -64,10 +119,37 @@ Climate change-related events, such as extreme weather conditions and natural di
 ### 2. Water Conservation
 
 Emerging technologies for water conservation, such as advanced filtration systems and smart irrigation techniques, signal a growing focus on preserving water resources, especially in water-scarce regions.
-
+<!--
 <figure markdown style="overflow: hidden;">
 ![1.png](<../images/03. Atlas of Weak Signals/New Signals/1.png>){: style="height: 400px; width: auto; border-radius: 5px; margin-right: 0px"}
 ![2.png](<../images/03. Atlas of Weak Signals/New Signals/2.png>){: style="height: 400px; width: auto; border-radius: 5px; margin-right: 0px"}
+<figcaption>Two new weak signals for the deck</figcaption>
+</figure>
+-->
+
+<div class="image-container">
+    <img src="../images/03. Atlas of Weak Signals/New Signals/1.png" alt="Climate technologies" class="rounded-image">
+    <img src="../images/03. Atlas of Weak Signals/New Signals/2.png" alt="Water conservation" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 45%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
 <figcaption>Two new weak signals for the deck</figcaption>
 </figure>
 
@@ -78,8 +160,10 @@ We shared and evaluated our atlases with each other in groups to help in drawing
 We then began the next exercise, creating multiscalar design diagrams. These take a weak signal and scale it up from the personal to the global scale through interesting thought triggers, connections, resources, frameworks and contexts for interventions, in an ever expanding series of rings. I focused on the weak signals I’d chosen before, Long-Termism and Human Machine creative interactions.
 
 This is something that I struggled with in the beginning as I have never had to frame my thought process this way and I found it difficult in the beginning to draw connections between the different options and ideas, where to place them and how to draw connections between them, I drew a deeper understanding of creating the atlas of weak signals as a mindmap, which for me created a much easier way to visualise connections and ideas as the stages scaled up from the individual to the global. 
+<!--
+![Multiscalar Design Diagram](<../images/03. Atlas of Weak Signals/Design Space/Term 1 Design Space - Multiscalar Design Diagram.jpg>)-->
 
-![Multiscalar Design Diagram](<../images/03. Atlas of Weak Signals/Design Space/Term 1 Design Space - Multiscalar Design Diagram.jpg>)
+<img src="../images/03. Atlas of Weak Signals/Design Space/Term 1 Design Space - Multiscalar Design Diagram.jpg" alt="AoWS group work 3" style="border-radius: 5px;">
 
 ### Personal Design Space:
 
@@ -93,8 +177,10 @@ I much prefer creating these sorts of diagrams and working from them as they let
 
 > *this was the point of the exercise and creating these spaces, to create a visual idea board that you can take a step back from and see the bigger picture without losing sight of what can be done right now.*
 > 
+<!--
+![Term 1 Design Space - Digital Design Space.jpg](<../images/03. Atlas of Weak Signals/Design Space/Term 1 Design Space - Digital Design Space.jpg>)-->
 
-![Term 1 Design Space - Digital Design Space.jpg](<../images/03. Atlas of Weak Signals/Design Space/Term 1 Design Space - Digital Design Space.jpg>)
+<img src="../images/03. Atlas of Weak Signals/Design Space/Term 1 Design Space - Digital Design Space.jpg" alt="AoWS group work 3" style="border-radius: 5px;">
 
 
 
@@ -103,7 +189,6 @@ I much prefer creating these sorts of diagrams and working from them as they let
 
   
 
-<figure markdown>
-</figure>
+
 
 
