@@ -73,4 +73,14 @@ body {
     font-size: 14px;
 }
 
-
+/*this code snippet adjusts the colour, box shadow and position of the text box surrounding the header in the left hand side navigation bar, e.g "Term 1" */
+@media screen and (min-width: 76.25em) {
+  .md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+    background: none; /* to add a colour to the background, change "none" to the hex code of whatever colour you want*/
+    box-shadow: none;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+}
