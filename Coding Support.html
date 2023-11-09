@@ -1110,6 +1110,116 @@ Which when done right, should then look like this: </p>
   <img src="../images/background images/cows in wind farm field.gif" alt="solarpunk background">
 </div> -->
 
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+</details>
+
+<details>
+<summary>Heading</summary>
+<!--All you need is a blank line-->
+
+    + markdown list 1
+        + nested list 1
+        + nested list 2
+    + markdown list 2
+</details>
+
+<details>
+  <summary>Click to expand</summary>
+
+  Your detailed content goes here.
+
+  You can include **Markdown** *formatted* content within the collapsible section.
+</details>
+
+<div class="custom-collapsible">
+    <div class="collapsible-header">
+        Click to expand
+    </div>
+    <div class="collapsible-content">
+        Your detailed content goes here.
+        You can include **Markdown** *formatted* content within the collapsible section.
+    </div>
+</div>
+
+<style>
+.custom-collapsible {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.collapsible-header {
+    background-color: #283617;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.collapsible-content {
+    padding: 10px;
+    display: none;
+}
+</style>
+
+<script>
+document.querySelectorAll('.collapsible-header').forEach(function(header) {
+    header.addEventListener('click', function() {
+        var content = this.nextElementSibling;
+        if (content.style.display === 'block') {
+            content.style.display = 'none';
+        } else {
+            content.style.display = 'block';
+        }
+    });
+});
+</script>
+
+<div class="custom-collapsible">
+    <div class="collapsible-header">
+        ▶ Click to expand
+    </div>
+    <div class="collapsible-content">
+        Your detailed content goes here.
+        You can include **Markdown** *formatted* content within the collapsible section.
+    </div>
+</div>
+
+<style>
+.custom-collapsible {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.collapsible-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.collapsible-content {
+    padding: 10px;
+    display: none;
+}
+</style>
+
+<script>
+document.querySelectorAll('.collapsible-header').forEach(function(header) {
+    header.addEventListener('click', function() {
+        var content = this.nextElementSibling;
+        if (content.style.display === 'block') {
+            content.style.display = 'none';
+            this.textContent = '▶ Click to expand';
+        } else {
+            content.style.display = 'block';
+            this.textContent = '▼ Click to collapse';
+        }
+    });
+});
+</script>
+
   <hr>
 <div class="md-source-file">
   <small>
