@@ -23,9 +23,9 @@ nav:
   #- Term 2:
    #   - digi: Term 2/digi.md
    #   - studio: Term 2/studio.md
-  - End of Week Reflections:
-      - Week 1 - A soft landing: End of week reflections/Week 1 - A soft landing.md
-      - Week 2 - Searching for Signals: End of week reflections/Week 2 - Searching for Signals.md
+  #- End of Week Reflections:
+      #- Week 1 - A soft landing: End of week reflections/Week 1 - A soft landing.md
+      #- Week 2 - Searching for Signals: End of week reflections/Week 2 - Searching for Signals.md
   #- Master project:
   #    - Initial ideas: project/project.md
   - Coding Support: Coding Support.md
