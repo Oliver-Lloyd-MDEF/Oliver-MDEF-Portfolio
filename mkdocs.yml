@@ -14,12 +14,17 @@ nav:
   - About: about/me.md
   - Term 1:
       - Bootcamp: term1/01-Bootcamp.md
+      - Documenting Design: term1/07-Documenting Design.md
       - Design Studio 01 - Roles of prototyping: term1/02-Design Studio 01 - Roles of Prototyping in First Person Person Perspectives.md
+      - Design Studio 01.01 - Our first intervention: term1/06-Design Studio 02 - Our first Intervention.md
+      - Design Studio 01.02 - Roles of Personal & Collective Storytelling: term1/08-Design Studio 01.03 - Narratives & Storytelling.md
       - Atlas of Weak Signals: term1/03-Atlas of Weak Signals.md
       - The Machine Paradox: term1/04-The Machine Paradox.md
       - Living with your own ideas: term1/05-Living with your own ideas.md
-      - Design Studio 01.01: term1/06-Design Studio 02 - Our first Intervention.md
-      - Documenting Design: term1/07-Documenting Design.md
+      - Bio Zero: term1/09-Bio Zero.md
+      - Agri Zero: term1/10-Agri Zero.md
+    
+      
   #- Term 2:
    #   - digi: Term 2/digi.md
    #   - studio: Term 2/studio.md
@@ -29,7 +34,7 @@ nav:
   #- Master project:
   #    - Initial ideas: project/project.md
   - Coding Support: Coding Support.md
-  #- Test Index: test index.md
+  - Test Index: test index.md
 
 
 
