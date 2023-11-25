@@ -30,7 +30,7 @@ To add rounded corners to images in your code, you can use html. Here's how you 
 -->
 
 ```html
-<img src="images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif" alt="arduino fan control testing" style="border-radius: 5px;">
+<img src="path/to/your/imgage.jpg" alt="img description here" style="border-radius: 5px;">
 ``` 
 <!--
 In this code:
@@ -50,8 +50,8 @@ if you want to place two images next to eachother on the page you can use the fo
 
 ```html
 <div class="image-container">
-    <img src="images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" alt="removing the casing" class="rounded-image">
-    <img src="images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" alt="Water conservation" class="rounded-image">
+    <img src="path/to/your/imgage.jpg" alt="removing the casing" class="img descripton here">
+    <img src="path/to/your/imgage.jpg" alt="Water conservation" class="img description here">
 </div>
 
 <style>
@@ -118,12 +118,12 @@ If you want to display multiple images on your page underneath eachother you can
 
 ```html
 <div class="image-grid">
-  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg" class="grid-item" alt="bottom casing">
-  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg" class="grid-item" alt="soldering 1">
-  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 02.jpg" class="grid-item portrait-image" alt="soldering 02">
-  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering PSU.jpg" class="grid-item" alt="soldering PSU">
-  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif" class="grid-item" alt="soldering Timelapse">
-  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif" class="grid-item" alt="cutting the base">
+  <img src="path/to/your/imgage.jpg" class="grid-item" alt="insert img description here">
+  <img src="path/to/your/imgage.jpg" class="grid-item" alt="insert img description here">
+  <img src="path/to/your/imgage.jpg" class="grid-item portrait-image" alt="insert img description here">
+  <img src="path/to/your/imgage.jpg" class="grid-item" alt="insert img description here">
+  <img src="path/to/your/imgage.jpg" class="grid-item" alt="insert img description here">
+  <img src="path/to/your/imgage.jpg" class="grid-item" alt="insert img description here">
   <!-- Add more images as needed -->
 </div>
 
