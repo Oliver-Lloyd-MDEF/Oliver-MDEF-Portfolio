@@ -15,14 +15,14 @@
         <link rel="canonical" href="https://oliver-lloyd-mdef.github.io/Oliver-MDEF-Portfolio/Coding%20Support.html">
       
       
-        <link rel="prev" href="term1/09-Bio%20Zero.html">
+        <link rel="prev" href="term1/10-Agri%20Zero.html">
       
       
         <link rel="next" href="test%20index.html">
       
       
       <link rel="icon" href="images/Logos/Circular Olive Branch logo.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.10">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.12">
     
     
       
@@ -584,6 +584,26 @@
 
               
             
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="term1/10-Agri%20Zero.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Agri Zero
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -656,6 +676,24 @@
   <a href="#round-the-corners-of-an-image" class="md-nav__link">
     <span class="md-ellipsis">
       Round the corners of an image
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#place-two-images-next-to-each-other" class="md-nav__link">
+    <span class="md-ellipsis">
+      Place two images next to each other
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-images-in-a-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      multiple images in a grid
     </span>
   </a>
   
@@ -885,39 +923,182 @@
 
 <h2 id="images-sizing-alignment-etc">Images (sizing, alignment, etc)<a class="headerlink" href="#images-sizing-alignment-etc" title="Permanent link">&para;</a></h2>
 <h3 id="round-the-corners-of-an-image">Round the corners of an image<a class="headerlink" href="#round-the-corners-of-an-image" title="Permanent link">&para;</a></h3>
-<figure style="overflow: hidden;">
-<p><img alt="Personal AoWS selection.jpg" src="images/03.%20Atlas%20of%20Weak%20Signals/Personal%20AoWS%20selection.jpg" style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px" /></p>
+<!--
+<figure markdown style="overflow: hidden;">
+![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
 <figcaption>Narrowing down the cards I wanted to focus on</figcaption>
 </figure>
-<p>To add rounded corners to images in your code, you can use CSS styles. Here&rsquo;s how you can modify your code to achieve this:</p>
+-->
+<p><img src="images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif" alt="arduino fan control testing" style="border-radius: 5px;"></p>
+<p>To add rounded corners to images in your code, you can use html. Here&rsquo;s how you can modify your code to achieve this:</p>
+<!--
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">figure</span> <span class="na">markdown</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;overflow: hidden;&quot;</span><span class="p">&gt;</span>
 ![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style=&quot;height: 250px; width: auto; border-radius: 10px; margin-right: 10px&quot;}
 <span class="p">&lt;</span><span class="nt">figcaption</span><span class="p">&gt;</span>Narrowing down the cards I wanted to focus on<span class="p">&lt;/</span><span class="nt">figcaption</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">figure</span><span class="p">&gt;</span>
 </code></pre></div>
-<p>In this code:</p>
-<ul>
-<li>The <code>&lt;figure&gt;</code> element has inline styles added for <code>border-radius</code> to create rounded corners. Adjust the <code>10px</code> value to control the radius of the corners.</li>
-<li>The <code>overflow: hidden;</code> style ensures that the content outside the rounded corners is hidden.</li>
-<li>The <code>![alt image text](path/to/your/image/here)</code> element is used to identify it as an image and where to find it.</li>
-<li>The <code>style</code> attribute sets the height of the image to <code>250px</code> while maintaining the aspect ratio (<code>width: auto;</code>). Leaving the width or height as <code>auto;</code> will make sure that the image scales properly if you adjust one or the other or will place the image into the website at full size.</li>
-<li>The <code>margin-right:</code> attribute sets the amount of distance on the right had side of the image exists between it and the following image, it can be changed to added space top, bottom or left side.</li>
-</ul>
+-->
+
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;images/04. The Machine Paradox/Photos &amp; Video/Day 3/Arduino fan testing.gif&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;arduino fan control testing&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;border-radius: 5px;&quot;</span><span class="p">&gt;</span>
+</code></pre></div>
+<!--
+In this code:
+
+- The `<figure>` element has inline styles added for `border-radius` to create rounded corners. Adjust the `10px` value to control the radius of the corners.
+- The `overflow: hidden;` style ensures that the content outside the rounded corners is hidden.
+- The `![alt image text](path/to/your/image/here)` element is used to identify it as an image and where to find it.
+- The `style` attribute sets the height of the image to `250px` while maintaining the aspect ratio (`width: auto;`). Leaving the width or height as `auto;` will make sure that the image scales properly if you adjust one or the other or will place the image into the website at full size.
+- The `margin-right:` attribute sets the amount of distance on the right had side of the image exists between it and the following image, it can be changed to added space top, bottom or left side.
+You can also adjust the image height and width by adjusting the values of `height:` and `width:`
+-->
+
 <p>You can adjust the <code>border-radius</code> value to make the corners more or less rounded according to your preference.</p>
-<p>You can also adjust the image height and width by adjusting the values of <code>height:</code> and <code>width:</code></p>
-<p>If you want to make sure multiple images placed next to eachother each have rounded corners follow the code below, remember that images my only align next to eachother if there is enough space, this can be achieved by adjusting the size of the image respectively.</p>
-<p><div class="highlight"><pre><span></span><code>&lt;figure markdown style=&quot;overflow: hidden;&quot;&gt;
+<h3 id="place-two-images-next-to-each-other">Place two images next to each other<a class="headerlink" href="#place-two-images-next-to-each-other" title="Permanent link">&para;</a></h3>
+<p>if you want to place two images next to eachother on the page you can use the following piece html:</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;image-container&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;images/04. The Machine Paradox/Photos &amp; Video/Day 1/Dissassembling/Casing Removal.GIF&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;removing the casing&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;rounded-image&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;images/04. The Machine Paradox/Photos &amp; Video/Day 1/Dissassembling/JPG/PSU removal.jpg&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;Water conservation&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;rounded-image&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+
+<span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+<span class="c">/* CSS Styles */</span>
+<span class="p">.</span><span class="nc">image-container</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">flex</span><span class="p">;</span><span class="w"> </span><span class="c">/* Use flexbox to align images horizontally */</span>
+<span class="w">    </span><span class="k">justify-content</span><span class="p">:</span><span class="w"> </span><span class="kc">space-between</span><span class="p">;</span><span class="w"> </span><span class="c">/* Add space between images */</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">image-container</span><span class="w"> </span><span class="nt">img</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="mi">48</span><span class="kt">%</span><span class="p">;</span><span class="w"> </span><span class="c">/* Adjust the width of images as needed */</span>
+<span class="w">    </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="kc">auto</span><span class="p">;</span><span class="w"> </span><span class="c">/* Maintain aspect ratio */</span>
+<span class="w">    </span><span class="k">object-fit</span><span class="p">:</span><span class="w"> </span><span class="kc">cover</span><span class="p">;</span><span class="w"> </span><span class="c">/* Ensure the image covers the container while maintaining aspect ratio */</span>
+<span class="w">    </span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="p">;</span><span class="w"> </span><span class="c">/* Add rounded corners to images */</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">rounded-image</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="p">;</span><span class="w"> </span><span class="c">/* Apply rounded corners to images with this class */</span>
+<span class="p">}</span>
+<span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+</code></pre></div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Right now this will display the images side by side on both desktop and mobile viewers, so even on a phone it&rsquo;ll still appear as a grid, I&rsquo;m working on adding mobile responsiveness to the code so that the images display underneath eachother when viewed on a mobile display.</p>
+</div>
+<p>e.g. </p>
+<div class="image-container">
+    <img src="images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" alt="removing the casing" class="rounded-image">
+    <img src="images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" alt="Water conservation" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+
+<h3 id="multiple-images-in-a-grid">multiple images in a grid<a class="headerlink" href="#multiple-images-in-a-grid" title="Permanent link">&para;</a></h3>
+<p>If you want to display multiple images on your page underneath eachother you can try putting them into a grid using html.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Right now this will display the images in a grid on both desktop and mobile viewers, so even on a phone it&rsquo;ll still appear as a grid, I&rsquo;m working on adding mobile responsiveness to the code so that the images display underneath eachother when viewed on a mobile display.</p>
+</div>
+<!--
+<div class="highlight"><pre><span></span><code>&lt;figure markdown style=&quot;overflow: hidden;&quot;&gt;
 ![<span class="nt">Personal AoWS selection.jpg</span>](<span class="na">images/03. Atlas of Weak Signals/Personal AoWS selection.jpg</span>){: style=&quot;height: 250px; width: auto; border-radius: 10px; margin-right: 10px&quot;}
 ![<span class="nt">Personal AoWS finalists.jpg</span>](<span class="na">images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg</span>){: style=&quot;height: 250px; width: auto; border-radius: 10px; margin-right: 10px&quot;}
 &lt;figcaption&gt;Narrowing down the cards I wanted to focus on&lt;/figcaption&gt;
 &lt;/figure&gt;
 </code></pre></div>
-e.g </p>
-<figure style="overflow: hidden;">
-<p><img alt="Personal AoWS selection.jpg" src="images/03.%20Atlas%20of%20Weak%20Signals/Personal%20AoWS%20selection.jpg" style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px" />
-<img alt="Personal AoWS finalists.jpg" src="images/03.%20Atlas%20of%20Weak%20Signals/Personal%20AoWS%20finalists.jpg" style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px" /></p>
+-->
+
+<p><div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;image-grid&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;images/04. The Machine Paradox/Photos &amp; Video/Week 2/Day 5/JPG/Bottom Casing.jpg&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;grid-item&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;bottom casing&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;images/04. The Machine Paradox/Photos &amp; Video/Week 2/Day 5/JPG/soldering 1.jpg&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;grid-item&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;soldering 1&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;images/04. The Machine Paradox/Photos &amp; Video/Week 2/Day 5/JPG/soldering 02.jpg&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;grid-item portrait-image&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;soldering 02&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;images/04. The Machine Paradox/Photos &amp; Video/Week 2/Day 5/JPG/soldering PSU.jpg&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;grid-item&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;soldering PSU&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;images/04. The Machine Paradox/Photos &amp; Video/Week 2/Day 5/Soldering Timelapse.gif&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;grid-item&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;soldering Timelapse&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;images/04. The Machine Paradox/Photos &amp; Video/Week 2/Day 5/Cutting the base.gif&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;grid-item&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;cutting the base&quot;</span><span class="p">&gt;</span>
+  <span class="cm">&lt;!-- Add more images as needed --&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+
+<span class="cm">&lt;!-- CSS Styles --&gt;</span>
+<span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+<span class="w">  </span><span class="c">/* Styles for the image grid container */</span>
+<span class="w">  </span><span class="p">.</span><span class="nc">image-grid</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="k">grid</span><span class="p">;</span>
+<span class="w">    </span><span class="k">grid-template-columns</span><span class="p">:</span><span class="w"> </span><span class="nf">repeat</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="n">fr</span><span class="p">);</span><span class="w"> </span><span class="c">/* Two columns */</span>
+<span class="w">    </span><span class="c">/*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/</span><span class="w"> </span><span class="c">/*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/</span>
+<span class="w">    </span><span class="n">grid-gap</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">    </span><span class="c">/* Additional grid container styles can be added here */</span>
+<span class="w">  </span><span class="p">}</span>
+
+<span class="w">  </span><span class="c">/* Styles for individual grid items (images) */</span>
+<span class="w">  </span><span class="p">.</span><span class="nc">grid-item</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+<span class="w">    </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="kc">auto</span><span class="p">;</span>
+<span class="w">    </span><span class="k">object-fit</span><span class="p">:</span><span class="w"> </span><span class="kc">cover</span><span class="p">;</span>
+<span class="w">    </span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="p">;</span><span class="w"> </span><span class="c">/* Add rounded corners to images */</span>
+<span class="w">    </span><span class="c">/* Additional styles for grid items can be added here */</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="c">/* Styles for portrait images */</span><span class="w"> </span><span class="c">/*apply this class to any portrait photo in a grid to crop it to landscape: class=&quot;grid-item portrait-image&quot; */</span>
+<span class="p">.</span><span class="nc">portrait-image</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">object-position</span><span class="p">:</span><span class="w"> </span><span class="kc">center</span><span class="w"> </span><span class="kc">middle</span><span class="p">;</span><span class="w"> </span><span class="c">/* Adjust this property to control the cropping of portrait images */</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+</code></pre></div>
+e.g. </p>
+<!--<figure markdown style="overflow: hidden;">
+![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px"}
+![Personal AoWS finalists.jpg](images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg){: style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px"}
 <figcaption>Narrowing down the cards I wanted to focus on</figcaption>
-</figure>
+</figure> -->
+<div class="image-grid">
+  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg" class="grid-item" alt="bottom casing">
+  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg" class="grid-item" alt="soldering 1">
+  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 02.jpg" class="grid-item portrait-image" alt="soldering 02">
+  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering PSU.jpg" class="grid-item" alt="soldering PSU">
+  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif" class="grid-item" alt="soldering Timelapse">
+  <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif" class="grid-item" alt="cutting the base">
+  <!-- Add more images as needed -->
+</div>
+
+<!-- CSS Styles -->
+<style>
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
+
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; /* Add rounded corners to images */
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+.portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
+</style>
+
 <h2 id="text-alignment-font-size-etc">Text (alignment, font size, etc)<a class="headerlink" href="#text-alignment-font-size-etc" title="Permanent link">&para;</a></h2>
 <h3 id="create-a-callout-box">Create a callout box:<a class="headerlink" href="#create-a-callout-box" title="Permanent link">&para;</a></h3>
 <p>In Markdown, you can create a callout box or highlight within a text paragraph using different techniques, depending on the features supported by the Markdown processor or the specific flavor of Markdown you are using. Here are a few common methods to create callout boxes or highlights:</p>
@@ -1087,7 +1268,7 @@ Which when done right, should then look like this: </p>
 <br>
 This is how you dropdown.
 </details>
-
+<hr />
 <details>
 <summary>Heading</summary>
 <!--All you need is a blank line-->
@@ -1097,7 +1278,7 @@ This is how you dropdown.
         + nested list 2
     + markdown list 2
 </details>
-
+<hr />
 <details>
   <summary>Click to expand</summary>
 
@@ -1106,6 +1287,7 @@ This is how you dropdown.
   You can include **Markdown** *formatted* content within the collapsible section.
 </details>
 
+<hr />
 <div class="custom-collapsible">
     <div class="collapsible-header">
         Click to expand
@@ -1147,7 +1329,7 @@ document.querySelectorAll('.collapsible-header').forEach(function(header) {
     });
 });
 </script>
-
+<hr />
 <div class="custom-collapsible">
     <div class="collapsible-header">
         ▶ Click to expand
@@ -1197,7 +1379,7 @@ document.querySelectorAll('.collapsible-header').forEach(function(header) {
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 19, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 25, 2023</span>
       
     
   </small>
