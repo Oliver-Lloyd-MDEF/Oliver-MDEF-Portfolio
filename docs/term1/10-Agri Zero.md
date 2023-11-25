@@ -121,41 +121,58 @@ The task for the next few weeks is to try to germinate some seeds that would be 
 Grow a small food forest in our classroom, perhaps? 🌲
 
 <!-- add images here of the soil experiments -->
-
-<div class="image-grid">
-  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil test closeup.jpg" class="grid-item" alt="soil test closeup">
-  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil seperation.jpg" class="grid-item portrait-image" alt="soil seperation">
-  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil identification exercise 1.jpg" class="grid-item" alt="soil identification exercise 1">
-  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil identification exercise 2.jpg" class="grid-item" alt="soil identification exercise 2">
-  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil identification exercise 3.jpg" class="grid-item" alt="soil identification exercise 3">
-  <!-- Add more images as needed -->
+---
+<div class="image-container">
+    <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil test closeup.jpg" alt="soil test closeup" class="rounded-image">
+    <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil identification exercise 1.jpg" alt="soil identification exercise 1" class="rounded-image">
 </div>
 
-<!-- CSS Styles -->
 <style>
-  /* Styles for the image grid container */
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
-    grid-gap: 10px;
-    /* Additional grid container styles can be added here */
-  }
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
 
-  /* Styles for individual grid items (images) */
-  .grid-item {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
     border-radius: 5px; /* Add rounded corners to images */
-    /* Additional styles for grid items can be added here */
-  }
-  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
-.portrait-image {
-    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
-  }
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
 </style>
 
+<img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil identification exercise 2.jpg" alt="soil identification exercise 2" style="border-radius: 5px;">
+
+<div class="image-container">
+    <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil identification exercise 3.jpg" alt="soil identification exercise 3" class="rounded-image">
+    <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil seperation.jpg" alt="soil seperation" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+
+---
 ### Distilling essential oils
 
 Finally, we attempted to make some essential oil from the collected laurel leaves.
@@ -175,40 +192,62 @@ Now I completely understand why essential oils are so expensive!
 This week has been really interesting and opened my eyes to understanding how agriculture is so integral to our societies, and helped me to understand why it’s so important to make sure that the agriculture that we do is regenerative, focusing on a healthy symbiotic relationship with the planet and the ecosystems around us, to make sure that we can continue to grow healthy food without the need for a continuous stream of chemical pesticides. 
 
 <!-- add images here of the essential oil distilling and link to the video Nicolo made -->
-
-<div class="image-grid">
-  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/laurel leaves pile.jpg" class="grid-item" alt="collected laurel leaves">
-  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/Distiller.jpg" class="grid-item portrait-image" alt="distiller">
-  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/distiller closeup gif.gif" class="grid-item" alt="distiller closeup gif">
-  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/titration vessel.jpg" class="grid-item" alt="titration vessel">
-  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/collected oil.jpg" class="grid-item" alt="collected oil">
-  <!-- Add more images as needed -->
+---
+<div class="image-container">
+    <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/laurel leaves pile.jpg" alt="laurel leaves pile" class="rounded-image">
+    <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/Distiller.jpg" alt="distiller" class="rounded-image">
 </div>
 
-<!-- CSS Styles -->
 <style>
-  /* Styles for the image grid container */
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
-    grid-gap: 10px;
-    /* Additional grid container styles can be added here */
-  }
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
 
-  /* Styles for individual grid items (images) */
-  .grid-item {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
     border-radius: 5px; /* Add rounded corners to images */
-    /* Additional styles for grid items can be added here */
-  }
-  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
-.portrait-image {
-    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
-  }
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
 </style>
+
+<img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/distiller closeup gif.gif" alt="distiller closeup gif" style="border-radius: 5px;">
+
+<div class="image-container">
+    <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/titration vessel.jpg" alt="titration vessel" class="rounded-image">
+    <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/collected oil.jpg" alt="collected oil" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+
+---
+
+You can see the entire distilling process in this video made by one of my class mates Nicolo Baldi:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1yX_C6PKxl8?si=AE5tVLCq6S3zovy2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Final Thoughts
 
