@@ -11,6 +11,38 @@ I'd known about regenerative agriculture and what it could do in terms of creati
 He mentioned some really interesting books like Small is Beautiful, which is all about how many small-scale solutions can make a big positive impact on society as a whole. 
 
 <!-- add images here of the lecture  -->
+<div class="image-grid">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/01. Tuesday/digital twin of plants.jpg" class="digital twin of plants" alt="soldering 02">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/01. Tuesday/modes of agriculture.jpg" class="grid-item" alt="modes of agriculture">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/01. Tuesday/regenerative soil slide.jpg" class="grid-item" alt="regenerative soil slide">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/01. Tuesday/sustainable systems slide 1.jpg" class="grid-item" alt="sustainable systems slide 1">
+  <!-- Add more images as needed -->
+</div>
+
+<!-- CSS Styles -->
+<style>
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
+
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; /* Add rounded corners to images */
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+.portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
+</style>
 
 ## Wednesday - From old ecosystems to new
 
@@ -21,6 +53,40 @@ We then spent a day up at the Valldaura campus of the university up in the hills
 We were encouraged to stop and photograph different plants from different angles, insects, and other life forms to show us that even in an area that can be seen as quite small, there is a huge change in the environment as you head further and further up the mountains. This allowed us to see how these ecosystems, known as ecotones, interact with each other, which was cool to see and wasn’t something that I usually give much thought to, so I’m happy I could understand the interconnections between ecologies a bit more. 
 
 <!--add images here of some of the different plants and ecosystems observed -->
+<div class="image-grid">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/02. Wednesday/first plant.JPG" class="grid-item" alt="first plant">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/02. Wednesday/plant 2.JPG" class="grid-item" alt="plant 2">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/02. Wednesday/plant 3.JPG" class="grid-item portrait-image" alt="plant 3">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/02. Wednesday/plant 4.JPG" class="grid-item" alt="plant 4">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/02. Wednesday/plant 5.JPG" class="grid-item" alt="plant 5">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/02. Wednesday/plant 6.JPG" class="grid-item" alt="plant 6">
+  <!-- Add more images as needed -->
+</div>
+
+<!-- CSS Styles -->
+<style>
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
+
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; /* Add rounded corners to images */
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+.portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
+</style>
 
 ### Valldaura Campus
 
@@ -56,6 +122,40 @@ Grow a small food forest in our classroom, perhaps? 🌲
 
 <!-- add images here of the soil experiments -->
 
+<div class="image-grid">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil test closeup.jpg" class="grid-item" alt="soil test closeup">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil seperation.jpg" class="grid-item portrait-image" alt="soil seperation">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil identification exercise 1.jpg" class="grid-item" alt="soil identification exercise 1">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil identification exercise 2.jpg" class="grid-item" alt="soil identification exercise 2">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/soil identification exercise 3.jpg" class="grid-item" alt="soil identification exercise 3">
+  <!-- Add more images as needed -->
+</div>
+
+<!-- CSS Styles -->
+<style>
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
+
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; /* Add rounded corners to images */
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+.portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
+</style>
+
 ### Distilling essential oils
 
 Finally, we attempted to make some essential oil from the collected laurel leaves.
@@ -75,6 +175,40 @@ Now I completely understand why essential oils are so expensive!
 This week has been really interesting and opened my eyes to understanding how agriculture is so integral to our societies, and helped me to understand why it’s so important to make sure that the agriculture that we do is regenerative, focusing on a healthy symbiotic relationship with the planet and the ecosystems around us, to make sure that we can continue to grow healthy food without the need for a continuous stream of chemical pesticides. 
 
 <!-- add images here of the essential oil distilling and link to the video Nicolo made -->
+
+<div class="image-grid">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/laurel leaves pile.jpg" class="grid-item" alt="collected laurel leaves">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/Distiller.jpg" class="grid-item portrait-image" alt="distiller">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/distiller closeup gif.gif" class="grid-item" alt="distiller closeup gif">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/titration vessel.jpg" class="grid-item" alt="titration vessel">
+  <img src="../images/07. Bio & Agri Zero/Agri Zero/03. Thursday/collected oil.jpg" class="grid-item" alt="collected oil">
+  <!-- Add more images as needed -->
+</div>
+
+<!-- CSS Styles -->
+<style>
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
+
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; /* Add rounded corners to images */
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+.portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
+</style>
 
 ## Final Thoughts
 
