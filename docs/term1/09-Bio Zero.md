@@ -19,13 +19,38 @@ I think it’s pretty important to remember that we are stewards of our planet a
 
 The afternoon practical introduced the group to the microscopic world and the wonders of that tiny universe that lies just out of sight. The exercise was for everyone to try to understand the complexity hidden in just one drop of pond water on a glass slide and how these basic organisms form some of the organics we rely on every day. As a bonus, they are really quite beautiful to look at 😃
 
-![IMG_0971.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/2b0302d7-2414-41ff-a742-549f9e409dc1/7c20c60c-c4ef-42e3-820b-76f008a2a6c8/IMG_0971.jpeg)
+<div class="image-grid">
+  <img src="../images/07. Bio & Agri Zero/Bio Zero/Microscope images/IMG_0971.jpeg" class="grid-item" alt="Microscope 1">
+  <img src="../images/07. Bio & Agri Zero/Bio Zero/Microscope images/IMG_0988.jpeg" class="grid-item" alt="Microscope 2">
+  <img src="../images/07. Bio & Agri Zero/Bio Zero/Microscope images/IMG_7236.jpeg" class="grid-item" alt="Microscope 3">
+  <img src="../images/07. Bio & Agri Zero/Bio Zero/Microscope images/IMG_7242.jpeg" class="grid-item" alt="Microscope 4">
+  <!-- Add more images as needed -->
+</div>
 
-![IMG_7236.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/2b0302d7-2414-41ff-a742-549f9e409dc1/78ee23d6-227f-4578-83fe-65ad6761df44/IMG_7236.jpeg)
+<!-- CSS Styles -->
+<style>
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-![IMG_7242.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/2b0302d7-2414-41ff-a742-549f9e409dc1/3489c814-bf28-435d-a883-214b6cdbcd3c/IMG_7242.jpeg)
-
-![IMG_0988.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/2b0302d7-2414-41ff-a742-549f9e409dc1/fcfbefe6-d30c-432a-8d95-62518162c623/IMG_0988.jpeg)
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; /* Add rounded corners to images */
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+.portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
+</style>
 
 ## Gene Editing & Spirulina
 
