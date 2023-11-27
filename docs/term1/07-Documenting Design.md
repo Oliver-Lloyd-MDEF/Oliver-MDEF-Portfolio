@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## Starting from scratch
 
 Our first lesson in documenting design started with an introduction to storytelling. Our teacher, Pablo (*a former MDEF student himself and creative lead at an advertising agency in a past life*) introduced us to the importance of storytelling, even when it’s just documenting what we’ve been doing in our day-to-day classes. To write for an audience, making for an engaging story that readers would want to carry on reading and come back for more each week. A real hero’s journey. 
@@ -31,3 +35,8 @@ I’m glad I stuck to trying to learn how to build this documentation site from 
 Every day, I get distracted by another little tweak I could make here or an image styling update there to get the site to look exactly as I want, something I feel is going to continue throughout the entire year (**hopefully, it doesn’t distract me too much from the actual work we are doing but oh well…that means that you are starting to have fun with it** 😃) 
 
 **For now I think I’m happy with how it looks, just a few more image tweaks to try and solve….**
+
+---
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+
+---

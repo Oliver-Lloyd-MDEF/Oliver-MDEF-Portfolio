@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 For the past week, we have been immersed in Biology Zero Taught by Nuria Conde. A series of lectures and practical experiments focusing on exploring and understanding the basic building blocks of life that make up the world we live in into the complexities of multi-celled lifeforms. and how those building blocks can be changed and edited through new technologies such as Crispr-Cas9 to make new and exciting changes that could benefit life on spaceship Earth. 
 
 > Unfortunately for me, I was away this entire week and so unable to attend all my classes, but my classmates very kindly offered to catch me up on what I’d missed in person (**thank you, Carlotta, for your notes** 😅) as well as allow me to stream into one of the classes live via video call to see what was going on during a practical. What follows is my understanding and interpretation of what we learned (*or what I was supposed to learn*).
@@ -155,3 +159,8 @@ Zhang, C.-J., Pan, J., Liu, Y., Duan, C.-H. and Li, M. (2020). Genomic and trans
 [https://www.mdpi.com/1422-0067/21/5/1680](https://www.mdpi.com/1422-0067/21/5/1680)
 
 [https://academic.oup.com/jxb/article/54/393/2601/503903](https://academic.oup.com/jxb/article/54/393/2601/503903)
+
+---
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+
+---

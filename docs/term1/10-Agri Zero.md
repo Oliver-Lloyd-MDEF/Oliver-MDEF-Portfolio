@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## Agri - Zero week
 
 This week, we participated in Agri Zero week, where we learned about different forms of agriculture and how the integration of technology can make modern agriculture sustainable, easier and regenerative for the ecosystems we farm in. We were introduced to Jonathan Minchin, an architect by training and now an expert in agricultural technology, who explained to us the various methods of agriculture and how technology can be used to make it more efficient and ecologically regenerative. We then visited the Valldaura campus in the Collserolla forest in the hills surrounding the city of Barcelona and engaged in a bit of citizen science using the iNaturalist app to understand different ecosystems present in the forest as we moved up in elevation towards the campus. We also learned about soil health and the importance of monitoring it for effective food production.
@@ -256,3 +260,8 @@ It made me think a lot about what we could do with technology and design to crea
 The potential for technology to change systems for the better is enormous; we just have to make sure we do it right. 
 
 I don’t have the answers, but it’s definitely a field worth exploring. 😃
+
+---
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+
+---

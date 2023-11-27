@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Markdown Tech Support
 
 ---
@@ -50,8 +54,8 @@ if you want to place two images next to eachother on the page you can use the fo
 
 ```html
 <div class="image-container">
-    <img src="path/to/your/imgage.jpg" alt="removing the casing" class="img descripton here">
-    <img src="path/to/your/imgage.jpg" alt="Water conservation" class="img description here">
+    <img src="path/to/your/imgage.jpg" alt="insert img description here" class="rounded-image">
+    <img src="path/to/your/imgage.jpg" alt="insert img description here" class="rounded-image">
 </div>
 
 <style>
@@ -547,3 +551,5 @@ document.querySelectorAll('.collapsible-header').forEach(function(header) {
 });
 </script>
 
+---
+**If you've found this guide useful in any way, or think there is anything else I should add, please leave a comment down below! 👇**

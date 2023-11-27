@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 This past week we completed our module “Living with your own ideas” taught by [Oscar Tomico, Kristina Andersen and Angella Mackey](https://mdef.fablabbcn.org/2023-24/year-1/t1/living-with-your-own-ideas/#faculty). Over the course of 4 days we had took part in two different workshops, designed to show us what it means to be an active participant with a “boots on the ground” approach to the testing and executing of our own ideas and theories, rather than just hypothesis from an outside perspective. 
 
 ## Magic Machines
@@ -190,4 +194,8 @@ First person perspective is definitely a useful tool in the designers toolkit, a
 
 Finally, being able to see the work of my classmates, their explorations into different subject matters was an incredible experience and opportunity to get to know them on a much more creative level, with areas of research from maximising learning in VR to adapting to a world of surveillance capitalism, they all presented really cool opportunities for collaboration and I’m excited to work together with them in areas that I have no knowledge in whatsoever, and see what kind of cool shit we can come up.
 
+---
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+
+---
 

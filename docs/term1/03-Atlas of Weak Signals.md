@@ -1,6 +1,7 @@
 ---
 hide:
     - toc
+comments: true
 ---
 
 # Atlas of Weak Signals
@@ -194,6 +195,10 @@ I much prefer creating these sorts of diagrams and working from them as they let
 ### You can take a more detailed look at these design spaces here:
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVNcGhU5Y=/?moveToViewport=-4867,-4812,22559,23229&embedId=417662880878" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
+---
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+
+---
   
 
 

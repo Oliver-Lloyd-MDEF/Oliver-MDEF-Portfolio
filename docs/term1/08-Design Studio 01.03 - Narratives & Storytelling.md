@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## Narrative & Storytelling - Design Studio Sessions ##
 
 This class started with an introduction to storytelling from our teacher (and third lead of the MDEF programme), Laura Benitez. 
@@ -22,3 +26,8 @@ It was a weird exercise but still very cool and strange to take part in an exerc
 **You can read and try to make sense of our collective narrative here.** 👇
 
 [Collective Narrative](https://pad.riseup.net/p/r.191b285ac7f05571bdbdbd861fc19c67?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false){ .md-button .md-button--primary }
+
+---
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+
+---

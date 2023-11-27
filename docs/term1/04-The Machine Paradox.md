@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 We are constantly surrounded by a paradigm of interfaces, old interfaces being replaced by new ones. 
 
 *i.e a simple light switch being replaced by a natural language processer like Alexa connected to the light bulb itself*
@@ -250,3 +254,7 @@ That’s what I think this module is really designed to do, to shape the way we 
 
 ![I am Magnetron.jpg](<../images/04. The Machine Paradox/Photos & Video/I am Magetron.jpg>){: style="height: auto; width: auto; border-radius: 10px; "}
 
+---
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+
+---

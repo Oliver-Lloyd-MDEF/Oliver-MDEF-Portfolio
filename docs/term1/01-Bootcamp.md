@@ -1,6 +1,7 @@
 ---
 hide:
     - toc
+comments: true
 ---
 
 # Bootcamp - Landing Week
@@ -141,3 +142,8 @@ We visited the Elisava campus and received an introduction to the facilities. It
 <img src="../images/01. Landing Week/Elisava Printroom intro.jpg" alt="elisava print room" style="border-radius: 5px;">
   <figcaption>Intro lecture to the Elisava graphics room</figcaption>
 </figure>
+
+---
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+
+---

@@ -1,6 +1,7 @@
 ---
 hide:
     - toc
+comments: true
 ---
 # Roles of Prototyping in First Person Person Perspective (1PP) Research through Design
 
@@ -131,3 +132,8 @@ As I've learned and developed as a designer, I've alwasy had various tools, meth
 
 *Feel free to scroll through the live embed of the toolkit to get a closer look at the sections.*
 <iframe width="768" height="432" src="https://miro.com/app/embed/uXjVNcGhU5Y=/?pres=1&frameId=3458764566950516999&embedId=94292652423" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+---
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+
+---

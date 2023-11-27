@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## **Intro**
 
 Our second design studio class was led by Jana and Roger. In this session, we developed a collective physical design space where we placed printouts that reflected some of the topics we were most interested in exploring and learning more about. This then led to us forming smaller groups based around shared interests in which we would work towards creating a pilot design intervention that we would implement out in the real world.
@@ -203,3 +207,7 @@ Take a look at the video below to learn a bit more about how we created this fir
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/Dbv4nmGdHDs?si=b40Knt8vFOFgAxG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 5px;"></iframe>
 
+---
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+
+---
