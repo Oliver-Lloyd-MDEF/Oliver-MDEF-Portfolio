@@ -552,9 +552,9 @@ document.querySelectorAll('.collapsible-header').forEach(function(header) {
 </script>
 
 ---
+## Comments
 **If you've found this guide useful in any way, or think there is anything else I should add, please leave a comment down below! 👇**
 
----
 
 
 
