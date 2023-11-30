@@ -1,117 +1,44 @@
-{#-
-  This file was automatically generated - do not edit
--#}
-{% extends "main.html" %}
+# Welcome to my MDEF Documentation
 
-{% block tabs %}
-{{ super() }}
-<style>
-  /* Global Styles */
-  .md-header { position: initial }
-  .md-main__inner { margin: 0 }
-  .md-content { display: none }
-
-  /* Responsive Sidebar */
-  @media screen and (min-width: 60em) {
-      .md-sidebar--secondary { display: none }
-  }
-
-  @media screen and (min-width: 76.25em) {
-      .md-sidebar--primary { display: none }
-  }
-</style>
-
-<section class="mdx-container">
-  <div class="md-typeset">
-    <style>
-      /* Hero Section Styles */
-      .mdx-hero {
-        margin-left: 0;
-        margin-right: 0;
-        max-width: auto;
-        position: relative;
-      }
-
-      /* Responsive Adjustment for Small Screens */
-      @media screen and (max-width: 767px) {
-        .mdx-hero__content {
-          top: 50px; /* Adjust top margin for smaller screens */
-        }
-      }
-
-      /* Hero Image Styles */
-      .mdx-hero__image {
-          width: 100%; /* Ensure the image takes up 100% of the container width */
-          height: 100vh; /* Set the height of the image to 100% of the viewport height */
-          background-size: cover; /* Ensure the background image covers the entire element */
-          background-position: center; /* Center the background image within the element */
-          position: relative;
-          overflow: hidden; /* Hide any overflowing content */
-          transition: background-color 0.5s ease; /* Add smooth transition for background color change */
-      }
-      .mdx-hero__image img {
-        width: 100%; /* Ensure the image takes up 100% of the container width */
-        height: auto; /* Maintain aspect ratio */
-        display: block; /* Remove extra space below inline images */
-        object-fit: cover; /* Ensure the image covers the entire container, maintaining aspect ratio */
-      }
-
-      /* Media query for mobile devices */
-      @media screen and (max-width: 767px) {
-          /* Mobile-only background image */
-          .mdx-hero__image {
-              background-image: url('images/background images/cows in wind farm field update 01.gif');
-              background-size: cover;
-              height: 100vh;
-              background-position: center;
-          }
-      /* Responsive Adjustment for Small Screens */
-          .mdx-hero__content {
-            top: 10px; /* Adjust top margin for smaller screens */
-          }    
-          
-      }
-    </style>
-
-    <!-- Hero Section -->
-    <div class="mdx-hero">
-      <div class="mdx-hero__image" id="heroImage">
-        <!-- Add your clickable blocks here -->
-        <div class="block block1">
-          <a href="#block1-link">Block 1</a>
-          <div class="block-text">Description of Block 1</div>
-        </div>
-        <div class="block block2">
-          <a href="#block2-link">Block 2</a>
-          <div class="block-text">Description of Block 2</div>
-        </div>
-        <!-- Add more blocks as needed -->
-
-        <!-- Scroll indicator -->
-        <div class="scroll-indicator">Scroll down</div>
-      </div>
+<div style="display:flex; width: 100%; align-items: flex-start; align-content: flex-start; gap: 10px; flex-wrap:wrap;">
+    <div style="box-shadow: 2px 2px 0px 3px #181040;; display: flex; padding: 10px; flex-direction: column; align-items: flex-start; gap: 10px; width: 40%; height: 100%; object-fit: cover; background-color: rgb(255,255,255)" >
+    <h2>About Me</h2>
+    Where I come from and who I am
+    <a style="color: rgb(88, 28, 167); font-weight: bold;" href="https://marius-schairer.github.io/MDEF_Documentation/about/me/">see more</a>
     </div>
-    <script>
-      // JavaScript to handle the scroll effect
-      document.addEventListener('DOMContentLoaded', function () {
-        var heroImage = document.getElementById('heroImage');
-        var scrollIndicator = document.querySelector('.scroll-indicator');
-
-        window.addEventListener('scroll', function () {
-          var scrollPercentage = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
-
-          // Adjust the background color based on scroll position
-          var backgroundColor = `rgba(255, 255, 255, ${scrollPercentage / 100})`;
-          heroImage.style.backgroundColor = backgroundColor;
-
-          // Show/hide scroll indicator based on scroll position
-          scrollIndicator.style.opacity = 1 - scrollPercentage / 100;
-        });
-      });
-    </script>
-  </div>
-</section>
-{% endblock %}
-
-{% block content %}{% endblock %}
-{% block footer %}{% endblock %}
+    <div style="border: 4px solid rgba(0, 0, 0, 0.20); display: flex; padding: 10px; flex-direction: column; align-items: flex-start; gap: 10px; width: 40%; height: 100%; object-fit: cover; background-color: rgb(255,255,255)">
+    <h2>Landing</h2>
+    The first week at IaaC. 
+    <a style="color: rgb(88, 28, 167); font-weight: bold;" href="https://marius-schairer.github.io/MDEF_Documentation/term1/Landing/landing/">see more</a>
+    </div>
+    <div style="border: 4px solid rgba(0, 0, 0, 0.20); display: flex; padding: 10px; flex-direction: column; align-items: flex-start; gap: 10px; width: 40%; height: 100%; object-fit: cover; background-color: rgb(255,255,255)" >
+    <h2>Documenting Design</h2>
+    How to Document Design
+    <a style="color: rgb(88, 28, 167); font-weight: bold;" href="https://marius-schairer.github.io/MDEF_Documentation/">see more</a>
+    </div>
+    <div style="border: 4px solid rgba(0, 0, 0, 0.20); display: flex; padding: 10px; flex-direction: column; align-items: flex-start; gap: 10px; width: 40%; height: 100%; object-fit: cover; background-color: rgb(255,255,255)">
+    <h2>Roles of Prototyping</h2>
+    4 different prototyping approaches
+    <a style="color: rgb(88, 28, 167); font-weight: bold;" href="https://marius-schairer.github.io/MDEF_Documentation/term1/Design/DesignStudio01/">see more</a>
+    </div>
+    <div style="border: 4px solid rgba(0, 0, 0, 0.20); display: flex; padding: 10px; flex-direction: column; align-items: flex-start; gap: 10px; width: 40%; height: 100%; object-fit: cover; background-color: rgb(255,255,255)">
+    <h2>Atlas of Week Signals</h2>
+    My personal design space 
+    <a style="color: rgb(88, 28, 167); font-weight: bold;" href="https://marius-schairer.github.io/MDEF_Documentation/term1/Design/AtlasofWeakSignals/">see more</a>
+    </div>
+    <div style="border: 4px solid rgba(0, 0, 0, 0.20); display: flex; padding: 10px; flex-direction: column; align-items: flex-start; gap: 10px; width: 40%; height: 100%; object-fit: cover; background-color: rgb(255,255,255)">
+    <h2>The Machine Paradox</h2>
+    A group prototyping work 
+    <a style="color: rgb(88, 28, 167); font-weight: bold;" href="https://marius-schairer.github.io/MDEF_Documentation/term1/Design/MachineParadox/md">see more</a>
+    </div>
+    <div style="border: 4px solid rgba(0, 0, 0, 0.20); display: flex; padding: 10px; flex-direction: column; align-items: flex-start; gap: 10px; width: 40%; height: 100%; object-fit: cover; background-color: rgb(255,255,255)">
+    <h2>Collective Design Space</h2>
+    A first group intervention about undergounds air pollution
+    <a style="color: rgb(88, 28, 167); font-weight: bold;" href="https://marius-schairer.github.io/MDEF_Documentation/term1/Design/CollectiveDesignSpace/">see more</a>
+    </div>
+    <div style="border: 4px solid rgba(0, 0, 0, 0.20); display: flex; padding: 10px; flex-direction: column; align-items: flex-start; gap: 10px; width: 40%; height: 100%; object-fit: cover; background-color: rgb(255,255,255)">
+    <h2>Living With Your Own Ideas</h2>
+    My experiment from the first-person perspective
+    <a style="color: rgb(88, 28, 167); font-weight: bold;" href="https://marius-schairer.github.io/MDEF_Documentation/term1/Design/LwYoI/">see more</a>
+    </div>
+</div>
