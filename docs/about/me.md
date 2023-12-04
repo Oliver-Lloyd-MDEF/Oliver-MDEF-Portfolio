@@ -78,5 +78,45 @@ Take a look at some of my previous product design experience here!
 ---
 ![Vector illustration of Amsterdam](../images/Home%20Town/A3%20Amsterdam%20Poster.jpg){: style="height: auto; width: auto; border-radius: 10px; margin-right: 0px"} 
 
+<!-- Below is how you hoverable cards in markdown
 
+<div class="grid cards" markdown>
+
+-   __Landing Week__
+
+    ---
+
+    Install [`mkdocs-material`](#) with [`pip`](#) and get up
+    and running in minutes
+
+    [--- Find out more](path to page site){: .md-button .md-button--primary }
+
+-    __Documenting Design__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [-- Find out more](path to page site)
+
+-   __Atlas of Weak Signals__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+    ![AoWS group work](<../images/03. Atlas of Weak Signals/AoWS group work 3.jpg>)
+
+    [-- Find out more](path to page site)
+
+-   __The Machine Paradox__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [-- Find out more](path to page site)
+
+</div>
+
+-->
 
