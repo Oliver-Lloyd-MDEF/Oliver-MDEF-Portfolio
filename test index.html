@@ -296,6 +296,11 @@
       width: 100%;
       height: auto;
     }
+
+    .header img.mobile-image {
+      display: none; /* don't show mobile image on desktop screens */
+    }
+
     .header .title {
       position: absolute;
       top: 30%;
@@ -352,7 +357,7 @@
 
     .banner .button:hover {
       transform: scale(1.05); /* Scale up by 5% on hover */
-}
+    }
 
     .banner img {
       max-width: 400px; /* Adjust the max-width of the image */
@@ -410,15 +415,16 @@
     }
         
     /* Media Queries for responsive design */
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /* Mobile styles */
 
-    .desktop-image {
-      display: none;
+    /* Header */
+    .header img.desktop-image {
+      display: none; /* Hide desktop image on smaller screens */
     }
 
-    .mobile-image {
-      display: block;
+    .header img.mobile-image {
+      display: block; /* Show mobile image on smaller screens */
       width: 100%;
       height: auto;
     }
@@ -429,40 +435,81 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: rgb(49, 64, 28, 1);
-      font-size: 30px;
-      text-align: center;
+      font-size: 18px;
     }
 
     .subtitle {
       position: absolute;
-      top: 70%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: rgb(49, 64, 28, 1);
-      font-size: 20px;
+      font-size: 22px;
+    }
+
+   /* Banner - Arrange content in a single column */
+   .banner {
+    height: auto;
+    display: block;
+    align-items: center;
+  }
+
+  .banner .text-content {
+    padding: 20px;
+    text-align: center;
+    order: 1;
+  }
+
+  .banner .text-content p {
+    margin: 20px; /* Adjust the margin for better mobile spacing */
+  }
+
+
+   .banner .button {
+      display: block;
+      width: fit-content;
+      padding: 15px 20px;
+      border-radius: 5px;
+      background-color: #8E3418;
+      color: white;
+      text-decoration: none;
       text-align: center;
+      margin-top: 5px;
+      margin-left: 20%;
+      font-size: 16px; /* Adjust the font size */
+      transition: transform 0.2s ease-in-out; /* Adding transition for smooth effect */
     }
-  }
 
-      /* Realign banner and grids to display in a single column */
-      .banner, .card-grid {
-        width: 100%; /* Adjust widths for responsiveness */
-        /* Other styles to stack them in one column */
-      }
-      @media screen and (min-width: 769px) {
-    /* Desktop styles */
-
-    .mobile-image {
-      display: none;
+    .banner .button:hover {
+      transform: scale(1.05); /* Scale up by 5% on hover */
     }
+
+    .banner img {
+    display: none;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    order: 3;
   }
+}
+        
+    /* Card Grid Media query for mobile */
+@media screen and (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr; /* Display in a single column on mobile */
+    padding: 20px; /* Adjust padding for better mobile layout */
+  }
+    .card {
+      margin-bottom: 20px; /* Add space between cards */
+    }
+}
+  
+
   </style>
 </head>
 <body>
   <!-- Header with image and title overlay -->
   <div class="header">
-    <img src="images/background images/Solarpunk wallpaper video 1.gif" alt="Header Image">
+    <img src="images/background images/Solarpunk wallpaper video 1.gif" alt="Header Image" class="desktop-image">
     <img src="images/background images/cows in wind farm field.gif" alt="Header Image" class="mobile-image">
     <div class="title">Welcome to my MDEF documentation!</div>
 
@@ -480,7 +527,8 @@
             For me, that's the best way to make a positive impact as we take the next leap into the future.
             <br>
             <br>
-            Currently, I am studying the Masters in Design for Emergent Futures program at IAAC and Elisava Design School. I'm excited to have the chance to expand my skills in this next step of my studies, focusing on designing with an impact on sustainability, the circular economy, regenerative design, and taking a leap into the near future. </p>
+            Currently, I am studying the Masters in Design for Emergent Futures program at IAAC and Elisava Design School. I'm excited to have the chance to expand my skills in this next step of my studies, focusing on designing with an impact on sustainability, the circular economy, regenerative design, and taking a leap into the near future. 
+          </p>
             <a href="https://www.oliverlloyddesign.co.uk/" class="button">Check out my portfolio here!</a>
         </div>
         <div>
