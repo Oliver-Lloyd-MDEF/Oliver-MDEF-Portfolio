@@ -175,14 +175,20 @@
    /* Banner - Arrange content in a single column */
    .banner {
     height: auto;
-    display: block;
+    flex-direction: column;
     align-items: center;
   }
 
   .banner .text-content {
-    padding: 20px;
     text-align: center;
-    order: 1;
+  }
+
+  .content-wrapper {
+    /* Adjust styles for content wrapper on mobile */
+    /* For example, you can set width and remove flex */
+    width: 100%;
+    max-width: 400px; /* Limit content width */
+    margin: 0 auto; /* Center the content */
   }
 
   .banner .text-content p {
@@ -209,14 +215,12 @@
       transform: scale(1.05); /* Scale up by 5% on hover */
     }
 
-    .banner img {
-    display: none;
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    order: 3;
+    .image-wrapper {
+    /* Adjust styles for image wrapper on mobile */
+    margin-top: 20px; /* Add space between text and image */
   }
-}
+  }
+
         
     /* Card Grid Media query for mobile */
 @media screen and (max-width: 768px) {
@@ -245,9 +249,8 @@
   <!-- Banner with text, image, and button -->
   <div class="banner">
     <div class="text-content">
-      <div style="display: flex; align-items: center;">
-        <div style="flex: 1;">
-          <p>I'm originally from Amsterdam, but share the UK as my other home nation, I grew up in countries all over the world and this has really shaped who I am as a person as well as my design philosophy, I've seen first hand how well designed products and services that are aimed at improving the lives of people -- everyone, not just the 10% that can afford them but the other 90% of the world who need them -- can create a lasting impact that brings about quality of life improvements that we can't even imagine. This has influenced my focus on sustainability and circular & regenerative design, rooted in long-termism and the idea that I wanted to design for a world I'd be happy for my grandchildren to grow up in. 
+      <div class="content-wrapper">
+        <p>I'm originally from Amsterdam, but share the UK as my other home nation, I grew up in countries all over the world and this has really shaped who I am as a person as well as my design philosophy, I've seen first hand how well designed products and services that are aimed at improving the lives of people -- everyone, not just the 10% that can afford them but the other 90% of the world who need them -- can create a lasting impact that brings about quality of life improvements that we can't even imagine. This has influenced my focus on sustainability and circular & regenerative design, rooted in long-termism and the idea that I wanted to design for a world I'd be happy for my grandchildren to grow up in. 
             <br>
             <br>
             For me, that's the best way to make a positive impact as we take the next leap into the future.
@@ -255,11 +258,10 @@
             <br>
             Currently, I am studying the Masters in Design for Emergent Futures program at IAAC and Elisava Design School. I'm excited to have the chance to expand my skills in this next step of my studies, focusing on designing with an impact on sustainability, the circular economy, regenerative design, and taking a leap into the near future. 
           </p>
-            <a href="https://www.oliverlloyddesign.co.uk/" class="button">Check out my portfolio here!</a>
-        </div>
-        <div>
-          <img src="images/Profile Photos/colour_edinburgh.jpg" alt="Banner Image" style="width: 400px; height: auto;">
-        </div>
+        <a href="https://www.oliverlloyddesign.co.uk/" class="button">Check out my portfolio here!</a>
+      </div>
+      <div class="image-wrapper">
+        <img src="images/Profile Photos/colour_edinburgh.jpg" alt="Banner Image">
       </div>
     </div>
   </div>
