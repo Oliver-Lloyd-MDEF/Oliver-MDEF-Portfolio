@@ -33,18 +33,83 @@ We kicked off the seminar with an interesting exercise in the neighbourhood of S
 In my group, we largely focused on the degradation of soil and land in urban spaces. The constant cycle of construction and neglect of the environment struck a chord, leading us to question its connection to political cycles and its impact on community well-being.
 
 ---
+<div class="image-grid">
+  <img src="../images/08. Design with others/Frictions/broken walls everywhere.jpg" class="grid-item" alt="broken walls">
+  <img src="../images/08. Design with others/Frictions/CTA against eviction.jpg" class="grid-item" alt="CTA against eviction">
+  <img src="../images/08. Design with others/Frictions/cta against gentrification.jpg" class="portrait-image" alt="cta agianst gentrification">
+  <img src="../images/08. Design with others/Frictions/expats go home.jpg" class="grid-item" alt="expats go home!">
+  <img src="../images/08. Design with others/Frictions/ongoing construction.jpg" class="grid-item" alt="ongoing construction">
+  <img src="../images/08. Design with others/Frictions/tree planted in dead soil.jpg" class="grid-item" alt="tree in dead soil">
+  <!-- Add more images as needed -->
+</div>
 
-*A significant highlight was our visit to La Borda, a pioneering cooperative housing complex in Barcelona. Witnessing their communal living model sparked thoughts on alternative housing approaches and their potential societal benefits.*
+<!-- CSS Styles -->
+<style>
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; /* Add rounded corners to images */
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
+</style>
+<figcaption>Some of the friction points I came across throughout the neighbourhood of sants </figcaption>
+---
+
+
+>*A significant highlight was our visit to La Borda, a pioneering cooperative housing complex in Barcelona. Witnessing their communal living model sparked thoughts on alternative housing approaches and their potential societal benefits.*
+>
 ---
 
 <!-- insert images here -->
+<div class="image-container">
+    <img src="../images/08. Design with others/La Borda/La Borda Ground Floor.jpg" alt="la borda ground floor" class="rounded-image">
+    <img src="../images/08. Design with others/La Borda/La Borda Top Floor.jpg" alt="Water conservation" class="rounded-image">
+</div>
 
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+<figcaption> A few shots from the interior of the building of La Borda, this entire building was created by the residents of it using modular units made up enitrely of CLT -- A really innovative use for the material and shows off it's potential! </figcaption>
 ---
 
 ### Intervention: Urban Regreening and Pollinator Corridors
 
 A pivotal aspect of the seminar involved translating our learnings into actionable interventions. In our group, we focused our efforts on tackling the loss of green spaces and biodiversity in urban environments. Our intervention stemmed from our belief that such degradation adversely affects not only human communities but also non-human ecosystems.
+
+<img src="../images/08. Design with others/Intervention/Soil_Land Intervention - Frame 1.jpg" alt="conflict mapping" style="border-radius: 5px;">
+
+<figcaption>Early conflict mapping</figcaption>
+
 
 We targeted a specific street in the area of Poblenou, strategically chosen to link two isolated green spaces along its route. The concept was to create a pollinator corridor, a vibrant and biodiverse pathway embedded within the urban landscape.
 
@@ -54,9 +119,40 @@ Our plan was comprehensive. We aimed to engage the entire neighbourhood communit
 
 To create a compelling narrative, we developed a brand proposal and a guerrilla marketing campaign. Utilizing AI-generated visuals, we crafted images envisioning the transformed street, complete with native flowers and insect hotels adorning the trees lining the path.
 
-In addition to visual aids, we designed informative posters to disseminate the message throughout the neighbourhood. These served as catalysts for sparking curiosity and awareness about the potential transformation of the street into a thriving pollinator corridor.
+In addition to visual aids, we designed informative posters to disseminate the message throughout the neighbourhood. These would serve as catalysts for sparking curiosity and awareness about the potential transformation of the street into a thriving pollinator corridor.
+
+<div class="image-container">
+    <img src="../images/08. Design with others/Intervention/Sin título-1.jpg" alt="intervention poster 1" class="rounded-image">
+    <img src="../images/08. Design with others/Intervention/B.png" alt="intervention poster 2" class="rounded-image">
+</div>
+
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
+
+<img src="../images/08. Design with others/Intervention/B.png" alt="posters in context" style="border-radius: 5px;">
+
+<figcaption>Some of our intervention posters</figcaption>
+
 
 The intervention blueprint extended beyond visual elements. We meticulously planned a series of workshops, hosted in collaboration with Bioma/Bam and NEST. These workshops aimed to empower residents with the knowledge and skills necessary to contribute actively to the initiative.
+
+We even created a video showcasing an activity to be done with members of the community but mainly target at children to "Be a Bee", helping them to try and experience what it would be like as a pollinator trying to find spots to rest and refuel along the way between the different green spacs we were trying to connect.
 
 Utilizing collaborative tools like a shared Miro board, we consolidated ideas, ensuring a cohesive and inclusive planning process. Our efforts culminated in a well-structured intervention proposal that would be ready for community implementation.
 
@@ -64,6 +160,12 @@ Utilizing collaborative tools like a shared Miro board, we consolidated ideas, e
 
 <!-- insert images of intervention, video and frames from the Miro board here -->
 
+<img src="../images/08. Design with others/Intervention/Soil_Land Intervention - Timeplan 1.jpg" alt="workshop timeplan" style="border-radius: 5px;">
+<figcaption>Workshop series timeplan</figcaption> 
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FUPg-zJ5T0o?si=6kY30SAZuRgZxeTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
 ### Personal Thoughts:
