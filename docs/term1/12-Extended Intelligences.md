@@ -17,7 +17,7 @@ In class, we dissected the workings of AI systems and how they are built. Learni
 > A good analogy of a neural network is like a child learning to ride a bike — the child is the program, the data set is the bicycle, and training is like teaching the child to ride.
 > 
 <img src="../images/09. Extended Intelligences/a_digital_illustration_of_a_small_robot_learning_to_ride_a_bike.png" alt="A Neural net in training" style="border-radius: 5px;">
-<figcaption>Training a neural network is a lot like teaching a kid to ride a bike</figcaption>
+<figcaption style="text-align: center;">Training a neural network is a lot like teaching a kid to ride a bike</figcaption>
 
 Throughout the seminars, we used google CoLab to run various neural networks from the open source library HuggingFace (filled to the brim with different kinds of neural nets trained on all sorts of data, you can find out more about those [here](https://huggingface.co/)) This was incredibly helpful as (along with a lot of Pau’s guidance) we were able to break down the different programs into their various building blocks and understand how each step worked within the system to create the entire network. We linked these models in the virtual environment from google CoLab through various APIs, as running them locally (especially when training them on the various datasets we wanted to use) would be incredibly resource intensive on most of our machines. These API’s came from various model libraries like [Replicate](https://replicate.com/).
 
