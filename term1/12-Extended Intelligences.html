@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../images/Logos/Circular Olive Branch logo.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.1">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
     
     
       
@@ -30,7 +30,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.45e1311d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -675,6 +675,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Extended Intelligences
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="12-Extended%20Intelligences.html" class="md-nav__link md-nav__link--active">
         
   
@@ -684,6 +695,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#augmenting-human-experience-with-machine-intelligence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Augmenting human experience with machine intelligence
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Augmenting human experience with machine intelligence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#green-guardian" class="md-nav__link">
+    <span class="md-ellipsis">
+      Green Guardian:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-thoughts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Thoughts
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -756,7 +819,56 @@
 
 
 <h1 id="extended-intelligences-demystifying-ai">Extended Intelligences - Demystifying AI<a class="headerlink" href="#extended-intelligences-demystifying-ai" title="Permanent link">&para;</a></h1>
-<p>Hello! This Page is currently under development (<em>that means I haven&rsquo;t finishsed the article yet</em>) but please check back soon! :D</p>
+<aside>
+📝 <strong>TL;DR:</strong>
+In the Extended Intelligences module, we explored AI development and it’s implications. We visited the CCCB Museum exhibit on the evolution of AI, from Turing to modern systems. Class unveiled the inner workings of neural networks. Using Google CoLab and APIs like Replicate to understand complex models. Crafting "Green Guardian," an AI for plant care, was a rewarding, though initially complex, journey. We're the first AI-immersed generation, but we must consider biases and overreliance on AI. Understanding AI's basics and coding in Python reshaped my view—AI has potential, but ethical development is crucial. The energy consumption and environmental impact of widespread AI models remain a question worth exploring further.
+
+</aside>
+
+<hr />
+<h2 id="augmenting-human-experience-with-machine-intelligence">Augmenting human experience with machine intelligence<a class="headerlink" href="#augmenting-human-experience-with-machine-intelligence" title="Permanent link">&para;</a></h2>
+<p>This past week, we dove headfirst into the Extended Intelligences seminar taught by Pau Artigas. Kicking off with a visit to the CCCB Museum, where we explored an exhibition on the development of AI, from its conceptual inception from researchers like Alan Turing to the incredible capabilities of modern generative AI systems. We delved into the implications of AI in our lives, pondering questions like when an AI could be considered &ldquo;alive&rdquo; and the ethical dilemmas surrounding AI in weaponry.</p>
+<p>In class, we dissected the workings of AI systems and how they are built. Learning how neural networks work, how they are built up of different models, and that an AI system is only born once it has been trained on vast quantities of data after (many) hours of training and retraining on that specific data. </p>
+<blockquote>
+<p>A good analogy of a neural network is like a child learning to ride a bike — the child is the program, the data set is the bicycle, and training is like teaching the child to ride.
+</p>
+</blockquote>
+<p>Throughout the seminars, we used google CoLab to run various neural networks from the open source library HuggingFace (filled to the brim with different kinds of neural nets trained on all sorts of data, you can find out more about those <a href="https://huggingface.co/">here</a>) This was incredibly helpful as (along with a lot of Pau’s guidance) we were able to break down the different programs into their various building blocks and understand how each step worked within the system to create the entire network. We linked these models in the virtual environment from google CoLab through various APIs, as running them locally (especially when training them on the various datasets we wanted to use) would be incredibly resource intensive on most of our machines. These API’s came from various model libraries like <a href="https://replicate.com/">Replicate</a>.</p>
+<p>This practical approach, as well as mixing in a good amount of theory to give us the legs we’d need to stand on when exploring this topic (and barely scratching the surface I might add) using tools like Replicate and Google CoLab, made complex AI concepts feel much more accessible.</p>
+<p>Learning in this environment was invigorating—I found myself drawn into the discussions and group collaborations. </p>
+<h3 id="green-guardian">Green Guardian:<a class="headerlink" href="#green-guardian" title="Permanent link">&para;</a></h3>
+<p>We also split into groups to try and create our own models, using various models and training data sets we found online to create a unique AI tool to serve a specific purpose. In our case, we created “Green Guardian” a neural net for plant illness identification and care paired with a generative large language model to provide real-time identification and advice for how to best treat various plant diseases one might come across at home or in a vegetable patch.  Collaborating with Nicolo, Jorge, and Carmen, we found a dataset, worked on image classification neural nets, and connected a generative text AI model called llama to provide care advice—a task that initially seemed really complex but we managed and it ended up being incredibly rewarding, we all were all so genuinely surprised when it worked the first time as none of us had had any real experience with coding python before. </p>
+<p><a class="md-button md-button--primary" href="https://drive.google.com/file/d/1qzXcHo4rjvVgh9oJS4lcSBHTrknBFpDq/view?usp=sharing">For a detailed breakdown of Green Guardian click here</a></p>
+<p><strong>Find an overview of Green Guardian below:</strong></p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQh36qYzr9nni-CzO725eylQa5YG4nYexDU8B1__jbAkOO0YsHOCK_9JlmvFQjK9kxJXqy4qguhHXnR/embed?start=true&loop=true&delayms=5000" frameborder="0" width="1440" height="929" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<p><strong>Check out Green Guardian in action here:</strong></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yW7W0c9UYr0?si=vcwCYg3AX9mYdrmj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2 id="final-thoughts">Final Thoughts<a class="headerlink" href="#final-thoughts" title="Permanent link">&para;</a></h2>
+<p>I&rsquo;m really glad we had this module. I think we&rsquo;re the first generation (<em>And I don&rsquo;t mean generation in the sense of like a 10 - 15 year gap</em>), of people that have really sort of embraced AI fully. Ever since the launch of OpenAI&rsquo;s ChatGPT last year. I think that&rsquo;s why we&rsquo;re all so interested in it, because we&rsquo;ve all been using these AI tools much more visibly and in some cases (<em>like mine</em>) almost daily. </p>
+<p>We&rsquo;ve seen what they can do and we&rsquo;ve been exposed to how they can create these incredible, incredible things, helping us with so many tasks that before took us much much longer. </p>
+<p>The I think that this entire week has been really interesting because we not only had to learn about developing these AI systems, we learned about how they&rsquo;re built and what they&rsquo;re trained on. But in particular they put a lot of emphasis on the bias that can happen in these models based on the training data and how important it is to have incredibly varied training data to overcome this, but it’s getting that varied training data that can be really difficult, and an AI model is only as good as the data its trained on. </p>
+<blockquote>
+<p>An AI model is only as good as the data it’s trained on.
+</p>
+</blockquote>
+<p>One of the key things that I&rsquo;m taking away from this module is that this is another transition in our world and we&rsquo;ve opened the box. AI is out there, and we&rsquo;re using it all the time, but it feels as though we haven’t given the proper attention and thought as to how these models are actually working: </p>
+<ul>
+<li>what data sets are they built on?</li>
+<li>Is this reinforcing biases we already have?</li>
+</ul>
+<blockquote>
+<p><strong>Or more importantly, is our increasing reliance on these tools to parse and interpret all the information in the world around us beginning to make us overly reliant on them?</strong>
+</p>
+</blockquote>
+<p>This question even came up when we were building Green Guardian. Would you end up just relying on the AI for diagnosis or would you still go and check somewhere else? I think that there&rsquo;s a real risk that we just become overly reliant on these models, as they make it so easy to offload a lot of the grunt work of thinking.  </p>
+<p>At the moment all AI’s (<strong><em>at least to my knowledge but I would love to learn I’m wrong</em></strong>) still suffer from machine hallucinations —<strong><em>this is where they just make stuff up</em></strong> — that could lead to some misdiagnoses and completely ruined crops if a more advanced system like Green Guardian was used on a large scale.</p>
+<p>The best part of this module was how easy it made to it to understand the basics and some of the nuances of AI research in the quest for machine intelligence.  It gave me a new appreciation for coding, especially coding Python. It always seemed like a scary foreign language, but now I understand it a bit more, I understand it’s utility and it gives you this real window into how these systems work and the language that makes them tick. </p>
+<p>AI is a new, fantastic and amazing tool, it has the potential to do a phenomenal amount of good in the world, pushing us into exciting new futures that benefit everyone, but if we don&rsquo;t put the safeguards in now and understand that if we&rsquo;re going to create and use these models, we need to make sure that the training data we give it is as diverse and different as possible, that whatever data we train them on is fairly compensated to the original creators of that information and that we strive to develop these systems as ethically as possible. </p>
+<hr />
+<p><strong>Finally there’s one last question that’s been playing on my mind since finishing this module, the large language models we’ve gotten so used to using require an incredible amount of energy, not only to train them in the beginning but also to maintain the cooling necessary to keep the servers they operate on happy and healthy.</strong></p>
+<p><strong>So I’m left wondering, what exactly is the environmental impact of these models that are so widespread now? How much does a ChatGPT prompt cost in CO2 emissions? This an interesting area to explore and something I’m going to try and develop further as the masters program progresses.</strong></p>
 
 
 
@@ -777,7 +889,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 8, 2023</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 12, 2023</span>
   </span>
 
     
