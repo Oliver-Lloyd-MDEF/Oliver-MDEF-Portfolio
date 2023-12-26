@@ -17,15 +17,17 @@ When we started, we began with combing the internet for anything and everything 
 > ***one of the most interesting projects we’d come across demonstrating that you could use certain plants as analogue inputs and outputs.***
 > 
 
-What this bizarre sentence means is that you can effectively connect two plants together, use one as an input, and the other as an output. Meaning you can send a message between two plants! (for more on this crazy subject check out the TED talk on this subject linked here)
+What this bizarre sentence means is that you can effectively connect two plants together, use one as an input, and the other as an output. Meaning you can send a message between two plants! (for more on this crazy subject check out the TED talk on this subject linked [here](https://www.youtube.com/watch?feature=shared&v=pvBlSFVmoaw&ab_channel=TED))
 
 So it turns out that our little green friends are actually much more sensitive than we give them credit for and they are able to process much more information than we can see. 
 
 After discussing what we had found out together and mapping out each of our interests in a collaborative Miro board, we decided on a direction. 
 
 ---
-<!--
-**insert pictures here of miro board mapping** -->
+<!--**insert pictures here of miro board mapping** -->
+<img src="../images/10. Design Studio_Pulse Project/non human intelligence & Technology - Frame 1.jpg" alt="Miro Board mapping" style="border-radius: 5px;">
+<figcaption> Our early Miro board mapping </figcaption>
+
 
 ---
 
@@ -40,9 +42,9 @@ Easy right?
 
 Not so much, first we tested the ECG sensors on ourselves and *no dice*. No matter how much we tried and what we changed, we just couldn’t get the contact pads to read the electrical signals produced by our own hearts (which is how these sensors work) let alone read the the much lower frequency signals created by the plants we were studying. 
 
----
-
 <!-- **insert pictures here of ECG monitor testing** -->
+<img src="../images/10. Design Studio_Pulse Project/ECG Testing.png" alt="ECG Testing" style="border-radius: 5px;">
+<figcaption> A first test using the ECG monitors on ourselves </figcaption>
 
 ---
 
@@ -51,7 +53,30 @@ We eventually managed to read some sort of electrical spikes within an Orchid th
 ---
 <!--
 ****************insert pictures here of ECG monitor hooked up to plant**************** -->
+<div class="image-container">
+    <img src="../images/10. Design Studio_Pulse Project/ECG Orchid Test.png" alt="Orchid ECG Test" class="rounded-image">
+    <img src="../images/10. Design Studio_Pulse Project/ECG Orchid Testing.gif" alt="Orchid ECG Signal Test" class="rounded-image">
+</div>
+<figcaption> A first test using the ECG monitors on an orchid </figcaption>
 
+<style>
+/* CSS Styles */
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: space-between; /* Add space between images */
+}
+
+.image-container img {
+    width: 48%; /* Adjust the width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+.rounded-image {
+    border-radius: 5px; /* Apply rounded corners to images with this class */
+}
+</style>
 ---
 
 **So back to square one. *Shit*.**
@@ -75,8 +100,21 @@ But still, progress.
 ---
 <!--
 ****************insert pictures here of successful tests**************** -->
+<video 
+    src="../images/10.%20Design%20Studio_Pulse%20Project/Successful%20Test%201.mp4"
+    controls 
+    title="Successful signal test 1"
+    style="border-radius: 5px;"> <!-- Adjust the radius value as needed -->
+</video>
 
----
+<video 
+    src="../images/10.%20Design%20Studio_Pulse%20Project/Successful%20Test%202.mp4"
+    controls 
+    title="Successful signal test 2"
+    style="border-radius: 5px;"> <!-- Adjust the radius value as needed -->
+</video>
+
+<figcaption> Our first Successful Tests!</figcaption>
 
 ---
 
@@ -106,6 +144,10 @@ And this project has helped me take one step closer to that future.
 ---
 <!--
 ****************insert pictures here of timeplanning**************** -->
+<img src="../images/10. Design Studio_Pulse Project/Miro Timeplanning.png" alt="Miro Timeplanning" style="border-radius: 5px;">
+<img src="../images/10. Design Studio_Pulse Project/non human intelligence & Technology - Ideas.jpg" alt="Future Direction Ideas" style="border-radius: 5px;">
+
+<figcaption> The direction we want to take the project in in the future </figcaption>
 
 ---
 
@@ -126,6 +168,8 @@ Sharing what we’ve learned in an open source way is how we want to build this 
 <!--
 ****************insert pictures here of using working on roof at Iaac?**************** -->
 
+<img src="../images/10. Design Studio_Pulse Project/All of us working on roof.jpg" alt="ALl of us working together" style="border-radius: 5px;">
+<figcaption> Continuing our work towards Design Dialogues </figcaption>
 ---
 
 Personally, I’d like to see if it’s possible to design and build a custom handheld device that you’d be able to put together yourself, which would function almost like a tricorder from star trek, letting you take it out and about with you in a park or a forest, attach it to any plant you find (safely without harming of course) and try and interpret how the plant is communicating. 
@@ -149,6 +193,11 @@ Whatever it will be, it’s exciting times ahead.
 
 **you can check out videos of our work so far below 👇**
 
+**Pulse Project Introduction**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v7DfLnNG7B8?si=SqEvxDtTdQsokYEr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+**Pulse Circuit Assembly Tutorial**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3a1IpfX1REI?si=0-JZSsmDnJqWUtdF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 
 # Some Resources:
