@@ -115,7 +115,11 @@ plugins:
    - search
    - git-revision-date-localized:
        fallback_to_build_date: true
-
+   - glightbox:
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - skip-lightbox
 
 
 markdown_extensions:
