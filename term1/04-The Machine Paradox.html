@@ -63,7 +63,18 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -875,8 +886,8 @@
 ![Dusting off.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Dusting off.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"} -->
 
 <div class="image-container">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting 2.jpg" alt="selecting the microwave" class="rounded-image">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg" alt="Water conservation" class="rounded-image">
+    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting 2.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting 2.jpg" alt="selecting the microwave" class="rounded-image"></a>
+    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg" alt="Water conservation" class="rounded-image"></a>
 </div>
 
 <style>
@@ -908,8 +919,8 @@
 ![PSU removal.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 -->
 <div class="image-container">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" alt="removing the casing" class="rounded-image">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" alt="Water conservation" class="rounded-image">
+    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" alt="removing the casing" class="rounded-image"></a>
+    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" alt="Water conservation" class="rounded-image"></a>
 </div>
 
 <style>
@@ -930,17 +941,17 @@
     border-radius: 5px; /* Apply rounded corners to images with this class */
 }
 </style>
-<p><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/Capacitor testing.JPG" alt="capacitor testing" style="border-radius: 5px;"></p>
+<p><a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/Capacitor testing.JPG" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/Capacitor testing.JPG" alt="capacitor testing" style="border-radius: 5px;"></a></p>
 <figcaption>breaking down the microwave</figcaption>
 </figure>
 <p>We started to combine our findings from the teardown into a “forensic report” where we began to detail exactly what we found out about our product, how the different pieces were manufactured, where they were made, how they fit together and just exactly what was wrong with it. </p>
 <p>So far this has been a really great exercise in reframing the way we understand the products we interface with and how we can repurpose and change the technologies around us to truly attempt to give them a second life.</p>
-<p><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Machine Paradox - Exploded View.jpg" alt="exploded view" style="border-radius: 5px;"></p>
+<p><a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Machine Paradox - Exploded View.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Machine Paradox - Exploded View.jpg" alt="exploded view" style="border-radius: 5px;"></a></p>
 <h2 id="day-2-18102023-fault-testing-forensics">Day 2 (18/10/2023)  - Fault testing forensics<a class="headerlink" href="#day-2-18102023-fault-testing-forensics" title="Permanent link">&para;</a></h2>
 <p>Today we began testing each of the microwave components to see what was working and what wasn’t. Most of the microwave components rely on AC power instead of usual DC, with only a few small components requiring DC which made testing components easy and slightly dangerous at the same time as we tested the different AC components using a power cable connected to the mains, which would be soldered or attached with various crocodile clips to the components we were testing. </p>
-<p><img alt="motor testing" src="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%202/Motor%20Testing.gif" style="height: auto; width: auto; border-radius: 10px; margin-right: 10px" /></p>
+<p><a class="glightbox" href="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%202/Motor%20Testing.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="motor testing" src="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%202/Motor%20Testing.gif" style="height: auto; width: auto; border-radius: 10px; margin-right: 10px" /></a></p>
 <p>Through our testing we discovered that the fault lay with the microwave emitter or the transformer, as every other component would function as intended or turn on when power was supplied — our shouts of joy as the microwave light turned on for the first time as we powered it on were enough to show how much we were enjoying ourselves. </p>
-<p><img alt="light bulb testing" src="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%202/Lightbulb%20testing.gif" style="height: auto; width: auto; border-radius: 10px; margin-right: 10px" /></p>
+<p><a class="glightbox" href="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%202/Lightbulb%20testing.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="light bulb testing" src="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%202/Lightbulb%20testing.gif" style="height: auto; width: auto; border-radius: 10px; margin-right: 10px" /></a></p>
 <p>I was surprised to learn that the entire system of the microwave had been wired in series, which meant that if one component failed (even something as small as the light bulb) the entire system would shut down and stop working. I now know that this was probable done for safety, as you wouldn’t want a microwave magnetron to continue to perform it’s function if the door sensor was broken and couldn’t tell if it was open or closed, but still, this machine was clearly not designed for for easy repairability despite the abundance of spare parts available. </p>
 <p>We continued to finish off the forensics report to document everything we’d discovered so far as well as including our discoveries of what worked and what didn’t as well starting to include the videos and photos of our process, and a map we’d created tracing where each component was manufactured and shipped out across the world. </p>
 <p>As a final part of the day, we ended up jumping ahead and began to control our components individually, turning them on to create their function.</p>
@@ -949,17 +960,17 @@
 <!--
 ![Arduino motor controlling](<../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"} -->
 
-<p><img src="../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif" alt="arduino fan control testing" style="border-radius: 5px;"></p>
+<p><a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif" alt="arduino fan control testing" style="border-radius: 5px;"></a></p>
 <p>In any case, this was a really great exercise in getting to know the intricacies of debugging old analogue components, hacking them to work with the digital interfaces we work with now to create something new, debugging again and repeat until finally we can breathe new life into old tech that would otherwise have gone to waste. If anything can teach about how we can design products to better fit into the repairable and circular models of product design and product that we are moving towards it’s definitely this module! I’m excited to see how this project will turn out and what exactly we will create!</p>
 <p>Finally we shared our forensic report we’d written about our microwave with the class, explaining how we’d torn down the machine to get into its inner workings, how we tested each component to find out what was wrong with it, how we’d found out what each component was made from and where it came from and what we’d learned from tearing it down and debugging it. This was a really great way for all of us to learn about our various objects and start to build and see connections between these machines and how they can be redesigned for a better more circular future (I think anyway). </p>
 <p><a class="md-button md-button--primary" href="https://hackmd.io/Rk07LQFESRy6b7F1LB457A?view">Read the forensic report here</a></p>
 <h2 id="day-4-detailing-and-designing-201023">Day 4 - Detailing and designing (20/10/23)<a class="headerlink" href="#day-4-detailing-and-designing-201023" title="Permanent link">&para;</a></h2>
 <p>Today we spent the day detailing which of our components worked, what function they performed and what degree of control we could exert over them using an Arduino. Then we we got down to coming up with ideas for what kind of almost useful machine we wanted to create from the components we’d managed to salvage as well as parts we could salvage from some of the other groups (hence the need for the data sheets we’d created so all the groups can see and share them amongst each other to get the parts they needed). </p>
-<p><img alt="ideation wall" src="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%204/2023-10-20%2011_55_38.858.jpg" style="height: auto; width: auto; border-radius: 10px; margin-right: 10px" /></p>
+<p><a class="glightbox" href="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%204/2023-10-20%2011_55_38.858.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="ideation wall" src="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%204/2023-10-20%2011_55_38.858.jpg" style="height: auto; width: auto; border-radius: 10px; margin-right: 10px" /></a></p>
 <p>Originally we thought of creating some form of disco light where the entire body of the microwave would turn on the plate motor, we’d drill loads more holes in the body to let the light out and have the fan provide cooling from within the box like some form of really terrible air conditioning. We really leaned into the idea at first and as we began exploring into what we could make we decided to see what else we could come up with. A bunch of ideas were tossed around, from a party in a box that would spray glitter everywhere once you opened the microwave door to a multicoloured dome that would rotate around the light in the microwave for different moods. Eventually we settled on the idea of creating an “anti microwave” that would actively cool your food from above via the cooling fan as you attempted to eat it from the spinning plate below. The whole thing would be supported on a frame that you would have to reach around and make it difficult to eat. </p>
 <p>The idea behind it was to create a feeling frustration while eating, frustration at the difficulty of getting at the food and frustration at the fact that your food was actively being cooled while you ate. In a round about way we are trying to create something that allows you to empathise with people who may struggle to eat in a normal way, so it takes them much longer to do so, meaning the food gets cold and unpleasant to eat.  </p>
 <p>We mocked up a quick idea of how it could work, tested out how we would attach some of our components to the whole system and then presented it to the class for feedback and evaluation from the group. After which we sat down and tried to make a quick plan for how next week is going to go down, when we are going to build everything, film everything (oh yeah, we also have to shoot a 1 minute film for the product to show how it works — that’s going to be great fun we have some cracking ideas for that) and how we are going to split our time within the group based on our strengths. </p>
-<p><img alt="initial rough mockup" src="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%204/2023-10-20%2012_26_24.738.jpg" style="height: auto; width: auto; border-radius: 10px; margin-right: 10px" /></p>
+<p><a class="glightbox" href="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%204/2023-10-20%2012_26_24.738.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="initial rough mockup" src="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/Day%204/2023-10-20%2012_26_24.738.jpg" style="height: auto; width: auto; border-radius: 10px; margin-right: 10px" /></a></p>
 <p>I’m looking forward to it, we are going to have a great time. So far this has been one of my favourite modules so far and really made me look at and see the value in old technology, understanding how it can be repurposed for better or different uses after it’s served it’s original purpose — though I think that was the point anyway.</p>
 <h2 id="week-2-the-almost-useful-machine">Week 2: The almost useful machine…<a class="headerlink" href="#week-2-the-almost-useful-machine" title="Permanent link">&para;</a></h2>
 <p>This week was all about taking our concept of a nearly useful machine and turning it into a reality. We split ourselves in our groups to focus on different tasks to get the machine built and assembled on time. From coding to laser cutting, soldering, rewiring and repurposing we all got involved to bring our idea to a reality. All of us had different skill sets, with some coming from more hands on, build stuff and break stuff design backgrounds (definitely me) and others having a more logistical and organisational background. We managed to collaborate and play off our skills to work together and build something really fun. </p>
@@ -979,12 +990,12 @@
 
 <!-- Markdown Content -->
 <div class="image-grid">
-  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg" class="grid-item" alt="bottom casing">
-  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg" class="grid-item" alt="soldering 1">
-  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 02.jpg" class="grid-item portrait-image" alt="soldering 02">
-  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering PSU.jpg" class="grid-item" alt="soldering PSU">
-  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif" class="grid-item" alt="soldering Timelapse">
-  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif" class="grid-item" alt="cutting the base">
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg" class="grid-item" alt="bottom casing"></a>
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg" class="grid-item" alt="soldering 1"></a>
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 02.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 02.jpg" class="grid-item portrait-image" alt="soldering 02"></a>
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering PSU.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering PSU.jpg" class="grid-item" alt="soldering PSU"></a>
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Soldering Timelapse.gif" class="grid-item" alt="soldering Timelapse"></a>
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/Cutting the base.gif" class="grid-item" alt="cutting the base"></a>
   <!-- Add more images as needed -->
 </div>
 
@@ -1017,8 +1028,8 @@
 <p><em>Because you obviously have to have a sound that plays to alert you that your food is being cooled down no?</em> </p>
 <p>We scavenged some more parts from our original microwave chassis, specifically the bottom panel of the casing that supported a rotating ring that allowed the plate to spin, so that we didn’t have to make a new one, as well as switch to activate the whole system when weight was added to the plate. These pieces, some laser cut pieces of plywood, a borrowed frame from the Fablab and some 3d printed parts came together to create our final contraption. </p>
 <div class="image-container">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg" alt="rough frame assembly" class="rounded-image">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg" alt="adjusting the frame size" class="rounded-image">
+    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg" alt="rough frame assembly" class="rounded-image"></a>
+    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg" alt="adjusting the frame size" class="rounded-image"></a>
 </div>
 
 <style>
@@ -1063,7 +1074,7 @@
 <p>This has been one of my favourite modules of the master’s course so far, not only because it was a really fun challenge to break something and make something new, but also having it as the chance to work together and truly collaborate with people with vastly different areas of expertise, to learn what so much from my team mates and be able to share what I knew as well. </p>
 <p>You might think, well what’s the point in making an almost useful machine from an old already useful machine, isn’t that just pointless? But I think it’s just the opposite, yes the machine doesn’t really serve a useful function, but it starts to get us to ask the right questions. Not just, Why did it break? How did it break? and how can it be fixed, but truly asking how to understand the lifecycle of the machine and can we create value from something that others just see as waste? </p>
 <p>That’s what I think this module is really designed to do, to shape the way we think about technology, and how when one machine gives up the ghost, it can be saved, repurposed and upcycled into something new that once again has value and meaning, not just another piece of junk to throw on the ever growing landfill. </p>
-<p><img alt="I am Magnetron.jpg" src="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/I%20am%20Magetron.jpg" style="height: auto; width: auto; border-radius: 10px; " /></p>
+<p><a class="glightbox" href="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/I%20am%20Magetron.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="I am Magnetron.jpg" src="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/I%20am%20Magetron.jpg" style="height: auto; width: auto; border-radius: 10px; " /></a></p>
 <hr />
 <p><strong>If you&rsquo;ve found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃</strong></p>
 <hr />
@@ -1189,5 +1200,5 @@
       <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>

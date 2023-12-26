@@ -63,7 +63,18 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -829,7 +840,7 @@
 <p>After discussing what we had found out together and mapping out each of our interests in a collaborative Miro board, we decided on a direction. </p>
 <hr />
 <!--**insert pictures here of miro board mapping** -->
-<p><img src="../images/10. Design Studio_Pulse Project/non human intelligence & Technology - Frame 1.jpg" alt="Miro Board mapping" style="border-radius: 5px;"></p>
+<p><a class="glightbox" href="../images/10. Design Studio_Pulse Project/non human intelligence & Technology - Frame 1.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/10. Design Studio_Pulse Project/non human intelligence & Technology - Frame 1.jpg" alt="Miro Board mapping" style="border-radius: 5px;"></a></p>
 <figcaption> Our early Miro board mapping </figcaption>
 
 <hr />
@@ -842,7 +853,7 @@
 <p>Easy right? </p>
 <p>Not so much, first we tested the ECG sensors on ourselves and <em>no dice</em>. No matter how much we tried and what we changed, we just couldn’t get the contact pads to read the electrical signals produced by our own hearts (which is how these sensors work) let alone read the the much lower frequency signals created by the plants we were studying. </p>
 <!-- **insert pictures here of ECG monitor testing** -->
-<p><img src="../images/10. Design Studio_Pulse Project/ECG Testing.png" alt="ECG Testing" style="border-radius: 5px;"></p>
+<p><a class="glightbox" href="../images/10. Design Studio_Pulse Project/ECG Testing.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/10. Design Studio_Pulse Project/ECG Testing.png" alt="ECG Testing" style="border-radius: 5px;"></a></p>
 <figcaption> A first test using the ECG monitors on ourselves </figcaption>
 
 <hr />
@@ -851,8 +862,8 @@
 <!--
 ****************insert pictures here of ECG monitor hooked up to plant**************** -->
 <div class="image-container">
-    <img src="../images/10. Design Studio_Pulse Project/ECG Orchid Test.png" alt="Orchid ECG Test" class="rounded-image">
-    <img src="../images/10. Design Studio_Pulse Project/ECG Orchid Testing.gif" alt="Orchid ECG Signal Test" class="rounded-image">
+    <a class="glightbox" href="../images/10. Design Studio_Pulse Project/ECG Orchid Test.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/10. Design Studio_Pulse Project/ECG Orchid Test.png" alt="Orchid ECG Test" class="rounded-image"></a>
+    <a class="glightbox" href="../images/10. Design Studio_Pulse Project/ECG Orchid Testing.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/10. Design Studio_Pulse Project/ECG Orchid Testing.gif" alt="Orchid ECG Signal Test" class="rounded-image"></a>
 </div>
 <figcaption> A first test using the ECG monitors on an orchid </figcaption>
 
@@ -921,8 +932,8 @@
 <hr />
 <!--
 ****************insert pictures here of timeplanning**************** -->
-<p><img src="../images/10. Design Studio_Pulse Project/Miro Timeplanning.png" alt="Miro Timeplanning" style="border-radius: 5px;">
-<img src="../images/10. Design Studio_Pulse Project/non human intelligence & Technology - Ideas.jpg" alt="Future Direction Ideas" style="border-radius: 5px;"></p>
+<p><a class="glightbox" href="../images/10. Design Studio_Pulse Project/Miro Timeplanning.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/10. Design Studio_Pulse Project/Miro Timeplanning.png" alt="Miro Timeplanning" style="border-radius: 5px;"></a>
+<a class="glightbox" href="../images/10. Design Studio_Pulse Project/non human intelligence & Technology - Ideas.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/10. Design Studio_Pulse Project/non human intelligence & Technology - Ideas.jpg" alt="Future Direction Ideas" style="border-radius: 5px;"></a></p>
 <figcaption> The direction we want to take the project in in the future </figcaption>
 
 <hr />
@@ -939,7 +950,7 @@
 <!--
 ****************insert pictures here of using working on roof at Iaac?**************** -->
 
-<p><img src="../images/10. Design Studio_Pulse Project/All of us working on roof.jpg" alt="ALl of us working together" style="border-radius: 5px;"></p>
+<p><a class="glightbox" href="../images/10. Design Studio_Pulse Project/All of us working on roof.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/10. Design Studio_Pulse Project/All of us working on roof.jpg" alt="ALl of us working together" style="border-radius: 5px;"></a></p>
 <figcaption> Continuing our work towards Design Dialogues </figcaption>
 <hr />
 <p>Personally, I’d like to see if it’s possible to design and build a custom handheld device that you’d be able to put together yourself, which would function almost like a tricorder from star trek, letting you take it out and about with you in a park or a forest, attach it to any plant you find (safely without harming of course) and try and interpret how the plant is communicating. </p>
@@ -1098,5 +1109,5 @@
       <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>

@@ -63,7 +63,18 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -831,7 +842,7 @@ In the Extended Intelligences module, we explored AI development and it’s impl
 <p>In class, we dissected the workings of AI systems and how they are built. Learning how neural networks work, how they are built up of different models, and that an AI system is only born once it has been trained on vast quantities of data after (many) hours of training and retraining on that specific data. </p>
 <blockquote>
 <p>A good analogy of a neural network is like a child learning to ride a bike — the child is the program, the data set is the bicycle, and training is like teaching the child to ride.</p>
-<p><img src="../images/09. Extended Intelligences/a_digital_illustration_of_a_small_robot_learning_to_ride_a_bike.png" alt="A Neural net in training" style="border-radius: 5px;"></p>
+<p><a class="glightbox" href="../images/09. Extended Intelligences/a_digital_illustration_of_a_small_robot_learning_to_ride_a_bike.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/09. Extended Intelligences/a_digital_illustration_of_a_small_robot_learning_to_ride_a_bike.png" alt="A Neural net in training" style="border-radius: 5px;"></a></p>
 </blockquote>
 <figcaption style="text-align: center;">Training a neural network is a lot like teaching a kid to ride a bike</figcaption>
 
@@ -993,5 +1004,5 @@ In the Extended Intelligences module, we explored AI development and it’s impl
       <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>

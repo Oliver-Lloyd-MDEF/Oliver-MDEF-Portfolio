@@ -63,7 +63,18 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -764,7 +775,7 @@ Currently I am studying the Masters in Design for Emergent Futures program at IA
 
 Take a look at some of my previous product design experience here! **[Oliver Lloyd Design Portfolio](https://www.oliverlloyddesign.co.uk/)**
 
-<img src="../images/Profile%20Photos/BW_profile.png" alt="Profile Photo" style="float: right; height: 400px; width: auto; border-radius: 200px; margin-left: 20px;">
+<a class="glightbox" href="../images/Profile%20Photos/BW_profile.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/Profile%20Photos/BW_profile.png" alt="Profile Photo" style="float: right; height: 400px; width: auto; border-radius: 200px; margin-left: 20px;"></a>
 
 ![Profile Photo](../images/Profile%20Photos/BW_profile.png){: align=right; style="height: 400px; width: auto; border-radius: 200px; margin-right: 0px"} -->
 <!--
@@ -778,7 +789,7 @@ Take a look at some of my previous product design experience here! **[Oliver Llo
         Currently I am studying the Masters in Design for Emergent Futures program at IAAC and Elisava Design School, I'm excited to have the chance to expand my skills in this next step of my studies, focusing on designing with impact on sustainability, the circular economy, regenerative design, and taking a leap into the near future.  
 
 </div>
-    <img src="../images/Profile%20Photos/BW_profile.png" alt="Profile Photo" style="height: 400px; width: auto; border-radius: 200px; margin-left: 20px;">
+    <a class="glightbox" href="../images/Profile%20Photos/BW_profile.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/Profile%20Photos/BW_profile.png" alt="Profile Photo" style="height: 400px; width: auto; border-radius: 200px; margin-left: 20px;"></a>
 </div>
 
 Take a look at some of my previous product design experience here! 
@@ -795,7 +806,7 @@ Take a look at some of my previous product design experience here!
     Currently, I am studying the Masters in Design for Emergent Futures program at IAAC and Elisava Design School. I'm excited to have the chance to expand my skills in this next step of my studies, focusing on designing with an impact on sustainability, the circular economy, regenerative design, and taking a leap into the near future.  
   </div>
 
-  <img src="../images/Profile%20Photos/BW_profile.png" alt="Profile Photo" class="profile-photo">
+  <a class="glightbox" href="../images/Profile%20Photos/BW_profile.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/Profile%20Photos/BW_profile.png" alt="Profile Photo" class="profile-photo"></a>
 </div>
 
 <p>Take a look at some of my previous product design experience here! 
@@ -831,7 +842,7 @@ Take a look at some of my previous product design experience here!
 </style>
 
 <hr />
-<p><img alt="Vector illustration of Amsterdam" src="../images/Home%20Town/A3%20Amsterdam%20Poster.jpg" style="height: auto; width: auto; border-radius: 10px; margin-right: 0px" /> </p>
+<p><a class="glightbox" href="../images/Home%20Town/A3%20Amsterdam%20Poster.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Vector illustration of Amsterdam" src="../images/Home%20Town/A3%20Amsterdam%20Poster.jpg" style="height: auto; width: auto; border-radius: 10px; margin-right: 0px" /></a> </p>
 <!-- Below is how you hoverable cards in markdown
 
 <div class="grid cards" markdown>
@@ -995,5 +1006,5 @@ Take a look at some of my previous product design experience here!
       <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>

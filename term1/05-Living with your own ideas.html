@@ -63,7 +63,18 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -809,10 +820,10 @@
 <!--*add images and gifs here of the build process* -->
 <!-- Markdown Content -->
 <div class="image-grid">
-  <img src="../images/05. Living with your own ideas/Magic Machines/list of human desires.jpg" class="grid-item" alt="list of human desires">
-  <img src="../images/05. Living with your own ideas/Magic Machines/Lo-Fi prototyping materials.jpg" class="grid-item" alt="Lo-Fi prototyping materials">
-  <img src="../images/05. Living with your own ideas/Magic Machines/building the scales.jpg" class="grid-item portrait-image" alt="building the scales">
-  <img src="../images/05. Living with your own ideas/Magic Machines/closeup of finished scales.jpg" class="grid-item" alt="closeup of finished scales">
+  <a class="glightbox" href="../images/05. Living with your own ideas/Magic Machines/list of human desires.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/05. Living with your own ideas/Magic Machines/list of human desires.jpg" class="grid-item" alt="list of human desires"></a>
+  <a class="glightbox" href="../images/05. Living with your own ideas/Magic Machines/Lo-Fi prototyping materials.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/05. Living with your own ideas/Magic Machines/Lo-Fi prototyping materials.jpg" class="grid-item" alt="Lo-Fi prototyping materials"></a>
+  <a class="glightbox" href="../images/05. Living with your own ideas/Magic Machines/building the scales.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/05. Living with your own ideas/Magic Machines/building the scales.jpg" class="grid-item portrait-image" alt="building the scales"></a>
+  <a class="glightbox" href="../images/05. Living with your own ideas/Magic Machines/closeup of finished scales.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/05. Living with your own ideas/Magic Machines/closeup of finished scales.jpg" class="grid-item" alt="closeup of finished scales"></a>
   <!-- Add more images as needed -->
 </div>
 
@@ -852,8 +863,8 @@
 <p>Because It’s easy to slip into extremes when that’s all that you see around you, and having a visual indicator of the emotions surrounding you can be a reminder to go and do something that makes you genuinely happy and brings you some joy (whatever that may be) can help you bring some balance back to your life. At least, for the week it lived with me it definitely helped! :D</p>
 <!--  *add images and gifs here of the final scales* -->
 <div class="image-container">
-    <img src="../images/05. Living with your own ideas/Magic Machines/Scales testing.gif" alt="testing the scales" class="rounded-image">
-    <img src="../images/05. Living with your own ideas/Magic Machines/closeup of scales in use.jpg" alt="the scales in use" class="rounded-image">
+    <a class="glightbox" href="../images/05. Living with your own ideas/Magic Machines/Scales testing.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/05. Living with your own ideas/Magic Machines/Scales testing.gif" alt="testing the scales" class="rounded-image"></a>
+    <a class="glightbox" href="../images/05. Living with your own ideas/Magic Machines/closeup of scales in use.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/05. Living with your own ideas/Magic Machines/closeup of scales in use.jpg" alt="the scales in use" class="rounded-image"></a>
 </div>
 
 <style>
@@ -892,8 +903,8 @@
 <p>This meant doing a quick bit of maths to try and see where I could get some energy reduction without it impacting my life in a way that would normally make me want to stop doing it or affect me being able to go about my day of classes. With a bit of tweaking to laptop charger usage times, coffee machine, television and public transport usage I was able to contain my consumption to under 1000 watts. </p>
 <!--  *add images and gifs here of the final scales* -->
 <div class="image-container">
-    <img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/24H 1PP research ideas.jpg" alt="24H 1PP research ideas" class="rounded-image">
-    <img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/2000W challenge planning.jpg" alt="2000W challenge planning" class="rounded-image">
+    <a class="glightbox" href="../images/05. Living with your own ideas/1PP 2000 watt challenge/24H 1PP research ideas.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/24H 1PP research ideas.jpg" alt="24H 1PP research ideas" class="rounded-image"></a>
+    <a class="glightbox" href="../images/05. Living with your own ideas/1PP 2000 watt challenge/2000W challenge planning.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/2000W challenge planning.jpg" alt="2000W challenge planning" class="rounded-image"></a>
 </div>
 
 <style>
@@ -914,7 +925,7 @@
     border-radius: 5px; /* Apply rounded corners to images with this class */
 }
 </style>
-<p><img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/1000W challenge & outcome.jpg" alt="2000 watt challenge and outcome" style="border-radius: 5px;"></p>
+<p><a class="glightbox" href="../images/05. Living with your own ideas/1PP 2000 watt challenge/1000W challenge & outcome.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/1000W challenge & outcome.jpg" alt="2000 watt challenge and outcome" style="border-radius: 5px;"></a></p>
 <figcaption>planning and outcome of the challenge</figcaption>
 <p></figure>
 <br></p>
@@ -1082,5 +1093,5 @@
       <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>

@@ -59,7 +59,18 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -748,8 +759,8 @@ This is a custom callout box or highlight using HTML and CSS.
 </div>
 
 <figure style="overflow: hidden;">
-<p><img alt="Personal AoWS selection.jpg" src="../images/03.%20Atlas%20of%20Weak%20Signals/Personal%20AoWS%20selection.jpg" style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px" />
-<img alt="Personal AoWS finalists.jpg" src="../images/03.%20Atlas%20of%20Weak%20Signals/Personal%20AoWS%20finalists.jpg" style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px" /></p>
+<p><a class="glightbox" href="../images/03.%20Atlas%20of%20Weak%20Signals/Personal%20AoWS%20selection.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Personal AoWS selection.jpg" src="../images/03.%20Atlas%20of%20Weak%20Signals/Personal%20AoWS%20selection.jpg" style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px" /></a>
+<a class="glightbox" href="../images/03.%20Atlas%20of%20Weak%20Signals/Personal%20AoWS%20finalists.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Personal AoWS finalists.jpg" src="../images/03.%20Atlas%20of%20Weak%20Signals/Personal%20AoWS%20finalists.jpg" style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px" /></a></p>
 <figcaption>Narrowing down the cards I wanted to focus on</figcaption>
 </figure>
 <div class="center-text">
@@ -765,9 +776,9 @@ This text will be centre aligned
 </div>
 
 <p>Emerging technologies for water conservation, such as advanced filtration systems and smart irrigation techniques, signal a growing focus on preserving water resources, especially in water-scarce regions.</p>
-<p><img align="left;" alt="1.png" src="../images/03.%20Atlas%20of%20Weak%20Signals/New%20Signals/1.png" style="height: 400px; width: auto; border-radius: 5px; margin-right: 0px" />
+<p><a class="glightbox" href="../images/03.%20Atlas%20of%20Weak%20Signals/New%20Signals/1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img align="left;" alt="1.png" src="../images/03.%20Atlas%20of%20Weak%20Signals/New%20Signals/1.png" style="height: 400px; width: auto; border-radius: 5px; margin-right: 0px" /></a>
 Emerging technologies for water conservation, such as advanced filtration systems and smart irrigation techniques, signal a growing focus on preserving water resources, especially in water-scarce regions.</p>
-<p><img align="left" alt="blah blah" src="https://dummyimage.com/600x400/eee/aaa" /></p>
+<p><a class="glightbox" href="https://dummyimage.com/600x400/eee/aaa" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img align="left" alt="blah blah" src="https://dummyimage.com/600x400/eee/aaa" /></a></p>
 <p>therehtew thwetwegh sjdkghasdjght jklhjsdkl fjsakltgjwel</p>
 
 
@@ -891,5 +902,5 @@ Emerging technologies for water conservation, such as advanced filtration system
       <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>

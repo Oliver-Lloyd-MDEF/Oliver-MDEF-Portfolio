@@ -63,7 +63,18 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -775,8 +786,8 @@ TL;DR: My first week in the design program was a whirlwind of experiences. We me
 </figure> -->
 
 <div class="image-container">
-    <img src="../images/01. Landing Week/objects of meaning lecture.jpg" alt="objects of meaning lecture" class="rounded-image">
-    <img src="../images/01. Landing Week/objects of meaning exercise.jpg" alt="objects of meaning exercise" class="rounded-image">
+    <a class="glightbox" href="../images/01. Landing Week/objects of meaning lecture.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/01. Landing Week/objects of meaning lecture.jpg" alt="objects of meaning lecture" class="rounded-image"></a>
+    <a class="glightbox" href="../images/01. Landing Week/objects of meaning exercise.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/01. Landing Week/objects of meaning exercise.jpg" alt="objects of meaning exercise" class="rounded-image"></a>
 </div>
 
 <style>
@@ -838,10 +849,10 @@ TL;DR: My first week in the design program was a whirlwind of experiences. We me
 </figure> -->
 
 <div class="image-grid">
-  <img src="../images/01. Landing Week/building fablab 1.jpg" class="grid-item" alt="fablab building">
-  <img src="../images/01. Landing Week/building fablab 2.jpg" class="grid-item" alt="fablab building 2">
-  <img src="../images/01. Landing Week/building fablab 4.jpg" class="grid-item portrait-image" alt="building fablab 4">
-  <img src="../images/01. Landing Week/building fablab 5.jpg" class="grid-item" alt="building fablab 5">
+  <a class="glightbox" href="../images/01. Landing Week/building fablab 1.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/01. Landing Week/building fablab 1.jpg" class="grid-item" alt="fablab building"></a>
+  <a class="glightbox" href="../images/01. Landing Week/building fablab 2.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/01. Landing Week/building fablab 2.jpg" class="grid-item" alt="fablab building 2"></a>
+  <a class="glightbox" href="../images/01. Landing Week/building fablab 4.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/01. Landing Week/building fablab 4.jpg" class="grid-item portrait-image" alt="building fablab 4"></a>
+  <a class="glightbox" href="../images/01. Landing Week/building fablab 5.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/01. Landing Week/building fablab 5.jpg" class="grid-item" alt="building fablab 5"></a>
   <!-- Add more images as needed -->
 </div>
 
@@ -877,7 +888,7 @@ TL;DR: My first week in the design program was a whirlwind of experiences. We me
     - A lot of introspection here I think, in the next few months of the course. -->
 
 <p>We visited the Elisava campus and received an introduction to the facilities. It was impressive to see the high-tech resources available to us. Laura Benitez, the third director of our program and a doctor in philosophy, gave a lecture on her research background. She covered topics such as biohacking, trans and post humanism, and transfeminism. While some concepts were difficult to grasp, I look forward to delving deeper into her research. It seems that her lectures will focus on introspection and exploring our fight, purpose, and creative development in relation to emerging futures.</p>
-<p><img src="../images/01. Landing Week/Elisava Printroom intro.jpg" alt="elisava print room" style="border-radius: 5px;">
+<p><a class="glightbox" href="../images/01. Landing Week/Elisava Printroom intro.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/01. Landing Week/Elisava Printroom intro.jpg" alt="elisava print room" style="border-radius: 5px;"></a>
 <br />
 <figcaption>Intro lecture to the Elisava graphics room</figcaption></p>
 </figure>
@@ -1008,5 +1019,5 @@ TL;DR: My first week in the design program was a whirlwind of experiences. We me
       <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
