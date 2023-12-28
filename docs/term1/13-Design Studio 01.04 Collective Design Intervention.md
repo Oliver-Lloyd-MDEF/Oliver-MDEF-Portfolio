@@ -53,30 +53,39 @@ We eventually managed to read some sort of electrical spikes within an Orchid th
 ---
 <!--
 ****************insert pictures here of ECG monitor hooked up to plant**************** -->
-<div class="image-container">
-    <img src="../images/10. Design Studio_Pulse Project/ECG Orchid Test.png" alt="Orchid ECG Test" class="rounded-image">
-    <img src="../images/10. Design Studio_Pulse Project/ECG Orchid Testing.gif" alt="Orchid ECG Signal Test" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/10. Design Studio_Pulse Project/ECG Orchid Test.png" class="grid-item" alt="Orchid ECG test">
+  <img src="../images/10. Design Studio_Pulse Project/ECG Orchid Testing.gif" class="grid-item" alt="Orchid ECG Signal Test">
+
+  <!-- Add more images as needed -->
 </div>
-<figcaption> A first test using the ECG monitors on an orchid </figcaption>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
+
 ---
 
 **So back to square one. *Shit*.**

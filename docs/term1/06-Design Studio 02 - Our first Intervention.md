@@ -16,30 +16,38 @@ This was a really useful exercise actually, as it finally gave us all a space to
 ![final class design space](<../images/06. Design Studio 02/final class design space.jpg>)
 ![class design space close up](<../images/06. Design Studio 02/Group design space closeup .jpg>)
 -->
+<div class="image-grid">
+  <img src="../images/06. Design Studio 02/final class design space.jpg" class="grid-item" alt="Class design space">
+  <img src="../images/06. Design Studio 02/creating group design space.jpg" class="grid-item" alt="creating the group design space">
 
-<div class="image-container">
-    <img src="../images/06. Design Studio 02/final class design space.jpg" alt="final class design space" class="rounded-image">
-    <img src="../images/06. Design Studio 02/creating group design space.jpg" alt="the scales in use" class="rounded-image">
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
 
 <img src="../images/06. Design Studio 02/Group design space closeup .jpg" alt="group design space closeup" style="border-radius: 5px;">
 
@@ -72,29 +80,40 @@ So we got together one crisp Saturday morning to do just that, meeting in the bi
 
 During this exploration, while we were cooking and discussing, we realised that this topic was far too broad and not something that could easily be condensed into a 1-hour workshop and that this process was going to far too long and not create the kind of impact we were looking for.
 <!-- add images or gifs here of the cooking process-->
-<div class="image-container">
-    <img src="../images/06. Design Studio 02/timelapse of biolab.gif" alt="talking to the public" class="rounded-image">
-    <img src="../images/06. Design Studio 02/biomaterial making 1.jpeg" alt="biomaterial making" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/06. Design Studio 02/timelapse of biolab.gif" class="grid-item" alt="Timelapse of biolab">
+  <img src="../images/06. Design Studio 02/biomaterial making 1.jpeg" class="grid-item" alt="biomaterial making">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
+
+
 
 
 **So we pivoted.**
@@ -115,57 +134,42 @@ These questions would be answered with a sticker represneting one of two stateme
 ![habit changes](<../images/06. Design Studio 02/habit change.jpg>)
 ![what's holding you back](<../images/06. Design Studio 02/what's holding you back.jpg>) -->
 
-<div class="image-container">
-    <img src="../images/06. Design Studio 02/what&apos;s holding you back.jpg" alt="what's holding you back" class="rounded-image">
-    <img src="../images/06. Design Studio 02/habit change.jpg" alt="habit changes" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/06. Design Studio 02/what&apos;s holding you back.jpg" class="grid-item" alt="what's holding you back">
+  <img src="../images/06. Design Studio 02/habit change.jpg" class="grid-item" alt="habit change">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
 
 <img src="../images/06. Design Studio 02/main poster.jpg" alt="rough intervention plan" style="border-radius: 5px;">
 
 With these questions in mind, we created our interactive posters, stuck them to some large pieces of cardboard we found (**very low-tech, I know**) and proceeded with our intervention. We hung a set of posters up in our own university building to see what the reactions and responses would be from people who we thought would be the most likely to be aware of and working towards solutions around these issues and the next, we took around Barcelona with us!
-
-<div class="image-container">
-    <img src="../images/06. Design Studio 02/what&apos;s holding you back.jpg" alt="what's holding you back" class="rounded-image">
-    <img src="../images/06. Design Studio 02/habit change.jpg" alt="habit changes" class="rounded-image">
-</div>
-
-<style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
-
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
-    border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
-</style>
 
 We wandered around the neighbourhood of Gracia, inviting strangers to participate in our research and see what they had to say. While this was initially a little nerve-racking, we got over it, and soon, we were chatting with people left and right and getting some fantastic insights. I’m glad we took this approach; the answers we got and our conversations really painted an interesting picture that we wouldn’t have gotten otherwise if we’d done something else. Turns out most people are trying their hardest to repurpose the majority of their plastic waste into other useful things around their home and life, as well as turning as much food waste as they can into compost for their plants!
 <!--
@@ -173,29 +177,38 @@ We wandered around the neighbourhood of Gracia, inviting strangers to participat
 ![talking to the public](<../images/06. Design Studio 02/talking to the public.jpg>)
 ![talking to group of people](<../images/06. Design Studio 02/talking to group.gif>) -->
 
-<div class="image-container">
-    <img src="../images/06. Design Studio 02/Interactive posters in use.jpg" alt="posters in use" class="rounded-image">
-    <img src="../images/06. Design Studio 02/talking to the public.jpg" alt="habit changes" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/06. Design Studio 02/Interactive posters in use.jpg" class="grid-item" alt="posters in use">
+  <img src="../images/06. Design Studio 02/talking to the public.jpg" class="grid-item" alt="htalking to the public">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
 
 <img src="../images/06. Design Studio 02/talking to the public.gif" alt="talking to the public" style="border-radius: 5px;">
 
@@ -207,7 +220,9 @@ Take a look at the video below to learn a bit more about how we created this fir
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/Dbv4nmGdHDs?si=b40Knt8vFOFgAxG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 5px;"></iframe>
 
----
+--- 
+<!--
 **If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
 
 ---
+-->

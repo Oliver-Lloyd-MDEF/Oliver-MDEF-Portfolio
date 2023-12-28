@@ -20,28 +20,36 @@ In our different groups we went and picked out a broken machine from the fablab 
 
 ![Dusting off.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Dusting off.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"} -->
 
-<div class="image-container">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting 2.jpg" alt="selecting the microwave" class="rounded-image">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg" alt="Water conservation" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting 2.jpg" class="grid-item" alt="Selecting the microwave">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg" class="grid-item" alt="final choice">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
 <figcaption>Selecting our machine and our final choice</figcaption>
 </figure>
@@ -55,29 +63,38 @@ We started to tear down the microwave to get access to it’s insides and began 
 
 ![PSU removal.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 -->
-<div class="image-container">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" alt="removing the casing" class="rounded-image">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" alt="Water conservation" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" class="grid-item" alt="casing removal gif">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" class="grid-item" alt="PSU Removal">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
 <img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/Capacitor testing.JPG" alt="capacitor testing" style="border-radius: 5px;">
 <figcaption>breaking down the microwave</figcaption>
 </figure>
@@ -196,28 +213,36 @@ When we first presented the concept for our idea, we wanted to create something 
 
 We scavenged some more parts from our original microwave chassis, specifically the bottom panel of the casing that supported a rotating ring that allowed the plate to spin, so that we didn’t have to make a new one, as well as switch to activate the whole system when weight was added to the plate. These pieces, some laser cut pieces of plywood, a borrowed frame from the Fablab and some 3d printed parts came together to create our final contraption. 
 
-<div class="image-container">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg" alt="rough frame assembly" class="rounded-image">
-    <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg" alt="adjusting the frame size" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg" class="grid-item" alt="rough frame assembly">
+  <img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg" class="grid-item" alt="adjusting the frame size">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
   <figcaption>adjusting the frame size</figcaption>
 </figure>
@@ -255,6 +280,8 @@ That’s what I think this module is really designed to do, to shape the way we 
 ![I am Magnetron.jpg](<../images/04. The Machine Paradox/Photos & Video/I am Magetron.jpg>){: style="height: auto; width: auto; border-radius: 10px; "}
 
 ---
+<!--
 **If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
 
 ---
+-->

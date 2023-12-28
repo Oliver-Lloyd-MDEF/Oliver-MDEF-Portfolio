@@ -64,28 +64,36 @@ when trying to come up with my machine, I ended up thinking about how much of wh
 Because It’s easy to slip into extremes when that’s all that you see around you, and having a visual indicator of the emotions surrounding you can be a reminder to go and do something that makes you genuinely happy and brings you some joy (whatever that may be) can help you bring some balance back to your life. At least, for the week it lived with me it definitely helped! :D
 
 <!--  *add images and gifs here of the final scales* -->
-<div class="image-container">
-    <img src="../images/05. Living with your own ideas/Magic Machines/Scales testing.gif" alt="testing the scales" class="rounded-image">
-    <img src="../images/05. Living with your own ideas/Magic Machines/closeup of scales in use.jpg" alt="the scales in use" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/05. Living with your own ideas/Magic Machines/Scales testing.gif" class="grid-item" alt="scales testing">
+  <img src="../images/05. Living with your own ideas/Magic Machines/closeup of scales in use.jpg" class="grid-item" alt="closeup of scales">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
 
 ## 1PP research - Embodying your ideas
@@ -114,29 +122,38 @@ It turned out that on that particular day when I summed everything up (probably 
 This meant doing a quick bit of maths to try and see where I could get some energy reduction without it impacting my life in a way that would normally make me want to stop doing it or affect me being able to go about my day of classes. With a bit of tweaking to laptop charger usage times, coffee machine, television and public transport usage I was able to contain my consumption to under 1000 watts. 
 
 <!--  *add images and gifs here of the final scales* -->
-<div class="image-container">
-    <img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/24H 1PP research ideas.jpg" alt="24H 1PP research ideas" class="rounded-image">
-    <img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/2000W challenge planning.jpg" alt="2000W challenge planning" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/24H 1PP research ideas.jpg" class="grid-item" alt="24H 1PP research ideas">
+  <img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/2000W challenge planning.jpg" class="grid-item" alt="2000 watt challenge planning">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 45%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
 <img src="../images/05. Living with your own ideas/1PP 2000 watt challenge/1000W challenge & outcome.jpg" alt="2000 watt challenge and outcome" style="border-radius: 5px;">
 <figcaption>planning and outcome of the challenge</figcaption>
 </figure>
@@ -195,7 +212,8 @@ First person perspective is definitely a useful tool in the designers toolkit, a
 Finally, being able to see the work of my classmates, their explorations into different subject matters was an incredible experience and opportunity to get to know them on a much more creative level, with areas of research from maximising learning in VR to adapting to a world of surveillance capitalism, they all presented really cool opportunities for collaboration and I’m excited to work together with them in areas that I have no knowledge in whatsoever, and see what kind of cool shit we can come up.
 
 ---
+<!--
 **If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
 
 ---
-
+-->

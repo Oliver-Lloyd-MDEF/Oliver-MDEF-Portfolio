@@ -28,28 +28,36 @@ Later, we broke into smaller groups to focus on specific Weak Signal areas and b
 <figcaption>Getting familiar with the methodology in groups</figcaption>
 </figure> */ -->
 
-<div class="image-container">
-    <img src="../images/03. Atlas of Weak Signals/AoWS group work 1.jpg" alt="AoWS group work 1" class="rounded-image">
-    <img src="../images/03. Atlas of Weak Signals/AoWS group work 2.jpg" alt="AoWS group work 2" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/03. Atlas of Weak Signals/AoWS group work 1.jpg" class="grid-item" alt="AoWS group work 1">
+  <img src="../images/03. Atlas of Weak Signals/AoWS group work 2.jpg" class="grid-item" alt="AoWS group work 2">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
 
 <img src="../images/03. Atlas of Weak Signals/AoWS group work 3.jpg" alt="AoWS group work 3" style="border-radius: 5px;">
@@ -71,29 +79,38 @@ We then set about creating our own Atlas of Weak Signals (AoWS) in our design sp
 <figcaption>Narrowing down the cards I wanted to focus on</figcaption>
 </figure> -->
 
-<div class="image-container">
-    <img src="../images/03. Atlas of Weak Signals/Personal AoWS selection.jpg" alt="Personal AoWS selection" class="rounded-image">
-    <img src="../images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg" alt="Personal AoWS Finalists" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/03. Atlas of Weak Signals/Personal AoWS selection.jpg" class="grid-item" alt="AoWS selection">
+  <img src="../images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg" class="grid-item" alt="AoWS finalists">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
 <figcaption>Narrowing down the cards I wanted to focus on</figcaption>
 </figure>
 
@@ -109,7 +126,7 @@ My main area of interest lies in the concept of **solarpunk**, focusing on the c
 > 
 
 By fostering cooperation between humans and machines, we can unlock innovative solutions in biomaterials, circular economies, and doughnut economic models. This collaboration ensures that the goals of long-termism are maintained, with a focus on creating products and policies that account for the well-being of future generations. Through localized digital fabrication hubs, we can harness the unique capabilities of both humans and machines, pushing the boundaries of innovation. This approach not only aligns with the solarpunk ethos but also contributes to the vision of a sustainable future framed by localized production, global connectivity, and a deep commitment to the well-being of all generations to come.
-<!-->
+<!--
 <figure markdown style="overflow: hidden;">
 ![Atlas of Weak Signals Exercise Design Space - Frame 1.jpg](<../images/03. Atlas of Weak Signals/Design Space/Atlas of Weak Signals Exercise Design Space - Frame 1.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 </figure> -->
@@ -135,29 +152,38 @@ Emerging technologies for water conservation, such as advanced filtration system
 </figure>
 -->
 
-<div class="image-container">
-    <img src="../images/03. Atlas of Weak Signals/New Signals/1.png" alt="Climate technologies" class="rounded-image">
-    <img src="../images/03. Atlas of Weak Signals/New Signals/2.png" alt="Water conservation" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/03. Atlas of Weak Signals/New Signals/1.png" class="grid-item" alt="Climate technologies">
+  <img src="../images/03. Atlas of Weak Signals/New Signals/2.png" class="grid-item" alt="Water conservation">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 45%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
 <figcaption>Two new weak signals for the deck</figcaption>
 </figure>
 
@@ -196,9 +222,10 @@ I much prefer creating these sorts of diagrams and working from them as they let
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVNcGhU5Y=/?moveToViewport=-4867,-4812,22559,23229&embedId=417662880878" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 ---
-**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+<!--
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃** 
+-->
 
----
   
 
 
