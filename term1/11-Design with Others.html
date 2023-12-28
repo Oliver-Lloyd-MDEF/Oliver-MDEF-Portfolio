@@ -898,29 +898,39 @@
 </blockquote>
 <hr />
 <!-- insert images here -->
-<div class="image-container">
-    <a class="glightbox" href="images/08. Design with others/La Borda/La Borda Ground Floor.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="images/08. Design with others/La Borda/La Borda Ground Floor.jpg" alt="la borda ground floor" class="rounded-image"></a>
-    <a class="glightbox" href="images/08. Design with others/La Borda/La Borda Top Floor.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="images/08. Design with others/La Borda/La Borda Top Floor.jpg" alt="Water conservation" class="rounded-image"></a>
+
+<div class="image-grid">
+  <a class="glightbox" href="../images/08. Design with others/La Borda/La Borda Ground Floor.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/08. Design with others/La Borda/La Borda Ground Floor.jpg" class="grid-item" alt="la borda ground floor"></a>
+  <a class="glightbox" href="../images/08. Design with others/La Borda/La Borda Top Floor.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/08. Design with others/La Borda/La Borda Top Floor.jpg" class="grid-item" alt="La Borda top floor"></a>
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
 <figcaption> A few shots from the interior of the building of La Borda, this entire building was created by the residents of it using modular units made up enitrely of CLT -- A really innovative use for the material and shows off it's potential! </figcaption>
 <hr />
 <h3 id="intervention-urban-regreening-and-pollinator-corridors">Intervention: Urban Regreening and Pollinator Corridors<a class="headerlink" href="#intervention-urban-regreening-and-pollinator-corridors" title="Permanent link">&para;</a></h3>
@@ -933,28 +943,36 @@
 <p>Our plan was comprehensive. We aimed to engage the entire neighbourhood community along the chosen street, instilling a sense of ownership and responsibility for the project. We envisioned a multifaceted approach, combining visual elements, community engagement, and educational workshops.</p>
 <p>To create a compelling narrative, we developed a brand proposal and a guerrilla marketing campaign. Utilizing AI-generated visuals, we crafted images envisioning the transformed street, complete with native flowers and insect hotels adorning the trees lining the path.</p>
 <p>In addition to visual aids, we designed informative posters to disseminate the message throughout the neighbourhood. These would serve as catalysts for sparking curiosity and awareness about the potential transformation of the street into a thriving pollinator corridor.</p>
-<div class="image-container">
-    <a class="glightbox" href="../images/08. Design with others/Intervention/Sin título-1.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/08. Design with others/Intervention/Sin título-1.jpg" alt="intervention poster 1" class="rounded-image"></a>
-    <a class="glightbox" href="../images/08. Design with others/Intervention/A(1).png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/08. Design with others/Intervention/A(1).png" alt="intervention poster 2" class="rounded-image"></a>
+<div class="image-grid">
+  <a class="glightbox" href="../images/08. Design with others/Intervention/Sin título-1.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/08. Design with others/Intervention/Sin título-1.jpg" class="grid-item" alt="intervention poster 1"></a>
+  <a class="glightbox" href="../images/08. Design with others/Intervention/A(1).png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/08. Design with others/Intervention/A(1).png" class="grid-item" alt="Intervention Poster 2"></a>
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
 
 <p><a class="glightbox" href="../images/08. Design with others/Intervention/B.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/08. Design with others/Intervention/B.png" alt="posters in context" style="border-radius: 5px;"></a></p>
