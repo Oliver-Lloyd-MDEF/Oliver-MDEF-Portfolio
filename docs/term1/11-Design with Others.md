@@ -77,8 +77,8 @@ In my group, we largely focused on the degradation of soil and land in urban spa
 
 <!-- insert images here -->
 <div class="image-container">
-    <img src="../images/08. Design with others/La Borda/La Borda Ground Floor.jpg" alt="la borda ground floor" class="rounded-image">
-    <img src="../images/08. Design with others/La Borda/La Borda Top Floor.jpg" alt="Water conservation" class="rounded-image">
+    <img src="images/08. Design with others/La Borda/La Borda Ground Floor.jpg" alt="la borda ground floor" class="rounded-image">
+    <img src="images/08. Design with others/La Borda/La Borda Top Floor.jpg" alt="Water conservation" class="rounded-image">
 </div>
 
 <style>
@@ -123,7 +123,7 @@ In addition to visual aids, we designed informative posters to disseminate the m
 
 <div class="image-container">
     <img src="../images/08. Design with others/Intervention/Sin título-1.jpg" alt="intervention poster 1" class="rounded-image">
-    <img src="../images/08. Design with others/Intervention/B.png" alt="intervention poster 2" class="rounded-image">
+    <img src="../images/08. Design with others/Intervention/A(1).png" alt="intervention poster 2" class="rounded-image">
 </div>
 
 <style>
