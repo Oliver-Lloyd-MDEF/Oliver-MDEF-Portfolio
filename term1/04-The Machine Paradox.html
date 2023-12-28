@@ -267,23 +267,6 @@
   
 
       
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../test%20index.html" class="md-tabs__link">
-        
-  
-    
-  
-  Test Index
-
-      </a>
-    </li>
-  
-
-      
     </ul>
   </div>
 </nav>
@@ -832,26 +815,6 @@
   
 
     
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../test%20index.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Test Index
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
   </ul>
 </nav>
                   </div>
@@ -885,28 +848,36 @@
 
 ![Dusting off.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Dusting off.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"} -->
 
-<div class="image-container">
-    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting 2.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting 2.jpg" alt="selecting the microwave" class="rounded-image"></a>
-    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg" alt="Water conservation" class="rounded-image"></a>
+<div class="image-grid">
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting 2.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Selecting 2.jpg" class="grid-item" alt="Selecting the microwave"></a>
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Selecting/JPG/Final choice.jpg" class="grid-item" alt="final choice"></a>
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
 <figcaption>Selecting our machine and our final choice</figcaption>
 </figure>
@@ -918,29 +889,38 @@
 
 ![PSU removal.jpg](<../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg>){: style="height: auto; width: auto; border-radius: 10px; margin-right: 10px"}
 -->
-<div class="image-container">
-    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" alt="removing the casing" class="rounded-image"></a>
-    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" alt="Water conservation" class="rounded-image"></a>
+<div class="image-grid">
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" class="grid-item" alt="casing removal gif"></a>
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" class="grid-item" alt="PSU Removal"></a>
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
 <p><a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/Capacitor testing.JPG" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/Capacitor testing.JPG" alt="capacitor testing" style="border-radius: 5px;"></a></p>
 <figcaption>breaking down the microwave</figcaption>
 </figure>
@@ -1027,28 +1007,36 @@
 <p>When we first presented the concept for our idea, we wanted to create something that mimicked the struggle to eat, but as we developed the concept of a reverse microwave, we discovered that our concept wouldn’t allow us to get to exactly what we wanted, so we adapted. After discovering that we couldn’t give our AC components any more of a brain with Arduino than just turning it on or off for a period of time, we decided to run two separate circuits. The normal AC one that powered the cooling fan and the plate motor, and a separate DC circuit that would allow us to control a lighting and sound system, designed to illuminate the food with a cool blue light and play a really annoying high pitched sound that would only start when the food was placed down on the rotating plate. </p>
 <p><em>Because you obviously have to have a sound that plays to alert you that your food is being cooled down no?</em> </p>
 <p>We scavenged some more parts from our original microwave chassis, specifically the bottom panel of the casing that supported a rotating ring that allowed the plate to spin, so that we didn’t have to make a new one, as well as switch to activate the whole system when weight was added to the plate. These pieces, some laser cut pieces of plywood, a borrowed frame from the Fablab and some 3d printed parts came together to create our final contraption. </p>
-<div class="image-container">
-    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg" alt="rough frame assembly" class="rounded-image"></a>
-    <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg" alt="adjusting the frame size" class="rounded-image"></a>
+<div class="image-grid">
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/Rough Frame assembly.jpg" class="grid-item" alt="rough frame assembly"></a>
+  <a class="glightbox" href="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/04. The Machine Paradox/Photos & Video/Week 2/Day 6/JPG/adjusting frame size.jpg" class="grid-item" alt="adjusting the frame size"></a>
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
 <figcaption>adjusting the frame size</figcaption>
 </figure>
@@ -1076,8 +1064,11 @@
 <p>That’s what I think this module is really designed to do, to shape the way we think about technology, and how when one machine gives up the ghost, it can be saved, repurposed and upcycled into something new that once again has value and meaning, not just another piece of junk to throw on the ever growing landfill. </p>
 <p><a class="glightbox" href="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/I%20am%20Magetron.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="I am Magnetron.jpg" src="../images/04.%20The%20Machine%20Paradox/Photos%20%26%20Video/I%20am%20Magetron.jpg" style="height: auto; width: auto; border-radius: 10px; " /></a></p>
 <hr />
-<p><strong>If you&rsquo;ve found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃</strong></p>
-<hr />
+<!--
+**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
+
+---
+-->
 
 
 

@@ -267,23 +267,6 @@
   
 
       
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../test%20index.html" class="md-tabs__link">
-        
-  
-    
-  
-  Test Index
-
-      </a>
-    </li>
-  
-
-      
     </ul>
   </div>
 </nav>
@@ -730,26 +713,6 @@
   
 
     
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../test%20index.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Test Index
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
   </ul>
 </nav>
                   </div>
@@ -785,29 +748,38 @@ TL;DR: My first week in the design program was a whirlwind of experiences. We me
   <figcaption>Objects of meaing lecture and exercise</figcaption>
 </figure> -->
 
-<div class="image-container">
-    <a class="glightbox" href="../images/01. Landing Week/objects of meaning lecture.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/01. Landing Week/objects of meaning lecture.jpg" alt="objects of meaning lecture" class="rounded-image"></a>
-    <a class="glightbox" href="../images/01. Landing Week/objects of meaning exercise.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/01. Landing Week/objects of meaning exercise.jpg" alt="objects of meaning exercise" class="rounded-image"></a>
+<div class="image-grid">
+  <a class="glightbox" href="../images/01. Landing Week/objects of meaning lecture.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/01. Landing Week/objects of meaning lecture.jpg" class="grid-item" alt="objects of meaning lecture"></a>
+  <a class="glightbox" href="../images/01. Landing Week/objects of meaning exercise.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../images/01. Landing Week/objects of meaning exercise.jpg" class="grid-item" alt="objects of meaning exercise"></a>
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
 <figcaption>Objects of meaing lecture and exercise</figcaption>
 </figure>
 <hr />
