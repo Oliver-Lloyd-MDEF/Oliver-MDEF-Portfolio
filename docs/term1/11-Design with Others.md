@@ -76,29 +76,39 @@ In my group, we largely focused on the degradation of soil and land in urban spa
 ---
 
 <!-- insert images here -->
-<div class="image-container">
-    <img src="images/08. Design with others/La Borda/La Borda Ground Floor.jpg" alt="la borda ground floor" class="rounded-image">
-    <img src="images/08. Design with others/La Borda/La Borda Top Floor.jpg" alt="Water conservation" class="rounded-image">
+
+<div class="image-grid">
+  <img src="../images/08. Design with others/La Borda/La Borda Ground Floor.jpg" class="grid-item" alt="la borda ground floor">
+  <img src="../images/08. Design with others/La Borda/La Borda Top Floor.jpg" class="grid-item" alt="La Borda top floor">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
+
 <figcaption> A few shots from the interior of the building of La Borda, this entire building was created by the residents of it using modular units made up enitrely of CLT -- A really innovative use for the material and shows off it's potential! </figcaption>
 ---
 
@@ -121,28 +131,36 @@ To create a compelling narrative, we developed a brand proposal and a guerrilla 
 
 In addition to visual aids, we designed informative posters to disseminate the message throughout the neighbourhood. These would serve as catalysts for sparking curiosity and awareness about the potential transformation of the street into a thriving pollinator corridor.
 
-<div class="image-container">
-    <img src="../images/08. Design with others/Intervention/Sin título-1.jpg" alt="intervention poster 1" class="rounded-image">
-    <img src="../images/08. Design with others/Intervention/A(1).png" alt="intervention poster 2" class="rounded-image">
+<div class="image-grid">
+  <img src="../images/08. Design with others/Intervention/Sin título-1.jpg" class="grid-item" alt="intervention poster 1">
+  <img src="../images/08. Design with others/Intervention/A(1).png" class="grid-item" alt="Intervention Poster 2">
+
+  <!-- Add more images as needed -->
 </div>
 
+<!-- CSS Styles -->
 <style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
+  /* Styles for the image grid container */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/ /*use this line of code to create a responsive grid that will place all images in one continuous row - each image will shrink accordignly*/
+    grid-gap: 10px;
+    /* Additional grid container styles can be added here */
+  }
 
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  /* Styles for individual grid items (images) */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
+    /* Additional styles for grid items can be added here */
+  }
+  /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
+  .portrait-image {
+    object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+  }
 </style>
 
 <img src="../images/08. Design with others/Intervention/B.png" alt="posters in context" style="border-radius: 5px;">
