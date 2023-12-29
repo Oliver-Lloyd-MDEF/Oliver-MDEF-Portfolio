@@ -309,21 +309,23 @@
       font-size: 40px;
     }
 
-     /* Styling for the banner */
-     .banner {
-      background-color: rgb(49, 64, 28, 1); /* Change this to your desired color */
-      width: 100%; /* Set the width of the banner */
-      height: 534px; /* Set the height of the banner in pixels */
+    /* Desktop and larger tablets */     
+    .banner {
       display: flex;
+      flex-direction: row; /* Align children side by side */
       align-items: center;
-      justify-content: space-around; /* Adjust as needed */
-      /* Add other banner-specific styles here */
+      justify-content: center; /* Center children horizontally */
+      background-color: rgb(49, 64, 28, 1);
+      width: 100%;
+      /* Do not fix the height; let it grow with content */
     }
 
     .banner .text-content {
-      flex: 1;
+      flex: 1; /* Take up the remaining space */
       padding: 50px;
+      /* No order property needed */
     }
+
     .banner .text-content p {
       margin: 50px;
       color: #ffffff; /* Change text color */
@@ -349,13 +351,28 @@
       transform: scale(1.05); /* Scale up by 5% on hover */
     }
 
-    .banner img {
-      max-width: 400px; /* Adjust the max-width of the image */
-      height: auto;
-      padding-right: 50px;
+    .banner .image-wrapper {
+      flex: 0 0 400px; /* Do not grow, do not shrink, start at 400px */
+      display: block; /* Ensure the image is displayed */
+      /* No order property needed */
     }
 
+    .banner img {
+      max-width: 100%; /* Full width of the container */
+      max-height: 350px; /* Maximum image height, adjust as needed */
+      width: auto; /* Maintain aspect ratio */
+      height: auto; /* Maintain aspect ratio */
+      object-fit: contain; /* Ensure the image is fully visible */
+      margin: auto; /* Center the image horizontally */
+      display: block; /* Images are inline by default, change to block to enable margin auto */
+      margin-right: 100px; /* Add space below the image, adjust as needed */
+      border-radius: 5px; /* Round the corners of the image, adjust as needed */
+    }
 
+    /* Ensure that the mobile image is not displayed in the desktop view */
+    .header img.mobile-image {
+      display: none;
+    }
 
     /* Styling for the card grid and hover effect */
     .card-grid {
@@ -404,99 +421,79 @@
       font-size: 22px;
     }
         
-    /* Media Queries for responsive design */
+/* Media Queries for responsive design */
 @media screen and (max-width: 768px) {
-    /* Mobile styles */
-
-    /* Header */
+    
+  /* Mobile styles for header */
     .header img.desktop-image {
       display: none; /* Hide desktop image on smaller screens */
     }
-
     .header img.mobile-image {
       display: block; /* Show mobile image on smaller screens */
       width: 100%;
       height: auto;
     }
-
+    
     /* Center title text on mobile */
-    .title {
+    .title, .subtitle {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 18px;
+      font-size: 18px; /* Adjust title font size */
     }
-
     .subtitle {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 22px;
+      font-size: 22px; /* Adjust subtitle font size */
+    }
+    
+  /* Mobile styles for banner */
+    .banner {
+      flex-direction: column; /* Stack children vertically */
+    }
+    .banner .text-content, .banner .image-wrapper {
+      width: 100%; /* Full width */
+      padding-right: 0; /* Remove right padding if any */
+      order: 0; /* Reset order */
+    }
+    .banner img {
+      max-width: 100%; /* Full width of the container */
+      max-height: 350px; /* Maximum image height, adjust as needed */
+      width: auto; /* Maintain aspect ratio */
+      height: auto; /* Maintain aspect ratio */
+      object-fit: contain; /* Ensure the image is fully visible */
+      margin: auto; /* Center the image horizontally */
+      display: block; /* Images are inline by default, change to block to enable margin auto */
+      margin-bottom: 20px; /* Add space below the image, adjust as needed */
+      border-radius: 5px; /* Round the corners of the image, adjust as needed */
+  }
     }
 
-   /* Banner - Arrange content in a single column */
-   .banner {
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .banner .text-content {
-    text-align: center;
-  }
-
-  .content-wrapper {
-    /* Adjust styles for content wrapper on mobile */
-    /* For example, you can set width and remove flex */
-    width: 100%;
-    max-width: 400px; /* Limit content width */
-    margin: 0 auto; /* Center the content */
-  }
-
-  .banner .text-content p {
-    margin: 20px; /* Adjust the margin for better mobile spacing */
-  }
-
-
-   .banner .button {
-      display: block;
-      width: fit-content;
-      padding: 15px 20px;
-      border-radius: 5px;
-      background-color: #8E3418;
-      color: white;
-      text-decoration: none;
-      text-align: center;
-      margin-top: 5px;
-      margin-left: 20%;
-      font-size: 16px; /* Adjust the font size */
-      transition: transform 0.2s ease-in-out; /* Adding transition for smooth effect */
+    .content-wrapper {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
     }
-
-    .banner .button:hover {
-      transform: scale(1.05); /* Scale up by 5% on hover */
+    .banner .text-content p {
+      margin: 20px;
     }
-
-    .image-wrapper {
-    /* Adjust styles for image wrapper on mobile */
-    margin-top: 20px; /* Add space between text and image */
-  }
-  }
-
-        
-    /* Card Grid Media query for mobile */
-@media screen and (max-width: 768px) {
-  .card-grid {
-    grid-template-columns: 1fr; /* Display in a single column on mobile */
-    padding: 20px; /* Adjust padding for better mobile layout */
-  }
-    .card {
-      margin-bottom: 20px; /* Add space between cards */
+    .banner .button {
+      display: block; /* Change display to block */
+      width: fit-content; /* Set the width to the content of the button */
+      margin: auto; /* Center the button with automatic horizontal margins */
+      text-align: center; /* Center the text inside the button */
     }
-}
   
+    
+    /* Mobile styles for card grid */
+    .card-grid {
+      grid-template-columns: 1fr;
+      padding: 20px;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+
+
 
   </style>
  <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
@@ -524,7 +521,6 @@
   <!-- Banner with text, image, and button -->
   <div class="banner">
     <div class="text-content">
-      <div class="content-wrapper">
         <p>I'm originally from Amsterdam, but share the UK as my other home nation, I grew up in countries all over the world and this has really shaped who I am as a person as well as my design philosophy, I've seen first hand how well designed products and services that are aimed at improving the lives of people -- everyone, not just the 10% that can afford them but the other 90% of the world who need them -- can create a lasting impact that brings about quality of life improvements that we can't even imagine. This has influenced my focus on sustainability and circular & regenerative design, rooted in long-termism and the idea that I wanted to design for a world I'd be happy for my grandchildren to grow up in. 
             <br>
             <br>
@@ -533,11 +529,10 @@
             <br>
             Currently, I am studying the Masters in Design for Emergent Futures program at IAAC and Elisava Design School. I'm excited to have the chance to expand my skills in this next step of my studies, focusing on designing with an impact on sustainability, the circular economy, regenerative design, and taking a leap into the near future. 
           </p>
-        <a href="https://www.oliverlloyddesign.co.uk/" class="button">Check out my portfolio here!</a>
-      </div>
-      <div class="image-wrapper">
-        <img src="images/Profile Photos/colour_edinburgh.jpg" alt="Banner Image">
-      </div>
+        <a href="https://www.oliverlloyddesign.co.uk/" class="button">Check out my design portfolio here!</a>
+    </div>
+    <div class="image-wrapper">
+      <img src="images/Profile Photos/colour_edinburgh.jpg" alt="Banner Image">
     </div>
   </div>
 
