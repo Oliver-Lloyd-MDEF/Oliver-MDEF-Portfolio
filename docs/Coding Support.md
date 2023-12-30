@@ -124,7 +124,7 @@ If you want to display multiple images on your page underneath eachother you can
 <div class="image-grid">
   <img src="path/to/your/imgage.jpg" class="grid-item" alt="insert img description here">
   <img src="path/to/your/imgage.jpg" class="grid-item" alt="insert img description here">
-  <img src="path/to/your/imgage.jpg" class="grid-item portrait-image" alt="insert img description here">
+  <img src="path/to/your/imgage.jpg" class="portrait-image" alt="insert img description here">
   <img src="path/to/your/imgage.jpg" class="grid-item" alt="insert img description here">
   <img src="path/to/your/imgage.jpg" class="grid-item" alt="insert img description here">
   <img src="path/to/your/imgage.jpg" class="grid-item" alt="insert img description here">
@@ -151,7 +151,7 @@ If you want to display multiple images on your page underneath eachother you can
     /* Additional styles for grid items can be added here */
   }
   /* Styles for portrait images */ /*apply this class to any portrait photo in a grid to crop it to landscape: class="grid-item portrait-image" */
-.portrait-image {
+  .portrait-image {
     object-position: center middle; /* Adjust this property to control the cropping of portrait images */
   }
 </style>
