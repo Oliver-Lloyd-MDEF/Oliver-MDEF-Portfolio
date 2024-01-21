@@ -155,3 +155,25 @@ body {
     z-index: 1;
   }
 }
+
+/* The following code is what controls how images look when displayed with div class: image-grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 10px;
+  /* Additional grid container styles can be added here */
+}
+
+/* Styles for individual grid items (images) */
+.grid-item {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px; /* Add rounded corners to images */
+  /* Additional styles for grid items can be added here */
+}
+
+/* Styles for portrait images */
+.portrait-image {
+  object-position: center middle; /* Adjust this property to control the cropping of portrait images */
+}
