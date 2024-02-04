@@ -177,3 +177,13 @@ body {
 .portrait-image {
   object-position: center middle; /* Adjust this property to control the cropping of portrait images */
 }
+
+aside {
+  background-color: #283617; /* Light grey background, change as needed */
+  color: #ffff; /* Dark grey text, change as needed */
+  padding: 15px; /* Add some padding around the text */
+  border-radius: 8px; /* Rounded corners for the box */
+  border-left: 5px solid rgb(204, 115, 7); /* A colored bar on the left, change color as needed */
+  margin: 20px 0; /* Add some margin above and below the aside */
+  /* Add other styles such as box shadow or border as desired */
+}
