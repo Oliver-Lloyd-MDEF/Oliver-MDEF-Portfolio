@@ -180,7 +180,7 @@ body {
 
 aside {
   background-color: #283617; /* Light grey background, change as needed */
-  color: #ffff; /* Dark grey text, change as needed */
+  color: #f7f7f7; /* Dark grey text, change as needed */
   padding: 15px; /* Add some padding around the text */
   border-radius: 8px; /* Rounded corners for the box */
   border-left: 5px solid rgb(204, 115, 7); /* A colored bar on the left, change color as needed */
