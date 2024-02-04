@@ -178,7 +178,7 @@ body {
   object-position: center middle; /* Adjust this property to control the cropping of portrait images */
 }
 
-aside {
+.aside {
   background-color: #283617; /* Light grey background, change as needed */
   color: #f7f7f7; /* Dark grey text, change as needed */
   padding: 15px; /* Add some padding around the text */
