@@ -216,45 +216,8 @@ You can use blockquotes (`>`) to create callout boxes. Most Markdown processors 
 
 **This makes something more similar to a quote box/bubble instead of specifically a callout box**
 
-### 2. **Using HTML `<div>` Elements:**
 
-You can use HTML `<div>` elements with inline CSS to create custom callout boxes or highlights. For example:
-
-```markdown
-<div style="background-color: #FFFFE0; padding: 10px; border: 1px solid #E6DB55;">
-This is a custom callout box or highlight using HTML and CSS.
-</div>
-```
-<div style="background-color: #FFFFE0; padding: 10px; border: 1px solid #E6DB55;">
-This is a custom callout box or highlight using HTML and CSS.
-</div>
-
-Remember that `background-color:` affects the colour of the callout box, and `border: 1px solid` determines the colour and size of the outline of the callout box (this can be removed simply by deleting the border attribute from the text if you don’t want it). 
-
-### 3. **Using Inline HTML with Styling:**
-
-You can also use inline HTML with styling attributes directly within your Markdown content. For example:
-
-```markdown
-<span style="background-color: #FFFFE0; padding: 10px; border: 1px solid #E6DB55;">This is an inline callout box or highlight.</span>
-```
-<span style="background-color: #FFFFE0; padding: 10px; border: 1px solid #E6DB55;">This is an inline callout box or highlight.</span>
-
-### 4. **Using Tables:**
-
-You can create a table with a single cell to simulate a callout box:
-
-```markdown
-| Callout Box |
-|-------------|
-| This is a callout box or highlight. |
-
-```
-| Callout Box |
-|-------------|
-| This is a callout box or highlight. |
-
-### 5. **Using Markdown Extensions:**
+### 2. **Using Markdown Extensions:**
 
 Some Markdown processors support extensions that provide additional features, including callout boxes. For example, the "Admonition" extension adds support for custom callout boxes:
 
@@ -264,6 +227,10 @@ Some Markdown processors support extensions that provide additional features, in
 ```
 !!! info
     This is an info callout box.
+
+> 👍 Success
+> 
+> Vitae reprehenderit at aliquid error voluptates eum dignissimos.
 
 Note that the availability of certain features depends on the Markdown processor you are using and whether it supports specific extensions or custom HTML/CSS. Always refer to the documentation of the Markdown processor or the platform where you are rendering the Markdown for specific features and syntax supported.
 
