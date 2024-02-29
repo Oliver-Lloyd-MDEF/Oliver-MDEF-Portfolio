@@ -329,7 +329,7 @@ This is how you dropdown.
 ---
 <details>
 <summary>Heading</summary>
-<!--All you need is a blank line-->
+
 
     + markdown list 1
         + nested list 1
