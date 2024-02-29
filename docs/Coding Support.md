@@ -148,6 +148,70 @@ Some Markdown processors support extensions that provide additional features, in
 > 
 > Vitae reprehenderit at aliquid error voluptates eum dignissimos.
 
+#### custom title for callout box
+
+!!! note "Phasellus posuere in sem ut cursus"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+#### Admonition, collapsible
+```
+??? note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+```
+??? note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+#### Admonition, collapsible and initially expanded
+```
+???+ note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+```
+
+???+ note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+#### Use these commands to change the colour of each of the callout boxes as well as their icons
+
+
+note
+
+abstract
+
+info
+
+tip
+
+success
+
+question
+
+warning
+
+failure
+
+danger
+
+bug
+
+example
+
+quote
+
 Note that the availability of certain features depends on the Markdown processor you are using and whether it supports specific extensions or custom HTML/CSS. Always refer to the documentation of the Markdown processor or the platform where you are rendering the Markdown for specific features and syntax supported.
 
 ### Round the corners of a callout box
