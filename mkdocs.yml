@@ -193,3 +193,7 @@ extra_css:
 
 use_directory_urls: false
 
+theme:
+  icon:
+    admonition:
+      <type>: <icon>
