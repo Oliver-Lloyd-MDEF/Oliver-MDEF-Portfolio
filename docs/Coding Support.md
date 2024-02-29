@@ -13,7 +13,7 @@ comments: true
 
 ## Images (sizing, alignment, etc)
 
-### Round the corners of an image
+### Place an Image with rounded corners
 <!--
 <figure markdown style="overflow: hidden;">
 ![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
@@ -22,103 +22,19 @@ comments: true
 -->
 <img src="images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif" alt="arduino fan control testing" style="border-radius: 5px;">
 
-To add rounded corners to images in your code, you can use html. Here's how you can modify your code to achieve this:
-
-<!--
-```html
-<figure markdown style="overflow: hidden;">
-![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
-<figcaption>Narrowing down the cards I wanted to focus on</figcaption>
-</figure>
-``` 
--->
+To add an image with rounded corners, use the line of html below, you can paste thsi directly into your markdown file, adjust the `border-radius` styling to change the amount of rounding.
 
 ```html
 <img src="path/to/your/imgage.jpg" alt="img description here" style="border-radius: 5px;">
 ``` 
-<!--
-In this code:
-
-- The `<figure>` element has inline styles added for `border-radius` to create rounded corners. Adjust the `10px` value to control the radius of the corners.
-- The `overflow: hidden;` style ensures that the content outside the rounded corners is hidden.
-- The `![alt image text](path/to/your/image/here)` element is used to identify it as an image and where to find it.
-- The `style` attribute sets the height of the image to `250px` while maintaining the aspect ratio (`width: auto;`). Leaving the width or height as `auto;` will make sure that the image scales properly if you adjust one or the other or will place the image into the website at full size.
-- The `margin-right:` attribute sets the amount of distance on the right had side of the image exists between it and the following image, it can be changed to added space top, bottom or left side.
-You can also adjust the image height and width by adjusting the values of `height:` and `width:`
--->
-
-You can adjust the `border-radius` value to make the corners more or less rounded according to your preference.
-
-### Place two images next to each other
-if you want to place two images next to eachother on the page you can use the following piece html:
-
-```html
-<div class="image-container">
-    <img src="path/to/your/imgage.jpg" alt="insert img description here" class="rounded-image">
-    <img src="path/to/your/imgage.jpg" alt="insert img description here" class="rounded-image">
-</div>
-
-<style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
-
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
-    border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
-</style>
-```
-!!! info
-    Right now this will display the images side by side on both desktop and mobile viewers, so even on a phone it'll still appear as a grid, I'm working on adding mobile responsiveness to the code so that the images display underneath eachother when viewed on a mobile display.
-
-e.g. 
-<div class="image-container">
-    <img src="images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" alt="removing the casing" class="rounded-image">
-    <img src="images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" alt="Water conservation" class="rounded-image">
-</div>
-
-<style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
-
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
-    border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
-</style>
 
 ### multiple images in a grid
+
 If you want to display multiple images on your page underneath eachother you can try putting them into a grid using html.
 
 !!! info
     Right now this will display the images in a grid on both desktop and mobile viewers, so even on a phone it'll still appear as a grid, I'm working on adding mobile responsiveness to the code so that the images display underneath eachother when viewed on a mobile display.
-<!--
-```markdown
-<figure markdown style="overflow: hidden;">
-![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
-![Personal AoWS finalists.jpg](images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
-<figcaption>Narrowing down the cards I wanted to focus on</figcaption>
-</figure>
-```
--->
+
 
 ```html
 <div class="image-grid">
@@ -157,11 +73,7 @@ If you want to display multiple images on your page underneath eachother you can
 </style>
 ```
 e.g. 
-<!--<figure markdown style="overflow: hidden;">
-![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px"}
-![Personal AoWS finalists.jpg](images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg){: style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px"}
-<figcaption>Narrowing down the cards I wanted to focus on</figcaption>
-</figure> -->
+
 <div class="image-grid">
   <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg" class="grid-item" alt="bottom casing">
   <img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg" class="grid-item" alt="soldering 1">
@@ -196,6 +108,10 @@ e.g.
     object-position: center middle; /* Adjust this property to control the cropping of portrait images */
   }
 </style>
+
+You can paste the accompanying CSS here straight into your css file of your website, that way you just have to use the image container class when placing the images. This means to just use the html at the start of this code.
+
+---
 
 ## Text (alignment, font size, etc)
 
