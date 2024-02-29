@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="images/Logos/Circular Olive Branch logo.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.11">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.12">
     
     
       
@@ -654,18 +654,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#round-the-corners-of-an-image" class="md-nav__link">
+  <a href="#place-an-image-with-rounded-corners" class="md-nav__link">
     <span class="md-ellipsis">
-      Round the corners of an image
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#place-two-images-next-to-each-other" class="md-nav__link">
-    <span class="md-ellipsis">
-      Place two images next to each other
+      Place an Image with rounded corners
     </span>
   </a>
   
@@ -714,36 +705,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-using-html-div-elements" class="md-nav__link">
+  <a href="#2-using-markdown-extensions" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Using HTML &lt;div&gt; Elements:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-using-inline-html-with-styling" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Using Inline HTML with Styling:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-using-tables" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. Using Tables:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-using-markdown-extensions" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Using Markdown Extensions:
+      2. Using Markdown Extensions:
     </span>
   </a>
   
@@ -893,7 +857,7 @@
 </aside>
 
 <h2 id="images-sizing-alignment-etc">Images (sizing, alignment, etc)<a class="headerlink" href="#images-sizing-alignment-etc" title="Permanent link">&para;</a></h2>
-<h3 id="round-the-corners-of-an-image">Round the corners of an image<a class="headerlink" href="#round-the-corners-of-an-image" title="Permanent link">&para;</a></h3>
+<h3 id="place-an-image-with-rounded-corners">Place an Image with rounded corners<a class="headerlink" href="#place-an-image-with-rounded-corners" title="Permanent link">&para;</a></h3>
 <!--
 <figure markdown style="overflow: hidden;">
 ![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 250px; width: auto; border-radius: 10px; margin-right: 10px"}
@@ -901,99 +865,15 @@
 </figure>
 -->
 <p><a class="glightbox" href="images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="images/04. The Machine Paradox/Photos & Video/Day 3/Arduino fan testing.gif" alt="arduino fan control testing" style="border-radius: 5px;"></a></p>
-<p>To add rounded corners to images in your code, you can use html. Here&rsquo;s how you can modify your code to achieve this:</p>
-<!--
-<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">figure</span> <span class="na">markdown</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;overflow: hidden;&quot;</span><span class="p">&gt;</span>
-![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style=&quot;height: 250px; width: auto; border-radius: 10px; margin-right: 10px&quot;}
-<span class="p">&lt;</span><span class="nt">figcaption</span><span class="p">&gt;</span>Narrowing down the cards I wanted to focus on<span class="p">&lt;/</span><span class="nt">figcaption</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">figure</span><span class="p">&gt;</span>
-</code></pre></div>
--->
-
+<p>To add an image with rounded corners, use the line of html below, you can paste thsi directly into your markdown file, adjust the <code>border-radius</code> styling to change the amount of rounding.</p>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;path/to/your/imgage.jpg&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;img description here&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;border-radius: 5px;&quot;</span><span class="p">&gt;</span>
 </code></pre></div>
-<!--
-In this code:
-
-- The `<figure>` element has inline styles added for `border-radius` to create rounded corners. Adjust the `10px` value to control the radius of the corners.
-- The `overflow: hidden;` style ensures that the content outside the rounded corners is hidden.
-- The `![alt image text](path/to/your/image/here)` element is used to identify it as an image and where to find it.
-- The `style` attribute sets the height of the image to `250px` while maintaining the aspect ratio (`width: auto;`). Leaving the width or height as `auto;` will make sure that the image scales properly if you adjust one or the other or will place the image into the website at full size.
-- The `margin-right:` attribute sets the amount of distance on the right had side of the image exists between it and the following image, it can be changed to added space top, bottom or left side.
-You can also adjust the image height and width by adjusting the values of `height:` and `width:`
--->
-
-<p>You can adjust the <code>border-radius</code> value to make the corners more or less rounded according to your preference.</p>
-<h3 id="place-two-images-next-to-each-other">Place two images next to each other<a class="headerlink" href="#place-two-images-next-to-each-other" title="Permanent link">&para;</a></h3>
-<p>if you want to place two images next to eachother on the page you can use the following piece html:</p>
-<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;image-container&quot;</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;path/to/your/imgage.jpg&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;insert img description here&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;rounded-image&quot;</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;path/to/your/imgage.jpg&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;insert img description here&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;rounded-image&quot;</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-
-<span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
-<span class="c">/* CSS Styles */</span>
-<span class="p">.</span><span class="nc">image-container</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">flex</span><span class="p">;</span><span class="w"> </span><span class="c">/* Use flexbox to align images horizontally */</span>
-<span class="w">    </span><span class="k">justify-content</span><span class="p">:</span><span class="w"> </span><span class="kc">space-between</span><span class="p">;</span><span class="w"> </span><span class="c">/* Add space between images */</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">image-container</span><span class="w"> </span><span class="nt">img</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="mi">48</span><span class="kt">%</span><span class="p">;</span><span class="w"> </span><span class="c">/* Adjust the width of images as needed */</span>
-<span class="w">    </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="kc">auto</span><span class="p">;</span><span class="w"> </span><span class="c">/* Maintain aspect ratio */</span>
-<span class="w">    </span><span class="k">object-fit</span><span class="p">:</span><span class="w"> </span><span class="kc">cover</span><span class="p">;</span><span class="w"> </span><span class="c">/* Ensure the image covers the container while maintaining aspect ratio */</span>
-<span class="w">    </span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="p">;</span><span class="w"> </span><span class="c">/* Add rounded corners to images */</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">rounded-image</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="p">;</span><span class="w"> </span><span class="c">/* Apply rounded corners to images with this class */</span>
-<span class="p">}</span>
-<span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
-</code></pre></div>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Right now this will display the images side by side on both desktop and mobile viewers, so even on a phone it&rsquo;ll still appear as a grid, I&rsquo;m working on adding mobile responsiveness to the code so that the images display underneath eachother when viewed on a mobile display.</p>
-</div>
-<p>e.g. </p>
-<div class="image-container">
-    <a class="glightbox" href="images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/Casing Removal.GIF" alt="removing the casing" class="rounded-image"></a>
-    <a class="glightbox" href="images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="images/04. The Machine Paradox/Photos & Video/Day 1/Dissassembling/JPG/PSU removal.jpg" alt="Water conservation" class="rounded-image"></a>
-</div>
-
-<style>
-/* CSS Styles */
-.image-container {
-    display: flex; /* Use flexbox to align images horizontally */
-    justify-content: space-between; /* Add space between images */
-}
-
-.image-container img {
-    width: 48%; /* Adjust the width of images as needed */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
-    border-radius: 5px; /* Add rounded corners to images */
-}
-
-.rounded-image {
-    border-radius: 5px; /* Apply rounded corners to images with this class */
-}
-</style>
-
 <h3 id="multiple-images-in-a-grid">multiple images in a grid<a class="headerlink" href="#multiple-images-in-a-grid" title="Permanent link">&para;</a></h3>
 <p>If you want to display multiple images on your page underneath eachother you can try putting them into a grid using html.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>Right now this will display the images in a grid on both desktop and mobile viewers, so even on a phone it&rsquo;ll still appear as a grid, I&rsquo;m working on adding mobile responsiveness to the code so that the images display underneath eachother when viewed on a mobile display.</p>
 </div>
-<!--
-<div class="highlight"><pre><span></span><code>&lt;figure markdown style=&quot;overflow: hidden;&quot;&gt;
-![<span class="nt">Personal AoWS selection.jpg</span>](<span class="na">images/03. Atlas of Weak Signals/Personal AoWS selection.jpg</span>){: style=&quot;height: 250px; width: auto; border-radius: 10px; margin-right: 10px&quot;}
-![<span class="nt">Personal AoWS finalists.jpg</span>](<span class="na">images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg</span>){: style=&quot;height: 250px; width: auto; border-radius: 10px; margin-right: 10px&quot;}
-&lt;figcaption&gt;Narrowing down the cards I wanted to focus on&lt;/figcaption&gt;
-&lt;/figure&gt;
-</code></pre></div>
--->
-
 <p><div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;image-grid&quot;</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;path/to/your/imgage.jpg&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;grid-item&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;insert img description here&quot;</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;path/to/your/imgage.jpg&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;grid-item&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;insert img description here&quot;</span><span class="p">&gt;</span>
@@ -1030,11 +910,6 @@ You can also adjust the image height and width by adjusting the values of `heigh
 <span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
 </code></pre></div>
 e.g. </p>
-<!--<figure markdown style="overflow: hidden;">
-![Personal AoWS selection.jpg](images/03. Atlas of Weak Signals/Personal AoWS selection.jpg){: style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px"}
-![Personal AoWS finalists.jpg](images/03. Atlas of Weak Signals/Personal AoWS finalists.jpg){: style="height: 150px; width: auto; border-radius: 10px; margin-right: 10px"}
-<figcaption>Narrowing down the cards I wanted to focus on</figcaption>
-</figure> -->
 <div class="image-grid">
   <a class="glightbox" href="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/Bottom Casing.jpg" class="grid-item" alt="bottom casing"></a>
   <a class="glightbox" href="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="images/04. The Machine Paradox/Photos & Video/Week 2/Day 5/JPG/soldering 1.jpg" class="grid-item" alt="soldering 1"></a>
@@ -1070,6 +945,8 @@ e.g. </p>
   }
 </style>
 
+<p>You can paste the accompanying CSS here straight into your css file of your website, that way you just have to use the image container class when placing the images. This means to just use the html at the start of this code.</p>
+<hr />
 <h2 id="text-alignment-font-size-etc">Text (alignment, font size, etc)<a class="headerlink" href="#text-alignment-font-size-etc" title="Permanent link">&para;</a></h2>
 <h3 id="create-a-callout-box">Create a callout box:<a class="headerlink" href="#create-a-callout-box" title="Permanent link">&para;</a></h3>
 <p>In Markdown, you can create a callout box or highlight within a text paragraph using different techniques, depending on the features supported by the Markdown processor or the specific flavor of Markdown you are using. Here are a few common methods to create callout boxes or highlights:</p>
@@ -1083,32 +960,7 @@ e.g. </p>
 It can span multiple lines.</p>
 </blockquote>
 <p><strong>This makes something more similar to a quote box/bubble instead of specifically a callout box</strong></p>
-<h3 id="2-using-html-div-elements">2. <strong>Using HTML <code>&lt;div&gt;</code> Elements:</strong><a class="headerlink" href="#2-using-html-div-elements" title="Permanent link">&para;</a></h3>
-<p>You can use HTML <code>&lt;div&gt;</code> elements with inline CSS to create custom callout boxes or highlights. For example:</p>
-<div class="highlight"><pre><span></span><code>&lt;div style=&quot;background-color: <span class="ni">#FFFFE0</span>; padding: 10px; border: 1px solid <span class="ni">#E6DB55</span>;&quot;&gt;
-This is a custom callout box or highlight using HTML and CSS.
-&lt;/div&gt;
-</code></pre></div>
-<div style="background-color: #FFFFE0; padding: 10px; border: 1px solid #E6DB55;">
-This is a custom callout box or highlight using HTML and CSS.
-</div>
-
-<p>Remember that <code>background-color:</code> affects the colour of the callout box, and <code>border: 1px solid</code> determines the colour and size of the outline of the callout box (this can be removed simply by deleting the border attribute from the text if you don’t want it). </p>
-<h3 id="3-using-inline-html-with-styling">3. <strong>Using Inline HTML with Styling:</strong><a class="headerlink" href="#3-using-inline-html-with-styling" title="Permanent link">&para;</a></h3>
-<p>You can also use inline HTML with styling attributes directly within your Markdown content. For example:</p>
-<p><div class="highlight"><pre><span></span><code>&lt;span style=&quot;background-color: <span class="ni">#FFFFE0</span>; padding: 10px; border: 1px solid <span class="ni">#E6DB55</span>;&quot;&gt;This is an inline callout box or highlight.&lt;/span&gt;
-</code></pre></div>
-<span style="background-color: #FFFFE0; padding: 10px; border: 1px solid #E6DB55;">This is an inline callout box or highlight.</span></p>
-<h3 id="4-using-tables">4. <strong>Using Tables:</strong><a class="headerlink" href="#4-using-tables" title="Permanent link">&para;</a></h3>
-<p>You can create a table with a single cell to simulate a callout box:</p>
-<p><div class="highlight"><pre><span></span><code>| Callout Box |
-|-------------|
-| This is a callout box or highlight. |
-</code></pre></div>
-| Callout Box |
-|-------------|
-| This is a callout box or highlight. |</p>
-<h3 id="5-using-markdown-extensions">5. <strong>Using Markdown Extensions:</strong><a class="headerlink" href="#5-using-markdown-extensions" title="Permanent link">&para;</a></h3>
+<h3 id="2-using-markdown-extensions">2. <strong>Using Markdown Extensions:</strong><a class="headerlink" href="#2-using-markdown-extensions" title="Permanent link">&para;</a></h3>
 <p>Some Markdown processors support extensions that provide additional features, including callout boxes. For example, the &ldquo;Admonition&rdquo; extension adds support for custom callout boxes:</p>
 <div class="highlight"><pre><span></span><code>!!! info
     This is an info callout box.
@@ -1117,6 +969,10 @@ This is a custom callout box or highlight using HTML and CSS.
 <p class="admonition-title">Info</p>
 <p>This is an info callout box.</p>
 </div>
+<blockquote>
+<p>👍 Success</p>
+<p>Vitae reprehenderit at aliquid error voluptates eum dignissimos.</p>
+</blockquote>
 <p>Note that the availability of certain features depends on the Markdown processor you are using and whether it supports specific extensions or custom HTML/CSS. Always refer to the documentation of the Markdown processor or the platform where you are rendering the Markdown for specific features and syntax supported.</p>
 <h3 id="round-the-corners-of-a-callout-box">Round the corners of a callout box<a class="headerlink" href="#round-the-corners-of-a-callout-box" title="Permanent link">&para;</a></h3>
 <p>To round the edges of a callout box or any other HTML element, you can use the <code>border-radius</code> CSS property. This property defines the radius of the element&rsquo;s corners. Here&rsquo;s how you can modify the previous examples to create a callout box with rounded edges:</p>
@@ -1368,7 +1224,7 @@ document.querySelectorAll('.collapsible-header').forEach(function(header) {
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 24, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 29, 2024</span>
   </span>
 
     
@@ -1467,7 +1323,7 @@ document.querySelectorAll('.collapsible-header').forEach(function(header) {
     <script id="__config" type="application/json">{"base": ".", "features": ["instant", "header.autohide", "navigation.expand", null, "navigation.instant", "navigation.instant.progress", "navigation.prune", "navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "toc.integrate"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.8fd75fb4.min.js"></script>
+      <script src="assets/javascripts/bundle.c8d2eff1.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
