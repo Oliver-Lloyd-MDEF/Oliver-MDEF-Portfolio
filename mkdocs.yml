@@ -146,6 +146,7 @@ plugins:
       skip_classes:
         - skip-lightbox
    - git-revision-date-localized
+   - glightbox
 
 
 markdown_extensions:
