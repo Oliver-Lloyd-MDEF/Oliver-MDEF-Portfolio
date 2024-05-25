@@ -105,3 +105,31 @@ You can check out the code files and circuit files to try it out yourself below!
 
 ---
 
+## Module 5 ~ Extended Bodies
+
+In this module, we built on the knowledge and technologies we’d be introduced to in module 4. Using Wekinator once again to train a machine learning model to to process multiple inputs, and send them via OSC to a new program called MAX-MSP to create audio visual outputs that can be interpreted by ourselves or others. 
+
+Once again I partnered with Marius and Nuria, as well as Carlotta. We decided to keep exploring the idea of creating outputs from running. Except this time we changed our sensor device to something we all already carry with us when we go running, our phones.
+
+In the previous module Citlali and also introduced us to an app you can download on your phone called “ZIG Sim”. This app allows you to access all the different sensors your phone has individually or together, from the accelerometer to the gyroscope, microphone and camera etc… and send that information over OSC messaging (among other ways) to another device to process that data. 
+
+This was incredibly cool and it completely opened up new possibilities that we could explore now that we had access to these sensors as well.
+
+So to further develop our idea of creating outputs from running, we had an idea. 
+
+> ***“What if we could change the songs you were listening to depending on if you were running or not?”***
+> 
+
+To explore this idea we decided to use the accelerometer and altimeter sensors of our phones to train a machine learning model in Wekinator to recognize the difference in cadence and speed between walking and running. Walking would be a, integer value of 0 and running would be a value of 1. We set the output values to be “float” values, meaning that as the sensor data is coming in it’s being compared to either 1 and 0 and the output moves in a range between the two integers instead of a binary output. 
+
+We connected the output values from Wekinator to Max-MSP, which would allow us to connect the values of 0 and 1 to two different audio outputs. In this case the audio outputs were two different songs, which would fade into one another depending on the cadence of your movement. Either playing the high bpm song for running or the low bpm song for walking. 
+
+It ended up working really well! we had a great time trying to determine the different thresholds between the songs, and we discovered that for every single person it would be different as everyone has a different way of walking and running. This time we tried to train it on the data received from multiple people running and walking so that we could have a larger sample size but even then, the results were a little spotty from time to time.  
+
+Nevertheless, we learned a great deal, how to use this new and incredibly powerful program (Max-MSP) and further develop slightly more complex machine learning models. I could totally see how these technologies could be combined to make for a really fun exercise experience for example. Imagine having music playlists connected to your heartbeat, as you performed different exercises you’d have different music that reflected each of those exercises, it could be a really fun way to explore a more audio sensory side to exercise or even meditation! 
+
+You can find all the code we wrote for this project by clicking on the button below! 👇
+
+[To the fabrication files!](https://drive.google.com/drive/folders/1GyUP5U4Z0serdor8qmNFUkH-Sh0remx9?usp=sharing){ .md-button .md-button--primary }
+
+While this was again not directly connected or related to the thesis research I’m doing with Carlotta,   there still bits that could relate later on, OSC messaging for instance seems to be a really reliable way to ensure connection between different AIoT devices, which could work really well with the energy tracking hardware we’ve developed for our thesis research, that could work really well for communicating data in a way that no other actor could access besides the specified users.
