@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../images/Logos/Circular Olive Branch logo.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.23">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.24">
     
     
       
@@ -98,7 +98,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#a-first-attempt-at-making-furniture-from-scratch" class="md-skip">
+        <a href="#module-3-a-first-attempt-at-making-furniture-from-scratch" class="md-skip">
           Skip to content
         </a>
       
@@ -709,9 +709,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#a-first-attempt-at-making-furniture-from-scratch" class="md-nav__link">
+  <a href="#module-3-a-first-attempt-at-making-furniture-from-scratch" class="md-nav__link">
     <span class="md-ellipsis">
-      A first attempt at making furniture from scratch
+      Module 3 ~ A first attempt at making furniture from scratch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-4-sensing-the-body" class="md-nav__link">
+    <span class="md-ellipsis">
+      Module 4 ~ Sensing the Body
     </span>
   </a>
   
@@ -888,7 +897,7 @@
 <p>I hope you enjoy reading about them, all the files you’d need and recipes to make the materials are available for each challenge so that you can follow along or improve on the designs as you explore.  </p>
 <p>Enjoy 😃</p>
 <hr />
-<h2 id="a-first-attempt-at-making-furniture-from-scratch">A first attempt at making furniture from scratch<a class="headerlink" href="#a-first-attempt-at-making-furniture-from-scratch" title="Permanent link">&para;</a></h2>
+<h2 id="module-3-a-first-attempt-at-making-furniture-from-scratch">Module 3 ~ A first attempt at making furniture from scratch<a class="headerlink" href="#module-3-a-first-attempt-at-making-furniture-from-scratch" title="Permanent link">&para;</a></h2>
 <p>For this task we had to come together in groups to design and fabricate some furniture using the large CNC router for our classroom. Together with Nuria and Carmen we decided to combine our resources to create a large shelving unit that could be used to store the weird and wonderful collections of things and prototypes that our class had managed to accumulate throughout the year. </p>
 <p><a class="glightbox" href="../images/26. Digital Prototyping for Design 03/CNC Furniture/inital sketches.jpeg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/26. Digital Prototyping for Design 03/CNC Furniture/inital sketches.jpeg" alt="initial sketches" style="border-radius: 5px;"></a></p>
 <figcaption> Our initial concept sketch, we imagined being able to assemble a shelving unity with absolutely no fastening screws to make it as easy as possible </figcaption>
@@ -928,6 +937,33 @@
 <p><a class="glightbox" href="../images/26. Digital Prototyping for Design 03/CNC Furniture/Final Shelves.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/26. Digital Prototyping for Design 03/CNC Furniture/Final Shelves.png" alt="final shelves" style="border-radius: 5px;"></a></p>
 <figcaption> The final shelves assembled and in place! :D </figcaption>
 
+<hr />
+<h2 id="module-4-sensing-the-body">Module 4 ~ Sensing the Body<a class="headerlink" href="#module-4-sensing-the-body" title="Permanent link">&para;</a></h2>
+<p>This module introduced us to the basics of machine learning programs, creating datasets and training machine learning algorithms on that data using a program called Wekinator, and how we could connect these algorithms to physical sensors to produce outputs based on the data they receive. </p>
+<p>Our teacher for this module was Citlali, a product designer and artist who specialises in exploring how we can use sensors on our bodies to create artistic output. Our task for this module was to play with creating outputs using different types of sensors and the body.</p>
+<p>This module was very unrelated to what I had been researching and working for my thesis project so it was a nice break and challenge to focus on something completely different like this. </p>
+<p>For this module I partnered up with Marius and Nuria, where we played around with creating a soft sensor, which is essentially made of textiles, to detect changes in pressure. With the idea that we could use a sensor like this one to detect when someone is running or walking based on the pressure difference applied by their feet as they moved.</p>
+<p><a class="glightbox" href="../images/16. Digital Prototyping for Design/03.  Sensing the body/citlali teaching about soft sensors.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/16. Digital Prototyping for Design/03.  Sensing the body/citlali teaching about soft sensors.png" alt="design v2" style="border-radius: 5px;"></a></p>
+<figcaption> Citlali (on the left) explaining to us how soft sensors work and how to build them </figcaption>
+
+<p>Citlali introduced us to a technique called OSC messaging, which allows internet connected devices to communicate with each other (as long as they are connected via the same router, for this any kind of internet router will do, it doesn’t have to an active internet connection — it just needs to be switched on and broadcasting a connection port) and to a machine learning training tool called Wekinator. </p>
+<p>Wekinator is able to receive inputs from multiple messaging sources (including OSC messaging) and send those to the machine learning algorithms to process and generate outputs.  </p>
+<p>To test this out we used a program called Face OSC, which uses a camera to do facial recognition by mapping multiple points onto your face and then send that data over OSC to wherever you want. This is particularly useful as it is accurate enough for us to be able to train a model to detect multiple expressions. In our case we decided to try and train a model to be able to distinguish between happy and neutral. To do this we trained the model several times on happy expressions and then neutral ones. We gave happy expressions an output value of 1 and neutral expressions a value of 0. </p>
+<p>Once we finished training the model we were able to pretty accurately detect happy or neutral expressions through my laptop webcam. Though we did notice that it didn’t do so well when it was looking at the faces of other people, as it was just trained on my face, it means that it could only accurately do it for me. This just further illustrates how large and diverse datasets need to be to be able to provide accurate and usable information.</p>
+<p><a class="glightbox" href="../images/16. Digital Prototyping for Design/03.  Sensing the body/face OSC working.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/16. Digital Prototyping for Design/03.  Sensing the body/face OSC working.gif" alt="design v2" style="border-radius: 5px;"></a></p>
+<figcaption> Connecting face OSC to Wekinator</figcaption>
+
+<p>This was a lot of fun to experiment with and it was a really cool introduction to the world of machine learning. I can really see how we can apply this technologies across a lot of industries to help notice things that we otherwise might not be able to see. </p>
+<p>So using our newfound knowledge, we set about training a new model on the pressure inputs from the soft sensor we’d quickly built out of some conductive textiles, crocodile clips and a barduino board. We added a nifty little feature that would change the colour of a neopixel LED mounted to the barduino board from green to red across a gradient as the pressure increased to help us visualise if the sensor was working or not. </p>
+<p>Once we’d got our model trained we tested it out with the sensor and it worked! we were able to send data over OSC from the sensor connected to the barduino to the wekinator program and then even through to a programme called processing for further visualisation and complex output.</p>
+<p><a class="glightbox" href="../images/16. Digital Prototyping for Design/03.  Sensing the body/soft sensor with barduino.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/16. Digital Prototyping for Design/03.  Sensing the body/soft sensor with barduino.gif" alt="design v2" style="border-radius: 5px;"></a></p>
+<figcaption> Our final soft sensor sending data via OSC to processing </figcaption>
+
+<p>Because this was quite far away from my thesis project research I’m not sure how I could apply this to that research, but it was still a lot of fun nonetheless and I’m happy I’ve been able to be introduced to this new field (even if only just scratching the surface). </p>
+<p>I’ve learned how to programme OSC messaging between devices, train a basic machine learning model and build soft sensors, it’s been a really fun week of learning and I’m excited to see how I could apply it to different projects in the future. </p>
+<p>You can check out the code files and circuit files to try it out yourself below!</p>
+<hr />
+
 
 
 
@@ -947,7 +983,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 19, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 25, 2024</span>
   </span>
 
     
@@ -1046,7 +1082,7 @@
     <script id="__config" type="application/json">{"base": "..", "features": ["instant", "header.autohide", "navigation.expand", null, "navigation.instant", "navigation.instant.progress", "navigation.prune", "navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "toc.integrate"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.ebd0bdb7.min.js"></script>
+      <script src="../assets/javascripts/bundle.081f42fc.min.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
