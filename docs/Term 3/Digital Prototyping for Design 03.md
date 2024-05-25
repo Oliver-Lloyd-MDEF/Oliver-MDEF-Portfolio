@@ -8,7 +8,7 @@ Enjoy 😃
 
 ----
 
-## A first attempt at making furniture from scratch
+## Module 3 ~ A first attempt at making furniture from scratch
 
 For this task we had to come together in groups to design and fabricate some furniture using the large CNC router for our classroom. Together with Nuria and Carmen we decided to combine our resources to create a large shelving unit that could be used to store the weird and wonderful collections of things and prototypes that our class had managed to accumulate throughout the year. 
 
@@ -60,3 +60,46 @@ You can find all the fabrication files by clicking the button below 👇 it’ll
 <img src="../images/26. Digital Prototyping for Design 03/CNC Furniture/Final Shelves.png" alt="final shelves" style="border-radius: 5px;">
 
 <figcaption> The final shelves assembled and in place! :D </figcaption>
+
+---
+## Module 4 ~ Sensing the Body
+
+This module introduced us to the basics of machine learning programs, creating datasets and training machine learning algorithms on that data using a program called Wekinator, and how we could connect these algorithms to physical sensors to produce outputs based on the data they receive. 
+
+Our teacher for this module was Citlali, a product designer and artist who specialises in exploring how we can use sensors on our bodies to create artistic output. Our task for this module was to play with creating outputs using different types of sensors and the body.
+
+This module was very unrelated to what I had been researching and working for my thesis project so it was a nice break and challenge to focus on something completely different like this. 
+
+For this module I partnered up with Marius and Nuria, where we played around with creating a soft sensor, which is essentially made of textiles, to detect changes in pressure. With the idea that we could use a sensor like this one to detect when someone is running or walking based on the pressure difference applied by their feet as they moved.
+
+<img src="../images/16. Digital Prototyping for Design/03.  Sensing the body/citlali teaching about soft sensors.png" alt="design v2" style="border-radius: 5px;">
+<figcaption> Citlali (on the left) explaining to us how soft sensors work and how to build them </figcaption>
+
+Citlali introduced us to a technique called OSC messaging, which allows internet connected devices to communicate with each other (as long as they are connected via the same router, for this any kind of internet router will do, it doesn’t have to an active internet connection — it just needs to be switched on and broadcasting a connection port) and to a machine learning training tool called Wekinator. 
+
+Wekinator is able to receive inputs from multiple messaging sources (including OSC messaging) and send those to the machine learning algorithms to process and generate outputs.  
+
+To test this out we used a program called Face OSC, which uses a camera to do facial recognition by mapping multiple points onto your face and then send that data over OSC to wherever you want. This is particularly useful as it is accurate enough for us to be able to train a model to detect multiple expressions. In our case we decided to try and train a model to be able to distinguish between happy and neutral. To do this we trained the model several times on happy expressions and then neutral ones. We gave happy expressions an output value of 1 and neutral expressions a value of 0. 
+
+Once we finished training the model we were able to pretty accurately detect happy or neutral expressions through my laptop webcam. Though we did notice that it didn’t do so well when it was looking at the faces of other people, as it was just trained on my face, it means that it could only accurately do it for me. This just further illustrates how large and diverse datasets need to be to be able to provide accurate and usable information.
+
+<img src="../images/16. Digital Prototyping for Design/03.  Sensing the body/face OSC working.gif" alt="design v2" style="border-radius: 5px;">
+<figcaption> Connecting face OSC to Wekinator</figcaption>
+
+This was a lot of fun to experiment with and it was a really cool introduction to the world of machine learning. I can really see how we can apply this technologies across a lot of industries to help notice things that we otherwise might not be able to see. 
+
+So using our newfound knowledge, we set about training a new model on the pressure inputs from the soft sensor we’d quickly built out of some conductive textiles, crocodile clips and a barduino board. We added a nifty little feature that would change the colour of a neopixel LED mounted to the barduino board from green to red across a gradient as the pressure increased to help us visualise if the sensor was working or not. 
+
+Once we’d got our model trained we tested it out with the sensor and it worked! we were able to send data over OSC from the sensor connected to the barduino to the wekinator program and then even through to a programme called processing for further visualisation and complex output.
+
+<img src="../images/16. Digital Prototyping for Design/03.  Sensing the body/soft sensor with barduino.gif" alt="design v2" style="border-radius: 5px;">
+<figcaption> Our final soft sensor sending data via OSC to processing </figcaption>
+
+Because this was quite far away from my thesis project research I’m not sure how I could apply this to that research, but it was still a lot of fun nonetheless and I’m happy I’ve been able to be introduced to this new field (even if only just scratching the surface). 
+
+I’ve learned how to programme OSC messaging between devices, train a basic machine learning model and build soft sensors, it’s been a really fun week of learning and I’m excited to see how I could apply it to different projects in the future. 
+
+You can check out the code files and circuit files to try it out yourself below!
+
+---
+
