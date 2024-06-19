@@ -72,7 +72,7 @@ nav:
   #- End of Week Reflections:
       #- Week 1 - A soft landing: End of week reflections/Week 1 - A soft landing.md
       #- Week 2 - Searching for Signals: End of week reflections/Week 2 - Searching for Signals.md
-  #- Master project:
+  - Master project: project/project.md
   #    - Initial ideas: project/project.md
   - Coding Support: Coding Support.md
   #- Test Index: test index.md
