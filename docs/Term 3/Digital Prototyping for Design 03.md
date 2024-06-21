@@ -122,9 +122,17 @@ So to further develop our idea of creating outputs from running, we had an idea.
 
 To explore this idea we decided to use the accelerometer and altimeter sensors of our phones to train a machine learning model in Wekinator to recognize the difference in cadence and speed between walking and running. Walking would be a, integer value of 0 and running would be a value of 1. We set the output values to be “float” values, meaning that as the sensor data is coming in it’s being compared to either 1 and 0 and the output moves in a range between the two integers instead of a binary output. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6_YGM4k_xKA?si=AGEeYulIkT5QyD9-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<figcaption> Training the wekinator model with our acceloremeter data</figcaption>
+
 We connected the output values from Wekinator to Max-MSP, which would allow us to connect the values of 0 and 1 to two different audio outputs. In this case the audio outputs were two different songs, which would fade into one another depending on the cadence of your movement. Either playing the high bpm song for running or the low bpm song for walking. 
 
 It ended up working really well! we had a great time trying to determine the different thresholds between the songs, and we discovered that for every single person it would be different as everyone has a different way of walking and running. This time we tried to train it on the data received from multiple people running and walking so that we could have a larger sample size but even then, the results were a little spotty from time to time.  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gc8T83aijoU?si=ojWL24vVTTdyzr4O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<figcaption> Testing our music switching idea based on pace of walking</figcaption>
 
 Nevertheless, we learned a great deal, how to use this new and incredibly powerful program (Max-MSP) and further develop slightly more complex machine learning models. I could totally see how these technologies could be combined to make for a really fun exercise experience for example. Imagine having music playlists connected to your heartbeat, as you performed different exercises you’d have different music that reflected each of those exercises, it could be a really fun way to explore a more audio sensory side to exercise or even meditation! 
 
