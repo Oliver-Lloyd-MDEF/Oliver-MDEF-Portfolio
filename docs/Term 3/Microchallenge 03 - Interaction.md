@@ -1,5 +1,11 @@
 ## Designing for Interaction and Reflection
 
+!!! Note "**Too Long Didn't Read**"
+
+    For our final MDEF microchallenge, Carlotta and I created an interactive display prototype to illustrate energy consumption issues. We built a dial stand and relay switch system that turned on appliances as the dial spun, aiming to engage users in reflecting on energy use. The setup included graphics showing global energy consumption, making the dial a powerful tool for visualizing power usage. The project was well-received, highlighting the importance of physical interaction in conveying complex ideas. We plan to refine this for MDEF Fest, focusing on the order of appliance activation to better illustrate the concept of essential vs. luxury energy use.
+---
+
+
 This was the final microchallenge of the MDEF course, this time around Carlotta and I developed an interactive display prototype to illustrate the issues of energy consumption that our project research is trying to address. We built a simple dial stand and relay switch system that would turn on a series of appliances one by one as a dial is spun, the entire idea was to create something that would get the user to interact with and reflect on the issues that our project is trying to address.
 
 As before, we’ve documented the whole process in detail, and included all the code files and prototype schematics in a GitHub Repository which you can view by clicking the link below! 
