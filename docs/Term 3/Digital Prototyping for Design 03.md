@@ -10,11 +10,10 @@ Enjoy 😃
 
 ## Module 3 ~ A first attempt at making furniture from scratch
 
-!!! Note **Too Long Didn't Read**
-
+!!! Note "**Too Long Didn't Read**"
+ 
     In this module, our group (Nuria, Carmen, and I) designed and fabricated a large shelving unit for our classroom using a CNC router. Initially, we planned a slot-based design for easy assembly, but material constraints and stability issues led us to redesign. We settled on modular, stackable boxes with T-slot fasteners for stability, inspired by Ikea's shelving system. Using tools like Fusion 360, Rhino, and Makercase, we refined our design and overcame CNC machine challenges. The project was a fun and valuable experience, enhancing our skills in digital prototyping and fabrication.
 ---
-
 
 For this task we had to come together in groups to design and fabricate some furniture using the large CNC router for our classroom. Together with Nuria and Carmen we decided to combine our resources to create a large shelving unit that could be used to store the weird and wonderful collections of things and prototypes that our class had managed to accumulate throughout the year. 
 
@@ -70,12 +69,10 @@ You can find all the fabrication files by clicking the button below 👇 it’ll
 ---
 ## Module 4 ~ Sensing the Body
 
-!!! Note "**Too Long, Didn't Read**"
-
+!!! Note "**Too Long Didn't Read**"
+ 
     In this module, we learned the basics of machine learning using Wekinator, creating datasets, and training algorithms. We connected these models to physical sensors to produce outputs. Partnering with Marius and Nuria, we developed a soft sensor to detect pressure changes, using OSC messaging to send data between devices.
-
     We trained a model to recognize facial expressions using Face OSC, illustrating the importance of diverse datasets. Then, we applied our knowledge to our soft sensor, visualizing data through a gradient LED and sending outputs to a program called Processing.
-
     While not directly related to my thesis, this module introduced me to exciting new technologies and methods, showing how machine learning and sensor integration can be applied across various industries. It was a fun and enlightening experience, broadening my technical skills and opening up new possibilities for future projects.
 ---
 
@@ -123,8 +120,8 @@ You can check out the code files and circuit files to try it out yourself below!
 
 ## Module 5 ~ Extended Bodies
 
-!!! Note "**Too Long, Didn't Read**"
-
+!!! Note "**Too Long Didn't Read**"
+ 
     In this module, we expanded on technologies from module 4, using Wekinator and MAX-MSP to create audio-visual outputs from running data. Partnering with Marius, Nuria, and Carlotta, we utilized the ZIG Sim app to access phone sensors like the accelerometer and altimeter. Our goal was to change songs based on running or walking. We trained a machine learning model to recognize movement patterns and connected it to MAX-MSP for audio output. Despite varying individual results, we successfully created a dynamic music experience. This exercise showcased the potential of integrating machine learning with everyday activities and hinted at future applications for our thesis research.
 ---
 
