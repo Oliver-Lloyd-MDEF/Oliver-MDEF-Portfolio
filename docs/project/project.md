@@ -19,7 +19,7 @@ The core problem we wanted to tackle was overconsumption of energy in modern soc
 
 #### Partnering with Carlotta
 
-As I delved deeper into the project, I connected with Carlotta Hilkema, a classmate who shared my enthusiasm for sustainability. Carlotta was particularly interested in behavior change and how design could influence sustainable choices. Our shared passion for these issues led us to collaborate on this project. We believed that combining our strengths and perspectives would allow us to tackle the problem more effectively.
+As I dove deeper into the project, I connected with Carlotta Hilkema, a classmate who shared my enthusiasm for sustainability. Carlotta was particularly interested in behavior change and how design could influence sustainable choices. Our shared passion for these issues led us to collaborate on this project. We believed that combining our strengths and perspectives would allow us to tackle the problem more effectively.
 
 #### What Were the Different Angles We Approached the Problem From
 
@@ -41,23 +41,29 @@ Our discoveries were multifaceted:
 
 - **Technological Potential:** The integration of AI and big data showed promise in automating complex calculations and making sustainability data more user-friendly. However, it also highlighted the need for user-friendly interfaces and accurate data sources.
 
+-  **User Preferences**: Simplicity and relatability in tracking methods were crucial. Users preferred straightforward comparisons, such as energy usage in terms of smartphone charges.
+
+-  **Privacy Concerns**: Ensuring user comfort with data privacy was essential to gaining trust and engagement.
+
+-  **Engagement**: Human-like interactions were more engaging and effective in encouraging habitual change, highlighting the importance of a user-friendly interface.
+
 #### What Worked
 
 Several aspects of our approach proved successful:
 
 - **Google Sheets Tracker:** Initially, the tracker helped in understanding energy consumption patterns and was useful for a few days.
 
-- **Energy Monitor and IoT System:** The hardware we developed provided real-time data, making it easier to see the immediate impact of energy use.
+- **Energy Monitor and IoT System:** The hardware we developed provided real-time data, making it easier to see the immediate impact of energy use and  reduced the burden of manual input.
 
-- **AI Integration:** Using AI to process data and provide feedback through a conversational interface made the information more accessible and engaging for users.
+- **AI Integration:** Using AI to process data and provide feedback through a conversational interface made the information more accessible for users. This bot we developed provided energy usage tips based on user inputs like photos and voice memos, making the process engaging and easy.
 
 #### What Didn’t Work So Well
 
 We encountered several challenges and limitations:
 
-- **Manual Tracking:** The Google Sheets tracker became tedious after a few days, highlighting the need for a more automated solution.
+- **Manual Tracking:** The Google Sheets tracker became tedious after a few days, and reliance on extensive user input proved impractical and cumbersome, leading to user fatigue and decreased engagement. This was an important learning for us as it really showcased the need for a more automated solution. 
   
-- **Data Collection:** Collecting and logging data manually was impractical for long-term use. We needed a more seamless and less intrusive method.
+- **Overwhelming Data Collection:** Collecting and logging data manually was impractical for long-term use and detailed tracking methods were overwhelming for users. We needed a more seamless and less intrusive method.
 
 - **Complexity of AI Systems:** While AI showed potential, developing and refining the algorithms required more resources and expertise than anticipated.
 
@@ -67,13 +73,25 @@ Yes, we did pivot. Initially, we focused on a detailed tracking system for energ
 
 #### What Did We End Up With
 
-We ended up with the WattWise project, a holistic tool designed to track and visualize embodied energy consumption and carbon footprint across various aspects of daily life. The core of the system is an AI-powered platform using the GPT-4 architecture, accessible through a Telegram chat interface. This system allows users to log their energy use, receive feedback, and get personalized recommendations for reducing their consumption. We also developed supporting hardware, including an energy monitor and a transportation tracker, to facilitate data collection.
+We ended up with the WattWise project, a holistic tool designed to track and visualize embodied energy consumption and carbon footprint across various aspects of daily life. The core of the system is an AI-powered platform using the GPT-4o architecture, accessible through a Telegram chat interface. This system allows users to log their energy use, receive feedback, and get personalized recommendations for reducing their consumption.
+
+We also developed supporting hardware, including an energy monitor, to facilitate data collection. This energy monitor sends its data to the AI assistant, enabling it to provide accurate and tailored advice based on real-time information. Additionally, we experimented with other tools like a transportation tracker to give comprehensive insights into various aspects of energy usage.
+
+This approach combines automation with user engagement, addressing both the knowledge gap and the practical challenges of energy tracking. The Telegram bot offers a human-like interaction that is easy to integrate into daily life, while the energy monitor simplifies data collection. This dual approach ensures that users can easily understand and manage their energy consumption without feeling overwhelmed.
 
 #### Why Did We Choose This
 
 We chose this direction because it aligns with our goal of making sustainable living practical and accessible. By leveraging AI and big data, we can automate complex tasks and provide users with clear, actionable insights. The conversational interface makes the system user-friendly and engaging, encouraging continuous use and fostering sustainable habits. Our focus on open-source solutions ensures that the project remains accessible and adaptable, allowing for community involvement and further development.
 
 #### Where Do We Want It to Go Next?
+
+**Broader Testing:** We aim to gather more feedback from a wider audience to refine the tool and ensure its effectiveness across diverse user groups.
+
+**Gamification:** Exploring gamification strategies to increase long-term engagement and make energy tracking more enjoyable.
+
+**Business Applications:** Considering a shift towards lifecycle assessment tools for designers, providing a valuable resource for sustainable product development.
+
+**Scalability:** Transitioning to open source models like Llama-3 or Phi-3 to handle the inputs and outputs to make WattWise more accessible and adaptable.
 
 Looking ahead, we aim to refine the WattWise system, addressing any bugs and enhancing its features. We plan to expand the AI’s capabilities and integrate more data sources to provide even more accurate and personalized recommendations. We also want to explore running the system on local machines using open-source AI models to reduce its environmental footprint and increase privacy for users. Additionally, we hope to build a community around the project, encouraging collaboration and sharing of sustainable practices. Ultimately, our goal is to create a tool that not only helps individuals but also supports businesses and larger communities in their transition to more sustainable practices.
 
