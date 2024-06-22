@@ -2,6 +2,11 @@
 comments: true
 ---
 
+!!! Note "**Too Long Didn't Read**"
+
+    In Agri Zero week, led by Jonathan Minchin, we learned about integrating technology with agriculture to make it sustainable and regenerative. We explored different farming methods, visited the Valldaura campus in the Collserola forest, and engaged in citizen science using the iNaturalist app. We learned about soil health and its importance in food production. Practical activities included restoring a garden terrace, harvesting laurel leaves for essential oils, and conducting soil experiments. The week highlighted the potential of technology in creating efficient, eco-friendly farming systems while emphasizing the importance of maintaining a balance with nature.
+---
+
 ## Agri - Zero week
 
 This week, we participated in Agri Zero week, where we learned about different forms of agriculture and how the integration of technology can make modern agriculture sustainable, easier and regenerative for the ecosystems we farm in. We were introduced to Jonathan Minchin, an architect by training and now an expert in agricultural technology, who explained to us the various methods of agriculture and how technology can be used to make it more efficient and ecologically regenerative. We then visited the Valldaura campus in the Collserolla forest in the hills surrounding the city of Barcelona and engaged in a bit of citizen science using the iNaturalist app to understand different ecosystems present in the forest as we moved up in elevation towards the campus. We also learned about soil health and the importance of monitoring it for effective food production.

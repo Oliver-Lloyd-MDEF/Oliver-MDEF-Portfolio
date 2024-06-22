@@ -2,6 +2,11 @@
 comments: true
 ---
 
+!!! Note "**Too Long Didn't Read**"
+
+    Our first lesson on documenting design with Pablo focused on the importance of storytelling, even in day-to-day class reflections. Pablo taught us how to structure our documentation sites, making them engaging and reader-friendly. This was incredibly inspiring and gave me a clear direction for building my site. We also had an introduction to coding websites with Josep Marti, learning to set up a basic website skeleton using Git, GitHub, and the MKdocs framework. This crash course in web development was both exciting and challenging. With the help of ChatGPT, I've been able to accelerate my learning and document useful snippets of code for my classmates. Keeping the site updated has become easier as I discover new HTML and CSS tricks. While it can be distracting, I'm committed to perfecting my documentation site and enjoying the process.
+---
+
 ## Starting from scratch
 
 Our first lesson in documenting design started with an introduction to storytelling. Our teacher, Pablo (*a former MDEF student himself and creative lead at an advertising agency in a past life*) introduced us to the importance of storytelling, even when it’s just documenting what we’ve been doing in our day-to-day classes. To write for an audience, making for an engaging story that readers would want to carry on reading and come back for more each week. A real hero’s journey. 

@@ -2,6 +2,11 @@
 comments: true
 ---
 
+!!! Note "**Too Long Didn't Read**"
+
+    Over the course of four days, we engaged in two workshops focused on "boots on the ground" testing and executing our ideas. In the first workshop, "Magic Machines," we used lo-fi prototyping to create machines based on the 16 basic human desires. I made a set of scales to represent emotional balance. In the second workshop, we embraced the first-person perspective methodology by conducting a 24-hour challenge to live sustainably under the 2000-watt society concept. This hands-on approach provided invaluable insights into sustainable living and energy consumption, highlighting areas for further research and design exploration.
+---
+
 This past week we completed our module “Living with your own ideas” taught by [Oscar Tomico, Kristina Andersen and Angella Mackey](https://mdef.fablabbcn.org/2023-24/year-1/t1/living-with-your-own-ideas/#faculty). Over the course of 4 days we had took part in two different workshops, designed to show us what it means to be an active participant with a “boots on the ground” approach to the testing and executing of our own ideas and theories, rather than just hypothesis from an outside perspective. 
 
 ## Magic Machines

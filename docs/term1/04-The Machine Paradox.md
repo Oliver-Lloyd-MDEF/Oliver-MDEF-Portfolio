@@ -2,6 +2,12 @@
 comments: true
 ---
 
+
+!!! Note "**Too Long Didn't Read**"
+
+    Over two weeks, we explored how old machines are replaced by newer technologies and the implications of these changes. We disassembled a broken microwave, identified its faults, and analyzed its components. Through hands-on testing, we discovered that the microwave's magnetron or transformer was faulty. We repurposed its components to create an "anti-microwave" designed to cool food while highlighting the frustrations faced by people with eating difficulties. This exercise underscored the value of repurposing old technology, fostering collaboration, and emphasizing the importance of repairability and circular design.
+---
+
 We are constantly surrounded by a paradigm of interfaces, old interfaces being replaced by new ones. 
 
 *i.e a simple light switch being replaced by a natural language processer like Alexa connected to the light bulb itself*

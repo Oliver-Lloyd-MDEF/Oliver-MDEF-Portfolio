@@ -2,6 +2,11 @@
 comments: true
 ---
 
+!!! Note "**Too Long Didn't Read**"
+
+    In our storytelling class led by Laura Benitez, we explored the nature and power of personal and collective stories. We used the making of string figures as a tool for storytelling, representing the in-between space of personal and collective narratives. We created personal narratives based on significant figures or objects in our lives, like a special ring from my dad that keeps me connected to my family. We then shared stories within our class, using red string to visually connect our narratives. This exercise led us to write a collective narrative without using possessive pronouns, creating a unique and shared story of what brought us together. While challenging, this exercise provided insight into the concept of a collective narrative.
+---
+
 ## Narrative & Storytelling - Design Studio Sessions ##
 
 This class started with an introduction to storytelling from our teacher (and third lead of the MDEF programme), Laura Benitez. 
@@ -28,6 +33,5 @@ It was a weird exercise but still very cool and strange to take part in an exerc
 [Collective Narrative](https://pad.riseup.net/p/r.191b285ac7f05571bdbdbd861fc19c67?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false){ .md-button .md-button--primary }
 
 ---
-**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃**
 
 ---

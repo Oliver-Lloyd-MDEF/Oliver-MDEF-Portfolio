@@ -1,10 +1,9 @@
 # Extended Intelligences - Demystifying AI
 
-<aside>
-📝 <strong>TL;DR:</strong>
-In the Extended Intelligences module, we explored AI development and it’s implications. We visited the CCCB Museum exhibit on the evolution of AI, from Turing to modern systems. Class unveiled the inner workings of neural networks. Using Google CoLab and APIs like Replicate to understand complex models. Crafting "Green Guardian," an AI for plant care, was a rewarding, though initially complex, journey. We're the first AI-immersed generation, but we must consider biases and overreliance on AI. Understanding AI's basics and coding in Python reshaped my view—AI has potential, but ethical development is crucial. The energy consumption and environmental impact of widespread AI models remain a question worth exploring further.
+!!! Note "**Too Long Didn't Read**"
 
-</aside>
+    In the Extended Intelligences module, we explored AI development and it’s implications. We visited the CCCB Museum exhibit on the evolution of AI, from Turing to modern systems. Class unveiled the inner workings of neural networks. Using Google CoLab and APIs like Replicate to understand complex models. Crafting "Green Guardian," an AI for plant care, was a rewarding, though initially complex, journey. We're the first AI-immersed generation, but we must consider biases and overreliance on AI. Understanding AI's basics and coding in Python reshaped my view—AI has potential, but ethical development is crucial. The energy consumption and environmental impact of widespread AI models remain a question worth exploring further.
+---
 
 ---
 

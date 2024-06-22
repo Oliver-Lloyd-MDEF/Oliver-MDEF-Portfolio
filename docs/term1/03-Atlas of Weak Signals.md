@@ -5,13 +5,11 @@ comments: true
 ---
 
 # Atlas of Weak Signals
-<!--
+
+!!! Note "**Too Long Didn't Read**"
+
+    We explored the concept of Weak Signals—indicators of emerging trends that help anticipate potential futures. Through group work and brainstorming, we identified opportunities within these signals, focusing on solarpunk, local production, global connections, long-termism, and human-machine creative collaborations. We created our own design spaces and multi-scalar diagrams to visualize ideas and connections, which can guide future design interventions. Two new weak signals added were Climate Change Adaptation and Water Conservation.
 ---
-<div style="background-color: #f2f2f2; padding: 10px; border-radius: 5px;">
-TL;DR: In the Design Studio 01 lecture, we delved into first-person participation in prototyping, emphasizing active stakeholder engagement and considering the impact on both humans and non-human entities. Through redesigning a classmate's project, I grasped the significance of different prototyping roles. We explored Weak Signals, unexplored research areas, using the Atlas of Weak Signals toolkit, fostering collaborative thinking and self-reflection. Creating my own Atlas challenged me but encouraged unconventional thinking. Documenting design and navigating multiscalar design spaces were essential, leading to a deeper understanding of my role in shaping a sustainable future as a designer.
-</div> 
---- 
--->
 
 ### **Decoding the Atlas of Weak Signals**
 
@@ -222,9 +220,6 @@ I much prefer creating these sorts of diagrams and working from them as they let
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVNcGhU5Y=/?moveToViewport=-4867,-4812,22559,23229&embedId=417662880878" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 ---
-<!--
-**If you've found this article interesting in any way, or think there is anything else I should add, please leave a comment down below! 👇 Feedback is always appreciated! 😃** 
--->
 
   
 

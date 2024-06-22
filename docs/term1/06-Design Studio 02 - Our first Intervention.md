@@ -2,6 +2,11 @@
 comments: true
 ---
 
+!!! Note "**Too Long Didn't Read**"
+
+    In our second design studio, led by Jana and Roger, we created a collective physical design space to explore our shared interests. My group focused on reframing waste as a resource. Initially, we planned a biomaterial workshop, but it was too broad. We pivoted to interactive posters, conducting informal Q&A sessions around Barcelona to understand public perceptions of waste. This approach provided invaluable insights and highlighted how people repurpose waste creatively. This exercise deepened my understanding of design interventions and their role in shaping alternative presents.
+---
+
 ## **Intro**
 
 Our second design studio class was led by Jana and Roger. In this session, we developed a collective physical design space where we placed printouts that reflected some of the topics we were most interested in exploring and learning more about. This then led to us forming smaller groups based around shared interests in which we would work towards creating a pilot design intervention that we would implement out in the real world.

@@ -9,7 +9,7 @@ comments: true
 Published: October 3, 2023
 
 
-!!! Abstract "**Too Long Didn't Read**"
+!!! Note "**Too Long Didn't Read**"
 
     My first week in the design program was a whirlwind of experiences. We met the faculty and fellow students with diverse backgrounds, shared personal items in an exercise promoting vulnerability, attended inspiring lectures on innovative design projects, and learned about documenting design and creating a portfolio website. Together, we built a mini fablab in our classroom, fostering collaboration and creativity. The program focuses on exploring complex concepts related to emerging futures, making it an exciting journey of learning and self-discovery.
 ---

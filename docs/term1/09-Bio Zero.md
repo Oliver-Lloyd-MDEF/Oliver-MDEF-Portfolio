@@ -2,6 +2,11 @@
 comments: true
 ---
 
+!!! Note "**Too Long Didn't Read**"
+
+    This week, we immersed ourselves in Biology Zero with Nuria Conde, learning the foundations of microbiology, gene editing, and the potential of CRISPR-Cas9 technology. Though I missed the classes, my classmates helped me catch up. We collected and cultivated bacteria, explored microbiology's impact on climate change, and grew Spirulina and Kombucha in practical sessions. Our project involved designing a genetically modified organism (GMO) to solve a problem. I proposed a sunflower and mangrove hybrid that could clean polluted soils through phytoremediation and thrive in harsh conditions. This project highlighted the potential of using biology in design, showing that nature could be our next big design partner.
+---
+
 For the past week, we have been immersed in Biology Zero Taught by Nuria Conde. A series of lectures and practical experiments focusing on exploring and understanding the basic building blocks of life that make up the world we live in into the complexities of multi-celled lifeforms. and how those building blocks can be changed and edited through new technologies such as Crispr-Cas9 to make new and exciting changes that could benefit life on spaceship Earth. 
 
 > Unfortunately for me, I was away this entire week and so unable to attend all my classes, but my classmates very kindly offered to catch me up on what I’d missed in person (**thank you, Carlotta, for your notes** 😅) as well as allow me to stream into one of the classes live via video call to see what was going on during a practical. What follows is my understanding and interpretation of what we learned (*or what I was supposed to learn*).

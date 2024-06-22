@@ -1,5 +1,10 @@
 # Exploring Non-Human Intelligence
 
+!!! Note "**Too Long Didn't Read**"
+
+    For the past two weeks, my group and I, guided by our interests in using modern technology to understand the natural world, explored organic computing for our Design Studio 01 module. We aimed to decode plant signaling, inspired by projects that used plants as analog inputs and outputs. Despite initial setbacks with ECG monitors, we eventually succeeded in reading electrical signals from plants, visualizing them through Touch Designer. This breakthrough, although still in its early stages, has sparked excitement for further research and potential applications in understanding and supporting ecosystems. Our journey emphasizes the importance of collaboration and open-source sharing to advance knowledge and innovation.
+---
+
 For the past 2 weeks we took part in our second design intervention for our Design Studio 01 module led by Jana & Roger. This time around we began a collective design intervention built out of our previous experiences, and interests. For this project my group and I had all expressed an interesting in using modern technology to better understand the world around us, and we wanted to explore the field of organic computing. We set out to learn as much as we could about the hidden world of plants, asking the question ***“How much could we learn if we actually listened?”*** 
 
 ---

@@ -1,5 +1,10 @@
 # **Design with Others: Exploring Collaborative Design**
 
+!!! Note "**Too Long Didn't Read**"
+
+    This week we participated in the "Design with Others" module led by Merkel and Adria from Holon. The focus was on the importance of collaborative design, emphasizing that collaboration can enhance innovation and address societal issues more effectively. We learned that "others" in design include not just humans but also animals, plants, and even microorganisms. We explored how friction points within communities could be addressed through design. We engaged in extensive community research and collaboration with local initiatives like Bioma/Bam and NEST. Our intervention plan included visual elements, community engagement, educational workshops, and guerrilla marketing campaigns to create awareness and drive participation. The module highlighted the importance of considering the impact of our designs on all beings and systems, not just humans, advocating for a holistic and life-centered approach to design.
+---
+
 ### From designing alone to designing with others
 
 This week we participated in a module focusing on collaborative design AKA “Design with Others”. Led by Merkel and Adria from Holon, a cooperative design studio in Barcelona's Coopolis. 
